@@ -1,0 +1,271 @@
+  1  sudo
+    2  sudo su
+    3  ls
+    4  pwd
+    5  mkdir data
+    6  ls
+    7  pwd
+    8  touch bio.txt
+    9  ls
+   10  cd data
+   11  cd ..
+   12  pwd
+   13  mkdir sample
+   14  cd sample
+   15  mkdri abhinav
+   16  mkdir abhinav
+   17  ls
+   18  cd ..
+   19  mkdir data1
+   20  cd data1
+   21  mkdir data2
+   22  cd data2
+   23  mkdir data3
+   24  cd data3
+   25  mkdir data4
+   26  cd data4
+   27  cd ..
+   28  mkdir data5
+   29  cd ..
+   30  touch a.txt
+   31  touch b.txt
+   32  ls
+   33  cd data2
+   34  ls
+   35  cd data3
+   36  ls
+   37  cd data5
+   38  touch c.txt
+   39  touch d.txt
+   40  pwd
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd data5
+   45  ls
+   46  cp d.txt ../data4/
+   47  ls ../data4
+   48  cd ../
+   49  ls
+   50  cd data4
+   51  ls
+   52  cd data5
+   53  cd ../data5
+   54  ls
+   55  mv c.txt ../data4/
+   56  ls ../data4
+   57  ls
+   58  ../../ls
+   59  ls ../../
+   60  ls ../../../
+   61  cp ../../../a.txt ../
+   62  cd ..
+   63  ls
+   64  cd ../../
+   65  ls
+   66  pwd
+   67  ls
+   68  mv /home/superuser/data1/b.txt /home/superuser/data1/data2/data3/data4/
+   69  ls
+   70  ls data2/data3/data4
+   71  cd data2/data3/data4
+   72  ls
+   73  ls ../../../
+   74  mv ../../../a.txt ../../
+   75  cd /home/superuser/data1
+   76  cp -r data2/data3/data5 data2
+   77  ls
+   78  cd data2
+   79  ls
+   80  cd ../
+   81  mv data2/data3/data4 data2/data3/data5
+   82  cd data2/data3/
+   83  ls
+   84  cd data5
+   85  ls
+   86  history
+   87  cd ..
+   88  cd 
+   89  pwd
+   90  touch terminal_history.txt
+   91  ls
+   92  cat > bio.txt
+   93  cat bio.text
+   94  cat bio.txt
+   95  ls
+   96  cd data1
+   97  ls
+   98  cd data2
+   99  cd data3
+  100  ls
+  101  cd data5
+  102  cat > bio.txt
+  103  cat >> bio.text
+  104  cat bio.txt
+  105  cat >> bio.txt
+  106  cat bio.txt
+  107  free > memory.txt
+  108  cat free
+  109  cat memory.txt
+  110  df >> memory.txt
+  111  cat memory.txt
+  112  ls -all
+  113  chmod u+x memory.txt
+  114  ls -l
+  115  chmod g-r,g-w,o-r memory.txt
+  116  ls -l
+  117  cat > data.txt
+  118  ls -l
+  119  chmod g-w data.txt
+  120  ls -l
+  121  cat >> data.txt
+  122  cat data.txt
+  123  umask
+  124  cd 
+  125  mkdir assignment
+  126  cd assignment
+  127  mkdir data1,data2,data3
+  128  ls
+  129  rm data1,data2,data3
+  130  rm -r data1,data2,data3
+  131  mkdir data1 data2 data3
+  132  ls
+  133  chmod 777 data1 data2 data3
+  134  ls -l
+  135  touch data1/a.txt 
+  136  touch data2/b.txt
+  137  touch data3/c.txt
+  138  ls data1
+  139  ls
+  140  ls data2
+  141  ls data3
+  142  chmod 700 data1/a.txt
+  143  ls data1/a.txt
+  144  ls -l data1/a.txt
+  145  chmod 070 data2/b.txt
+  146  ls -l data2/b.txt
+  147  chmod 007 data3/c.txt
+  148  mv data3/c.txt data3/info.txt
+  149  ls -l data3
+  150  cat > data3/info.txt
+  151  chmod 400 data1
+  152  cd data1
+  153  ls data1
+  154  cp data1/a.txt data2
+  155  chmod 100 data2
+  156  cd data2
+  157  ls
+  158  cp b.txt data3
+  159  sudo useradd -aG sudo,lp,lpadmin,audio,video test
+  160  useradd -u 2000 test1
+  161  sudo useradd -u 2000 test1
+  162  sudo useradd -G sudo,lp,lpadmin,audio,video test
+  163  sudo useradd -g 1000 test2
+  164  sudo passwd test
+  165  sudo passwd test1
+  166  sudo passwd test2
+  167  sudo su test
+  168  sudo su -test
+  169  sudo su - test
+  170  sudo su - root
+  171  sudo mkdir /home/test
+  172  sudo su - test
+  173  sudo cat >> /home/test/bio.txt
+  174  history
+  175  clear
+  176  cd 
+  177  sudo cat /etc/passwd
+  178  sudo userdel test test1 test2
+  179  sudo userdel test
+  180  sudo userdel test1
+  181  sudo userdel test2
+  182  sudo cat /etc/passwd
+  183  adduser raj
+  184  sudo adduser raj
+  185  sudo adduser ravi
+  186  sudo adduser neha
+  187  cat > data1.txt
+  188  touch data2.txt
+  189  pwd
+  190  ls
+  191  sudo usermod -G superuser neha
+  192  sudo usermod -G superuser ravi
+  193  sudo cat /etc/groups
+  194  sudo cat /etc/group
+  195  sudo su - raj
+  196  sudo su - ravi
+  197  pwd
+  198  chown raj data1.txt
+  199  sudo chown raj data1.txt
+  200  sudo chown neha data2.txt
+  201  chgrp raj data2.txt
+  202  sudo chgrp data2.txt
+  203  sudo chgrp raj data2.txt
+  204  sudo su - raj
+  205  ls
+  206  cat >> data1.txt
+  207  cat >> data2.txt
+  208  sudo su - raj
+  209  usermod -s /usr/sbin/nologin ravi
+  210* 
+  211  sudo su - neha
+  212  pwd
+  213  mkdir .data
+  214  ls -l
+  215  ls -all
+  216  ls --all
+  217  cd .data
+  218  touch .a.txt
+  219  ls -all
+  220  ls
+  221  cd ..
+  222  rm -rf .data
+  223  ls --all
+  224  ls
+  225  cat cars.csv | grep 'All-wheel drive'
+  226  cat cars.csv | grep 'Gasoline'
+  227  cat cars.csv | grep 'Audi' | grep '8 cylinder'
+  228  cat cars.csv | grep -P '[2-4].[0-2]'
+  229  cat cars.csv | grep -P '[2-4]'.'[0-2]'
+  230* 
+  231  cat cars.csv | grep 'Front-wheel drive' | grep 'turbo'
+  232  cat cars.csv | grep 'Front-wheel drive' | grep 'Trubo'
+  233  cat cars.csv | grep 'Front-wheel drive' | grep 'Turbo'
+  234  cat cars.csv | grep -P '[2-4]'.'[0-2]L'
+  235  cat cars.csv | grep -P '[2-4].[0-2]L'
+  236  pwd
+  237  ls *.txt
+  238  cat cars.csv | grep '8 cylinder' -c
+  239  cat cars.csv | grep '8 cylinder'| wc -l
+  240  cat cars.csv | head - n5
+  241  cat cars.csv | head -n 5
+  242  cat cars.csv | head -n 5 |wc -l
+  243  cat cars.csv | head -n 5 > file.txt
+  244  ls
+  245  cat file.txt
+  246  cat cars.csv | grep 'volvo' | grep '[3-4].[0-4]L
+'
+  247  cat cars.csv | grep 'volvo' | grep '[3-4].[0-4]L'
+  248  cat cars.csv | grep 'volvo' | grep '[3-4]'
+  249  cat cars.csv | grep 'volvo' | grep -P '[3-4].[0.4]L' | tail -n 5 > filedata.txt
+  250  cat filedata.txt
+  251  cat cars.csv | grep 'volvo' | grep -P '[3-4].[0.4]L' | tail -n 5 > filedata.txt
+  252  cat cars.csv | grep 'volvo' | grep -P '[3-4].[0.4]L' > filedata.txt
+  253  cat filedata.txt
+  254  cat cars.csv | grep 'volvo' | grep -P '[3.0-4.4]L' | tail -n 5 > filedata.txt
+  255  cat filedata.txt
+  256  cat cars.csv | grep 'Volvo' | grep -P '[3.0-4.4]L' | tail -n 5 > filedata.txt
+  257  cat filedata.txt
+  258  cat log.txt | grep -P 'CPU[0-6]'
+  259  cat dmesg | grep -P 'CPU[0-6]'
+  260  cat dmesg
+  261  dmesg
+  262  dmesg > log.txt
+  263  cat log.txt | grep -P 'CPU[0-6]'
+  264  lspci-vvn
+  265  lspci -vvn
+  266  lspci -vvn | grep "driver"
+  267  dmesg | grep -P 'CPU[0-6]'
+  268* 
+  269  history
+
