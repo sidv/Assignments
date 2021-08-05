@@ -1,7 +1,0 @@
-#!/bin/bash
-echo"Enter num 1"
-read num1
-1.Write a script to find the greatest number in three number.
-2.Write a script to find the given number is even or odd
-3.Write a script to find the given file is readable ,writable and executable or not
-4.Write a script to print the current location files permissions and name. 
