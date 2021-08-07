@@ -1,0 +1,5 @@
+"247","200","105","Front-wheel drive","Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs","True","6","6 Speed Automatic","15","Gasoline","22","Automatic transmission","2010 Volvo XC90 3.2","Volvo","2010 Volvo XC90","2010","235","236"
+"247","200","105","All-wheel drive","Volvo 4.4L 8 Cylinder 311 hp 325 ft-lbs","True","6","6 Speed Automatic","13","Gasoline","19","Automatic transmission","2010 Volvo XC90 V8","Volvo","2010 Volvo XC90","2010","311","325"
+"10","215","69","Front-wheel drive","Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs","True","6","6 Speed Automatic","18","Gasoline","27","Automatic transmission","2010 Volvo V70 3.2","Volvo","2010 Volvo V70","2010","235","236"
+"247","200","105","Front-wheel drive","Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs","True","6","6 Speed Automatic","15","Gasoline","22","Automatic transmission","2010 Volvo XC90  R-Design","Volvo","2010 Volvo XC90","2010","235","236"
+"175","19","97","All-wheel drive","Volvo 3.0L 6 Cylinder 281 hp 295 ft-lbs Turbo","True","6","6 Speed Automatic","16","Gasoline","21","Automatic transmission","2010 Volvo XC60 T6 R-Design","Volvo","2010 Volvo XC60","2010","281","295"

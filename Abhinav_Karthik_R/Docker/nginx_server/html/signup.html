@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="style.css">
+	<style>	</style>
+	<script>
+
+		function fetchData(){
+			var names = document.getElementById("names").value;
+			var email = document.getElementById("email").value;
+			return {
+				name:names,
+				mail:email
+			}
+		}	
+
+		function display(){
+			var data = fetchData();
+			var win = window.open("");
+			win.document.write('<link rel="stylesheet" href="style.css"')
+			win.document.write(form)
+			win.document.write("<li>"+data.name+"</li>")
+			win.document.write("<li>"+data.mail+"</li>")
+
+		}
+
+		var form = '<form> <div class="inputblock">\
+                                <div class="label"><label> Name</label></div>\
+                                <div><input type="text" id="names" placeholder="Write name here"></div>\
+                        </div>\
+                        <div class="inputblock">\
+                                <div class="label"><label> Email</label></div>\
+                                <div><input type="email" id="email" placeholder="Write email here"></div>\
+                        </div>\
+                        <div class="inputblock">\
+                                <div class="label"><label>Password</label></div>\
+                                <div><input type="password" placeholder="Write password here"></div>\
+                        </div>\
+                        <div class="btn">\
+                                <button onclick="display()">Sign Up</button>\
+                        </div>\
+        	</form>'
+		
+	</script>
+</head>
+<body>
+	<div class="bdy">
+	<div id="container" class="container">
+	</div>
+	</div>
+<script>
+	document.getElementById("container").innerHTML = form;
+</script>
+</body>
+</html>

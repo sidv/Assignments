@@ -8,7 +8,7 @@ do
 	year=`echo $l | cut -d"," -f16 | sed 's/"//g'`
 	if [ "$class" == "Automatic transmission" ]
 	then
-		if [[ year -gt 2010 ]]
+		if [[ $year -gt 2010 ]]
 		then
 			echo $l
 		fi

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo " Enter a number : 1.add 2.sub 3.mul 4.div   " 
+read choice 
+
+read a
+read b
+
+if [[ $choice -eq 1 ]]
+then 
+	echo " sum is " $((a+b))
+elif [[ $choice -eq 2 ]]
+then 
+	echo "sub is "$((a-b))
+elif [[ $choice -eq 3]]
+then 
+	echo " mul " $((a*b))
+elif [[ $choice - 4 ]]
+then 
+	echo " div "$((a%b))
+else 
+	echo " invalid number " 
+fi
+
