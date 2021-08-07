@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat  airlines.csv | cut -d"," -f6 > file.txt
+cat files.txt | grep "july"
