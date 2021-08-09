@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Register Page</title>
+		<style>
+			.table{
+				border-top: 1px solid green;
+				 padding-top: 12px;
+				font-size: smaller;
+				color:#ffffff;
+
+			}
+			.table tr td {
+				text-align: end;
+				padding-right:8px;
+			}
+			.table tr:last-child td:last-child{
+				text-align:left;	
+			}
+			.container{
+				border:1px solid black;
+				width: 310px;
+ 				height: 364px;
+				padding: 24px;
+				background-color: #d81b60;
+				color:#ffffff;
+			}
+			.title{
+				font-weight: bold;
+				padding-bottom: -1px;
+				margin-bottom: 7px;
+			}
+			hr{
+				width: 123px;
+				border: 1px solid black;
+			}
+			.socialnetbtn{
+				    display: flex;
+				    justify-content: space-evenly;
+				    margin-top: 21px;
+			}	
+			.fbbtn{
+				    background-color: #6a6adc;
+				    color: white;
+				    padding: 10px;
+				    border: 0px;
+				    border-radius: 7px;
+
+			}
+			.twibtn{
+                                    background-color: skyblue;
+                                    color: white;
+                                    padding: 10px;
+                                    border: 0px;
+                                    border-radius: 7px;
+
+                        }
+
+		</style>
+	</head>
+<body>
+	<div class="container">
+		<p class="title">Create your account</p>
+		<table class="table">
+			<tr>
+				<td><label>Name</label></td>
+				<td><input type="text" placeholder="Write here"></td>
+			</tr>
+			<tr>
+                                <td><label>Email</label></td>
+                                <td><input type="text" placeholder="Write here"></td>
+                        </tr>
+			<tr>
+                                <td><label>Username</label></td>
+                                <td><input type="text" placeholder="Write here"></td>
+                        </tr>
+			<tr>
+                                <td><label>Password</label></td>
+                                <td><input type="password" placeholder="Write here"></td>
+                        </tr>
+			<tr>
+                                <td><label>Password</label></td>
+                                <td><input type="password" placeholder="Write here"></td>
+                        </tr>
+			<tr>
+                                <td></td>
+                                <td><button class="btn">Create Account</button></td>
+                        </tr>
+		</table>
+		
+		<div style="display: flex;margin-top: 18px;"><hr>OR<hr></div>
+		<div class="socialnetbtn">
+		<button class="fbbtn">Facebook</button><button class="twibtn">Twitter</button>
+		<div>
+
+	</div>
+</body>
+</html>
