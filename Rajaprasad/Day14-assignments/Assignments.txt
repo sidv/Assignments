@@ -1,0 +1,44 @@
+1.Write a code to store fruit details in dictionary(fruit_name,rate,imported_from,import_date,buy_price)
+Take input from user
+
+2.Write a code to store employee information in dictionary(Only one employee details)
+Take input from user
+Properties: Name,Age,Gender,Place,Salary,Previous_company
+
+3.Store all the states name in tuple.And iterate through it and print on terminal
+
+4.Write a code to create a dictonary from given number range
+-If the input is 4 then the keys in dictionary are 1,2,3,4
+-And value is square of the key
+{1:1, 2:4, 3:9 ,4:16, 5:25}
+
+5.Write a code to iterate through the given string and store the alphabet and count in dictionary
+-{a:1, s:10, d:20 ,f:30}
+
+
+
+Console ERP project
+Implement using dictionary:
+	-Add Employee
+	-Delete Employee
+	-Search Employee by name
+	-Change Employee Data
+		=>Change name
+		=>change age
+		=>Change gender
+		=>change salary
+	-Display 
+
+Properties:Empid, Name,age,gender,place,salary,previous_company,joining_date
+Date format "21/04/2021" dd/mm/yyyy
+
+Fruit shop project:
+Implement using dictionary
+	-Add fruit
+	-Delete fruit by name
+	-Search fruit by name and rate
+	-Change fruit name and rate
+	-Add to cart(List the fruits with fruit_id->select id->store in cart list)
+	-Display
+Properties: fruit_id,fruit_name,rate,imported_from,import_date,buy_price
+
