@@ -14,6 +14,8 @@ Anjitha M S : https://github.com/Anjitha-mundanmani/ERP
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/ERP_SYS
 
+Sachin CS : https://github.com/sachinconquerguru/ERP
+
 
 Fruit Shop:
 
@@ -26,6 +28,8 @@ Rajaprasad Paikaray : https://github.com/hyraja/FRUIT_SHOP
 Anjitha M S : https://github.com/Anjitha-mundanmani/FruitProject
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Fruit-Shop
+
+Sachin CS : https://github.com/sachinconquerguru/fruit_shop
 
 
 
