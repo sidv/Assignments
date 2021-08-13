@@ -16,7 +16,7 @@ Abhinav Karthik R : https://github.com/karthikwgz/FruitShop
 
 Lekshmi R Pillai: https://github.com/lekshmir80/Fruit
 
-Rajaprasad Paikaray : https://github.com/hyraja/fruit_shop
+Rajaprasad Paikaray : https://github.com/hyraja/FRUIT_SHOP
 
 
 
