@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    
+
+    <title>CORGIS Datasets Project</title>
+    <meta name="description" content="
+
+
+
+
+
+
+            Github Pages for CORGIS Datasets Project">
+    <link rel="canonical" href="https://corgis-edu.github.io//corgis/csv/cars/">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/corgis/assets/css/main.css">
+
+    
+
+    
+        <link rel="stylesheet" href="/corgis/assets/css/pygments.css">
+
+        <style>
+            .ui-dialog-titlebar-close {
+                padding: 0 !important;
+            }
+
+            .ui-dialog-titlebar-close:after {
+                content: '';
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                /* Change path to image*/
+                background-image: url(/corgis/assets/ui-icons_444444_256x240.png);
+                background-position: -96px -128px;
+                background-repeat: no-repeat;
+            }
+
+            .ui-dialog table {
+                width: 100%;
+                font-size: 10pt;
+                background: white;
+            }
+
+            .ui-dialog table code {
+                word-break: normal;
+            }
+
+            .ui-dialog td {
+                border-bottom: 1px solid #CCC;
+                /*overflow: */
+            }
+
+            .ui-dialog-content {
+                max-height: 400px;
+                overflow: auto;
+            }
+
+            .dialog-opener {
+                cursor: pointer;
+            }
+
+            .ui-widget-header {
+                border: 0px solid black;
+                border-bottom: 1px solid #ccc;
+                background: #cde;
+            }
+        </style>
+    
+
+    <script src="/corgis/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-debug.js"
+            integrity="sha256-M5ZomNNnrnEB2WjSbnty5GWGqq6UuAAVNnWECisgEis=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/corgis/assets/css/multiselect.css">
+    <link rel="stylesheet" href="/corgis/assets/css/bootstrap-tagsinput.css">
+
+    <script src="/corgis/assets/js/knockout-3.5.0.js"></script>
+    <script src="/corgis/assets/js/d3.min.js"></script>
+    <script src="/corgis/assets/js/jquery.multi-select.js"></script>
+    <script src="/corgis/assets/js/bootstrap-tagsinput.js"></script>
+    <script src="/corgis/assets/js/typeahead.bundle.js"></script>
+    <script src="/corgis/assets/js/jquery.quicksearch.js"></script>
+    <script src="/corgis/assets/js/jquery.multi-select.js"></script>
+    <script src="/corgis/assets/js/lunr.js"></script>
+
+    
+
+</head>
+    <body class="layout--default "
+    >
+    <div class="container-fluid">
+    
+
+
+    <p><img class="img-thumbnail float-right" src="/images/datasets/cars-icon.png" alt="cars icon" role="presentation" /></p>
+
+<h1 id="cars-csv-file">Cars CSV File</h1>
+
+<p class="lead">From the CORGIS Dataset Project</p>
+
+<p><span class="text-muted">By Austin Cory Bart <a href="mailto:acbart@vt.edu">acbart@vt.edu</a></span><br />
+<span class="text-muted">Version 2.0.0, created 11/3/2015</span><br />
+<span class="text-muted">Tags: cars, vehicles, fuel</span></p>
+
+<h1 id="overview">Overview</h1>
+
+<p>This is a dataset about cars and how much fuel they use.</p>
+
+<h1 id="download">Download</h1>
+
+<p>Download the following file:</p>
+
+<ul>
+  <li><a href="../../datasets/csv/cars/cars.csv" download="">cars.csv <span class="fas fa-download"></span></a></li>
+</ul>
+
+<h1 id="key-descriptions">Key Descriptions</h1>
+
+<table class="table table-condensed table-striped table-bordered table-hover">
+<tr>
+    <th class="">Key</th>
+    <th class="">List of...</th>
+    <th class="">Comment</th>
+    <th class="">Example Value</th>
+</tr>
+
+<tr>
+    <td>Dimensions.Height</td>
+    <td>Integer</td> 
+    <td>Unknown values are stored as 0. Unfortunately, many cars do not report this data.</td>
+    <td><code>140</code></td>
+</tr>
+
+<tr>
+    <td>Dimensions.Length</td>
+    <td>Integer</td> 
+    <td>Unknown values are stored as 0. Unfortunately, many cars do not report this data.</td>
+    <td><code>143</code></td>
+</tr>
+
+<tr>
+    <td>Dimensions.Width</td>
+    <td>Integer</td> 
+    <td>Unknown values are stored as 0. Unfortunately, many cars do not report this data.</td>
+    <td><code>202</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Driveline</td>
+    <td>String</td> 
+    <td>A string representing whether this is "Rear-wheel drive", "Front-wheel drive", or "All-wheel drive".</td>
+    <td><code>"All-wheel drive"</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Engine Type</td>
+    <td>String</td> 
+    <td>How many cylinders are in this engine. Most cars are either a 6-cylinder or an 8-cylinder.</td>
+    <td><code>"Audi 3.2L 6 cylinder 250hp 236ft-lbs"</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Hybrid</td>
+    <td>Boolean</td> 
+    <td>Whether this is a hybrid engine or not - that is, if it uses both an internal combustion engine and an electric motor.</td>
+    <td><code>True</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Number of Forward Gears</td>
+    <td>Integer</td> 
+    <td>The number of forward gears. If no information is available, it is coded as 0.</td>
+    <td><code>6</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Transmission</td>
+    <td>String</td> 
+    <td>The full name of this type of transmission, based on its Classification and number of forward gears.</td>
+    <td><code>"6 Speed Automatic Select Shift"</code></td>
+</tr>
+
+<tr>
+    <td>Fuel Information.City mpg</td>
+    <td>Integer</td> 
+    <td>The miles-per-gallon this car gets on average in cities.</td>
+    <td><code>18</code></td>
+</tr>
+
+<tr>
+    <td>Fuel Information.Fuel Type</td>
+    <td>String</td> 
+    <td>Whether this car takes "Gasoline", "Diesel fuel", "Electricity", "Compressed natural gas", or "E85" (a term that refers to high-level ethanol-gasoline blends containing 51%-83% ethanol). If it is unknown, it is left blank.</td>
+    <td><code>"Gasoline"</code></td>
+</tr>
+
+<tr>
+    <td>Fuel Information.Highway mpg</td>
+    <td>Integer</td> 
+    <td>The miles-per-gallon this car gets on average on highways.</td>
+    <td><code>25</code></td>
+</tr>
+
+<tr>
+    <td>Identification.Classification</td>
+    <td>String</td> 
+    <td>Whether this is a "Manual transmission" or an "Automatic transmission". If it is unknown, it is left blank.</td>
+    <td><code>"Automatic transmission"</code></td>
+</tr>
+
+<tr>
+    <td>Identification.ID</td>
+    <td>String</td> 
+    <td>A unique ID for this particular car, using the year, make, model, and transmission type.</td>
+    <td><code>"2009 Audi A3 3.2"</code></td>
+</tr>
+
+<tr>
+    <td>Identification.Make</td>
+    <td>String</td> 
+    <td>The maker for this car.</td>
+    <td><code>"Audi"</code></td>
+</tr>
+
+<tr>
+    <td>Identification.Model Year</td>
+    <td>String</td> 
+    <td>The specific name/year for this car.</td>
+    <td><code>"2009 Audi A3"</code></td>
+</tr>
+
+<tr>
+    <td>Identification.Year</td>
+    <td>Integer</td> 
+    <td>The year that this car was released.</td>
+    <td><code>2009</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Engine Statistics.Horsepower</td>
+    <td>Integer</td> 
+    <td>A measure of the engine's power. A unit of power equal to 550 foot-pounds per second (745.7 watts).</td>
+    <td><code>250</code></td>
+</tr>
+
+<tr>
+    <td>Engine Information.Engine Statistics.Torque</td>
+    <td>Integer</td> 
+    <td>The torque of the engine, measured in lb/ft. When an engine is said to make "200 lb-ft of torque", it means that 200 pounds of force on a 1-foot lever is needed to stop its motion.</td>
+    <td><code>236</code></td>
+</tr>
+
+</table>
+
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="copyright">
+    
+      <p>&copy; 2020 CORGIS Datasets Project. Project by Austin Cory Bart, Dennis Kafura, Clifford A. Shaffer, Javier Tibau, Luke Gusukuma, Eli Tilevich.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  </body>
+    
+</html>
