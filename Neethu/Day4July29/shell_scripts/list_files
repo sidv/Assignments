@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "Hi This is script"
+
+for i in /home/sid/linux_training/*
+do
+	echo "Filename: "$i
+done
+
+echo "_____________________________________"
+echo "All txt files"
+
+for x in /home/sid/linux_training/*.txt
+do
+	echo "Filename : "$x
+done
+echo "_________________________________________"
+
+echo "Print type of file with it"
+
+for x in /home/sid/linux_training/*
+do
+	if [[ -d $x ]]
+	then
+		echo $x" is a directory"
+	else
+		echo $x" is a file"
+	fi
+done
