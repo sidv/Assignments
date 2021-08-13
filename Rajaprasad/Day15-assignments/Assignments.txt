@@ -1,0 +1,93 @@
+Projects Assignment:
+1.Console ERP project
+Implement using dictionary:
+	-Add Employee
+	-Delete Employee
+	-Search Employee by name
+	-Change Employee Data
+		=>Change name
+		=>change age
+		=>Change gender
+		=>change salary
+	-(New)Manage Teams
+		-Create new Team
+		-Display team
+		-Manage Team(Particular Team)
+			-Rename Team(optional)
+			-Display Members
+			-Add Members
+			-Delete Members
+		-Delete Team
+	-Display 
+
+Properties:Empid, Name,age,gender,place,salary,previous_company,joining_date
+Date format "21/04/2021" dd/mm/yyyy
+
+2.Fruit shop project:
+Implement using dictionary
+	-Add fruit
+	-Delete fruit by name
+	-Search fruit by name and rate
+	-Change fruit name and rate
+	-Add to cart(List the fruits with fruit_id->select id->store in cart list)
+	-Display
+	-Display the cart
+Properties: fruit_id,fruit_name,rate,imported_from,import_date,buy_price
+
+
+___________________________________________________________________________
+Logics for student_function_dict manage group functionality:
+"""
+{"1":{student}, "2":{student}, "3":{student}, "4":{student}, "5":{student}}
+groups={}
+
+Storage:
+groups = {
+	agri:["1","4"]
+	rocket:["2","3"]
+}
+
+Fetch:
+x = teams[agri]
+students[x[0]]
+
+agri => Sid|Siddhant|pavan
+rocket => Siddhant |Gopi|Ramya
+for key,value in groups.items():
+	#key group_name
+	#value list of serial no of students
+	name_string = ""
+	for i in value:
+		name_string = name_string +"|"+students[i][name]
+	print(f"{key} => {name_string}")
+	
+
+
+
+Manage Groups:
+	-Create group
+	-Display groups
+	-Manage group(Particular)
+	-Delete group
+
+-Manage group(Particular)
+Ask user for group name
+	-Add member
+	-Delete member
+	-List member
+
+groups[group_name].append("2")
+
+group_name = rocker (old name)
+n_group_name = rocket (new name)
+temp = groups[group_name]
+del group_name
+groups[n_group_name] = temp
+
+"""
+
+
+
+
+
+
