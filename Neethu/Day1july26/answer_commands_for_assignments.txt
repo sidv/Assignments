@@ -1,0 +1,129 @@
+  176  cd sample
+  177  cd ..
+  178  mkdir Neethu
+  179  ls
+  180  mkdir -p data1/data2/data3/data4
+  181  ls
+  182  cd data1/data2/data3/data4
+  183  cd ..|mkdir data5
+  184  cd ..
+  185  ls
+  186  cd data4/
+  187  ls
+  188  rm -r data5/
+  189  cd ..
+  190  mkdir data5
+  191  cd ../..
+  192  touch a.txt b.txt
+  193  cd /data2/data3
+  194  ls
+  195  cd data2/data3/data5/
+  196  touch c.txt d.txt
+  197  cp d.txt /da
+  198  cp d.txt ../data4/
+  199  ls ../
+  200  ls ../data4/
+  201  ls
+  202  cp c.txt ../data4/
+  203  mv c.txt ../data4
+  204  ls ../data4
+  205  ls
+  206  ls ../../../
+  207  pwd ../../../
+  208  cp ../../../a.txt /data
+  209  cp ../../../a.txt /data2/data3
+  210  cp ../../../a.txt ./data2/data3
+  211  cp ../../../a.txt ../data1/data2/data3
+  212  cd ../../../
+  213  cp a.txt data2/data3/
+  214  mv b.txt /data2/data3/data4
+  215  mv b.txt data2/data3/data4
+  216  cd data2/data3/data4
+  217  ls
+  218  mv b.txt ../data2
+  219  cd ../data2/data1
+  220  cd ..
+  221  cd ../data1
+  222  cd ../data2
+  223  cd ../../
+  224  ls
+  225  cp -r data2/data3/data5 data2/
+  226  ls data2/
+  227  mv data2/data3/data4/ data2/data5/
+  228  ls
+  229  cat > data2/data5/bio.txt
+  230  cat >> data2/data5/bio.txt
+  231  cat  data2/data5/bio.txt 
+  232  free > memory.txt
+  233  ls 
+  234  ls memory.txt 
+  235  cat memory.txt 
+  236  df >> memory.txt
+  237  ls s-ltr
+  238  ls -ltr
+  239  chmod u+x memory.txt 
+  240  ls -l
+  241  chmod g-rwx,o-rwx data2/data5/bio.txt
+  242  ls -l data2/data5/bio.txt
+  243  cat > data.txt
+  244  chmod 600 data.txt 
+  245  ls -l
+  246  chmod 644 data.txt 
+  247  ls
+  248  ls -l
+  249  cat >> data.txt 
+  250  cd ..
+  251  ls
+  252  cd sample/
+  253  ls
+  254  mkdir data1 data2 data3 | chmod 777 data1 data2 data3
+  255  `mkdir data1 data2 data3` | chmod 777 data1 data2 data3
+  256  ls
+  257  ls -ltr
+  258  ls
+  259  cd data1/
+  260  cd ..
+  261  touch data1/a.txt data2/b.txt data3/c.txt
+  262  ls data2/
+  263  chmod u+rwx data1/a.txt 
+  264  ls -ltr data1/a.txt 
+  265  chmod g+rwx data2/b.txt
+  266  ls data2/b.txt 
+  267  la -l data2/b.txt 
+  268  chmod o+rwx data3/c.txt 
+  269  mv data3/c.txt data3/info.txt
+  270  cat >> data3/info.txt 
+  271  chmod 400 data1/
+  272  cd data1/
+  273  ls -ltr
+  274  ls
+  275  ls data1/
+  276  cp data1/a.txt data2/
+  277  chmod 100 data2/
+  278  cd data2/
+  279  ls
+  280  ls 
+  281  cd ..
+  282  cp data2/b.txt data3/
+  283  cd ..
+  284  clear
+  285  sudo useradd -G sudo,lp,lpadmin,audio,video test
+  286  cat /etc/passwd
+  287  clear
+  288  sudo useradd -u 2000 test1
+  289  cat /etc/passwd
+  290  clear
+  291  sudo useradd -g 1000 test2
+  292  passwd test
+  293  sudo passwd test
+  294  sudo passwd test2
+  295  sudo passwd test3
+  296  su test
+  297  su -test
+  298  su - test
+  299  ls  ../../../
+  300  cat >  ../../../bio.txt 
+  301  sudo cat >  ../../../bio.txt 
+  302  sudo adduser user1
+  303  history
+  304  history | tail -n 129 > assignment_ans_commands.txt 
