@@ -1,0 +1,6 @@
+st = input("Enter the string : ")
+l = st.split(" ")
+s = set(l)
+print(s)
+st = " ".join(s)
+print(st)
