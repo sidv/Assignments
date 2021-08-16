@@ -30,6 +30,9 @@ Athira V S : https://github.com/athira-vs/Console_ERP_System/tree/master
 
 Sufail Ps : https://github.com/sufailps/erp_project
 
+Pooja SR :https://github.com/HaiPooja/ERP
+
+
 
 Fruit Shop:
 
@@ -51,6 +54,8 @@ Neethu TK : https://github.com/NEETHUMOLTK99/Fruit_shop
 
 Ananthu P S : https://github.com/AnanthuPS/Fruit_Shop
 
+Pooja SR :https://github.com/HaiPooja/Fruit_shop
+
 Shanu Susan Abraham : https://github.com/shanu-123/fruit_shop
 
 Govind Gopal : https://github.com/govindsgopal/Fruit_shop
@@ -58,5 +63,6 @@ Govind Gopal : https://github.com/govindsgopal/Fruit_shop
 Athira V S : https://github.com/athira-vs/fruit_shop
 
 Sufail P s : https://github.com/sufailps/fruit_shop
+
 
 
