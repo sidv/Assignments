@@ -5,15 +5,14 @@ text = """A computer is a machine that can be programmed to carry out sequences 
  that includes the hardware operating system main software  and peripheral
  equipment needed and used for full operation. This term may also refer 
 to a group of computers that are linked and function together"""
-text2 = []
-for i in text:
-	text2.append(i)
-for i in text2:
-	a = text2.index(i)
-	if i.isupper() is True:
-		text2[a] = text2[a].lower()
+text2 = text.split(" ")
 
+for i in range(0,len(text2)):
+	if text2[i].isupper() == True:
+		text2[i] = text2[i].lower()
 	else:
-		text2[a] = text2[a].upper()
+		text2[i] = text2[i].upper()
 
 print (text2)
+
+print (" ".join(text2))
