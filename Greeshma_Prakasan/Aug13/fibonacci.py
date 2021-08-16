@@ -1,0 +1,19 @@
+n = int(input("Enter the limit : "))
+
+a = 1
+b = 1
+count = 0
+
+if n==1:
+	print(b)
+else:
+	while count < n:
+		if count == n-1 :
+			print(a)
+		else:
+			print(a,end=",")
+		t = a + b
+		a = b
+		b = t
+		count += 1
+
