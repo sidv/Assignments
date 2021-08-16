@@ -22,6 +22,8 @@ Neethu TK : https://github.com/NEETHUMOLTK99/ERP
 
 Ananthu P S : https://github.com/AnanthuPS/ERP_Project
 
+Aneena Sabu : https://github.com/Elizabethaneena/ERP
+
 Shanu Susan Abraham : https://github.com/shanu-123/ERP
 
 Govind Gopal : https://github.com/govindsgopal/ERP
@@ -31,6 +33,7 @@ Athira V S : https://github.com/athira-vs/Console_ERP_System/tree/master
 Sufail Ps : https://github.com/sufailps/erp_project
 
 Pooja SR :https://github.com/HaiPooja/ERP
+
 
 
 
@@ -54,7 +57,7 @@ Neethu TK : https://github.com/NEETHUMOLTK99/Fruit_shop
 
 Ananthu P S : https://github.com/AnanthuPS/Fruit_Shop
 
-Pooja SR :https://github.com/HaiPooja/Fruit_shop
+Aneena Sabu : https://github.com/Elizabethaneena/fruitshop
 
 Shanu Susan Abraham : https://github.com/shanu-123/fruit_shop
 
@@ -64,5 +67,5 @@ Athira V S : https://github.com/athira-vs/fruit_shop
 
 Sufail P s : https://github.com/sufailps/fruit_shop
 
-
+Pooja SR :https://github.com/HaiPooja/Fruit_shop
 
