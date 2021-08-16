@@ -28,6 +28,8 @@ Govind Gopal : https://github.com/govindsgopal/ERP
 
 Athira V S : https://github.com/athira-vs/Console_ERP_System/tree/master
 
+Sufail Ps : https://github.com/sufailps/erp_project
+
 
 Fruit Shop:
 
@@ -54,5 +56,7 @@ Shanu Susan Abraham : https://github.com/shanu-123/fruit_shop
 Govind Gopal : https://github.com/govindsgopal/Fruit_shop
 
 Athira V S : https://github.com/athira-vs/fruit_shop
+
+Sufail P s : https://github.com/sufailps/fruit_shop
 
 
