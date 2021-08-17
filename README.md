@@ -69,3 +69,4 @@ Sufail P s : https://github.com/sufailps/fruit_shop
 
 Pooja SR :https://github.com/HaiPooja/Fruit_shop
 
+Gopi Bhagam :https://github.com/bhagamgopi/github/blob/main/fruit_shop_fun.py
