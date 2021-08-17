@@ -34,6 +34,8 @@ Sufail Ps : https://github.com/sufailps/erp_project
 
 Pooja SR :https://github.com/HaiPooja/ERP
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/ERP1.dict.py
+
 
 
 
