@@ -34,6 +34,7 @@ Sufail Ps : https://github.com/sufailps/erp_project
 
 Pooja SR :https://github.com/HaiPooja/ERP
 
+https://github.com/bhagamgopi/github/blob/main/Employee_fun_manage.py
 
 
 
