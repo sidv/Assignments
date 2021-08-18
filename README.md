@@ -34,7 +34,9 @@ Sufail Ps : https://github.com/sufailps/erp_project
 
 Pooja SR :https://github.com/HaiPooja/ERP
 
-https://github.com/bhagamgopi/github/blob/main/Employee_fun_manage.py
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/ERP1.dict.py
+
+Gopi: https://github.com/bhagamgopi/github/blob/main/Employee_fun_manage.py
 
 
 
@@ -69,4 +71,6 @@ Athira V S : https://github.com/athira-vs/fruit_shop
 Sufail P s : https://github.com/sufailps/fruit_shop
 
 Pooja SR :https://github.com/HaiPooja/Fruit_shop
+
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/fruits1_dict.py
 
