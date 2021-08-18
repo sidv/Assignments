@@ -69,3 +69,5 @@ Sufail P s : https://github.com/sufailps/fruit_shop
 
 Pooja SR :https://github.com/HaiPooja/Fruit_shop
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/fruits1_dict.py
+
