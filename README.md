@@ -36,6 +36,7 @@ Pooja SR :https://github.com/HaiPooja/ERP
 
 B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/ERP1.dict.py
 
+Gopi: https://github.com/bhagamgopi/github/blob/main/Employee_fun_manage.py
 
 
 
