@@ -1,0 +1,20 @@
+1.Write a menu driven script for calculator (Use functions)
+2.Write a script to read cars.csv and find all cars record where Dimensions.Length greater than 200.
+3.Write a script to read cars.csv and find all cars record where Identification.Classification is Automatic transmission and Identification.Year
+ greater than 2010.
+4.Write a menu driven script to manage program
+	a)Start firefox
+	b)Install tree package
+	c)Write your name to file using cat command
+	d)Start gedit
+	e)Kill firefox using name
+	f)kill gedit using name
+	g)Update the software list
+5.Write a script to store the new_cars.csv from cars.csv based on below menu driven filters
+	a)All cars where Identification.Make is Audi
+	b)All cars where Engine Information.Number of Forward Gears is less than the user given value(Take input from user)
+	c)All cars where Dimensions.Width and Dimensions.Height is greater than user given value(Take both value from user)
+
+ 
+
+

@@ -1,0 +1,18 @@
+1.Create a shell_script directory.
+2.Initialize git inside shell_script directory.
+3.Create branch dev and switch to branch dev
+4.Write a menu driven shell script manage_files.sh to perform
+	a) Create files for given range like 1.txt,2,txt and so on (take range input from user)
+	b) Delete files (take filename input from user)
+5.Commit the manage_shell.sh
+6.Write a shell script to find all process with process if greater than 1000 pid.
+7.Create branch v1 and switch to branch v1
+8.Modify the manage_file.sh shell script and add new option to append your name to given file name(Take filename input from user)
+9.Commit manage_files.sh to v1 branch
+10.Switch to dev
+11.Check changes in manage_files.sh
+12.Switch to master
+13.Check all files list.If files are persent check content of file.
+
+
+

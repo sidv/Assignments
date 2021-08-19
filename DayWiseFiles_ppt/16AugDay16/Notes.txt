@@ -1,0 +1,99 @@
+File Handling:
+Handle Files(READ,Write,Append,Create)
+
+Modes
+r -> Read data from file,Cursor starts from First location
+w -> Write, If file is not there, It creates the file,Cursor starts from First location,Overwrites all the data
+a -> Append data to file,Cursor starts from last location
+x -> create the file
+
+Steps to follow:
+open/create
+operation(read/write/append)
+close
+
+open(filename,mode) -> Open the file with that mode. It returns a file descriptor
+
+file_descriptior.function(argument)
+write(data) -> write data to file
+read() -> read data from file and returns string
+close() -> close the file
+readline() -> Read single line from file
+tell() -> return the current location
+seek(arguments) -> set the cursor location.seek(offset,from_what(Whence)=0)
+readlines() -> Read all lines and return list
+readable() -> Check file is readable or not
+writable() -> check file is writable or not
+flush() -> flush internal buffer
+writelines() -> write all lines in file
+
+
+from_what: 
+0-> first position of file
+1 -> current position
+2 -> end of file position
+e.g fd.seek(20) -> Setting the cursor location to 20 position from start
+fd.seek(5,1)
+fd.seek(-5,2)
+
+
+Read Operation:
+read() -> read whole file at a time
+read(no_of_chars) -> Returns that no of chars from file
+e.g read(10)
+
+Write Operation:
+Always remember the cursor location.
+
+Types of files:
+Text: By default, Python opens files in Text mode
+Binary: Open the file in binary mode
+
+Read data from file line by line
+for i in fd:
+	print(i)
+
+
+Using With:(Prefer this)
+with open(filename,mode) as variable:
+	statements/operations
+
+YOu can not access file outside this block.
+
+______________________________________________________________________
+
+Lambda Functions:
+-> It is from functional programming paradigm.
+-> It makes logic easy
+-> code is very readble
+-> They can't go for multi expression function
+
+Syntax:
+lambda arguments:expression
+->Only one expression is allowed
+->Any of arguments
+->expression must evaluate to some value 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+Siddhant Verma
+This is the 2nd line
+This is the 3 rd line
+/etc/adduser.conf
+/etc/appstream.conf
+/etc/brltty.conf
+/etc/ca-certificates.conf
+/etc/debconf.conf
+/etc/deluser.conf
+/etc/e2scrub.conf
+/etc/fuse.conf
+/etc/gai.conf
+/etc/hdparm.conf
+/etc/host.conf
+/etc/inxi.conf
+/etc/kernel-img.conf
+/etc/kerneloops.conf
+/etc/ld.so.conf
+/etc/libao.conf
+/etc/libaudit.conf
+/etc/logrotate.conf
+/etc/ltrace.conf
+/etc/mke2fs.conf
+/etc/nsswitch.conf
+/etc/pam.conf
+/etc/pnm2ppa.conf
+/etc/popularity-contest.conf
+/etc/resolv.conf
+/etc/rsyslog.conf
+/etc/sensors3.conf
+/etc/sysctl.conf
+/etc/ucf.conf
+/etc/updatedb.conf
+/etc/usb_modeswitch.conf
+/etc/xattr.conf
+Hi!
+This is sid
+I am modifying the file.
+
+
+
+
+
+
+
+
+/home/sid
+demo
+Desktop
+Documents
+Downloads
+linux_training
+Music
+My_project_designs
+OS
+OS_demo
+Pictures
+Public
+Templates
+Training
+Videos
+VirtualBox VMs
+WT
+              total        used        free      shared  buff/cache   available
+Mem:        3922576     2385804      137508      449924     1399264      846300
+Swap:       3903484      431204     3472280
+Filesystem     1K-blocks      Used Available Use% Mounted on
+udev             1930804         0   1930804   0% /dev
+tmpfs             392260      1492    390768   1% /run
+/dev/sda2      134882304  23050312 110516568  18% /
+tmpfs            1961288         0   1961288   0% /dev/shm
+tmpfs               5120         4      5116   1% /run/lock
+tmpfs            1961288         0   1961288   0% /sys/fs/cgroup
+/dev/sda2      134882304  23050312 110516568  18% /home
+/dev/sda3         945144    147712    732204  17% /boot
+tmpfs             392256        60    392196   1% /run/user/1000
+/dev/sda1      343019272 254008712  71563148  79% /media/sid/e01110ef-f04e-44e9-8e70-b42c8cea98f0
+This is new file
+

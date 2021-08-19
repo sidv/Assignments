@@ -1,0 +1,14 @@
+total 12
+-rw-r--r-- 1 sid sid  58 Jul 26 14:50 bio.txt
+drwxr-xr-x 1 sid sid  30 Jul 26 12:45 data1
+drwxr-xr-x 1 sid sid  40 Jul 26 12:43 data2
+-rw-r--r-- 1 sid sid   0 Jul 26 15:42 file_list
+-rw-rw---- 1 sid sid 154 Jul 26 14:59 file_list.txt
+-rw-r--r-- 1 sid sid 886 Jul 26 15:28 memory.txt
+total 16
+-rw-r--r-- 1 sid sid  58 Jul 26 14:50 bio.txt
+drwxr-xr-x 1 sid sid  30 Jul 26 12:45 data1
+drwxr-xr-x 1 sid sid  40 Jul 26 12:43 data2
+-rw-r--r-- 1 sid sid 292 Jul 26 15:42 file_list
+-rw-rw---- 1 sid sid 154 Jul 26 14:59 file_list.txt
+-rw-r--r-- 1 sid sid 886 Jul 26 15:28 memory.txt

@@ -1,0 +1,56 @@
+Create Image :
+Workflow
+1.Write your code in a directory
+2.Test it.
+3.Create Dockerfile
+4.Write commands and configure enviroment in Dockerfile
+5.Build it
+
+
+Dockerfile: 
+->It must be inside the  your project folder
+->Name must be "Dockerfile"
+->Follow correct syntax of command in docker file
+Flow of dockerfile
+->Choose base imge
+->Configure working directory
+->If you have port config.Configure it
+->Copy all required files
+->Install all libraries
+->STart the app
+
+
+Dockerfile Syntax:
+INSTRUCTION command/argument
+
+FROM -> Import Base image
+Syntax: FROM imagename:tag
+e.g FROM python:3.7
+
+WORKDIR -> Set working directory.This will be the current working directory
+Syntax: WORKDIR path
+e.g WORKDIR /usr/src/app
+
+EXPOSE -> Expose port
+Syntax: EXPOSE port_no
+e.g. EXPOSE 4000
+
+RUN-> run command 
+Syntax: RUN command
+e.g. RUN pip install flask
+
+COPY -> Copy required file here(ALL application files)
+Syntax:COPY source_local_fs_path Destination_Image_dir_path
+COPY server.py .
+COPY ./src .
+
+CMD -> Command to start app.It must be at bottom of docker file
+Syntax: CMD [ "Command", "1 arg", "2 arg" ]
+CMD ["python3" , "server.py"]
+
+
+
+
+
+
+

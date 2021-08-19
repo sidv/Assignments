@@ -1,0 +1,191 @@
+ 1809  mkdir learn_git
+ 1810  cd learn_git/
+ 1811  git
+ 1812  git config
+ 1813  git config --help
+ 1814  git config --list
+ 1815  git config --list --show-origin
+ 1816  git
+ 1817  git config --list --show-origin
+ 1818  git --version
+ 1819  mkdir process_cars
+ 1820  ls
+ 1821  cd process_cars/
+ 1822  git init
+ 1823  ls -l
+ 1824  ls -a
+ 1825  cp ~/linux_training/shell_scripts/sample/vcs/* .
+ 1826  ls
+ 1827  git log
+ 1828  cd ..
+ 1829  rm -rf process_cars/
+ 1830  mkdir process_cars
+ 1831  cd process_cars/
+ 1832  ls
+ 1833  git init
+ 1834  ls -a
+ 1835  cp ~/linux_training/shell_scripts/sample/vcs/* .
+ 1836  ls
+ 1837  git log
+ 1838  git add first.sh
+ 1839  ls
+ 1840  git add first.sh
+ 1841  git log
+ 1842  ls
+ 1843  git add main.sh
+ 1844  git commit -m "I am adding my first change"
+ 1845  git add .
+ 1846  git commit -m "Its second commit"
+ 1847  ls
+ 1848  nano first.sh 
+ 1849  ./main.sh 
+ 1850  nano first.sh 
+ 1851  git add .
+ 1852  ./main.sh 
+ 1853  ls
+ 1854  git commit -m "Variable name issue resolved"
+ 1855  ls
+ 1856  nano third.sh 
+ 1857  git add .
+ 1858  git commit -m "Added cars filter for length greater than 200"
+ 1859  nano third.sh 
+ 1860  git add .
+ 1861  git commit -m "Added summation functionality"
+ 1862  nano third.sh 
+ 1863  ./third.sh 
+ 1864  git add .
+ 1865  nano third.sh 
+ 1866  git add .
+ 1867  nano second.sh 
+ 1868  git add .
+ 1869  git commit -m "Added some functionality"
+ 1870  git diff
+ 1871  git log
+ 1872  git diff 936b1c1 c1743fd
+ 1873  git diff 55aafd9 e3c8229
+ 1874  touch a.txt
+ 1875  git add a.txt
+ 1876  git commit -m "Added a.txt"
+ 1877  nano a.txt
+ 1878  git add a.txt
+ 1879  git commit -m "updated a.txt"
+ 1880  git diff 55aafd9  da920cb
+ 1881  ls
+ 1882  git reset --soft 55aafd9
+ 1883  ls
+ 1884  cat third.sh 
+ 1885  git reset --soft e3c8229
+ 1886  cat third.sh
+ 1887  git log
+ 1888  git reset -- da920cb
+ 1889  git log
+ 1890  git reset --hard e3c8229
+ 1891  ls
+ 1892  cat third.sh 
+ 1893  ls
+ 1894  git reset --hard 9f964a6
+ 1895  ls
+ 1896  cat third.sh 
+ 1897  ls
+ 1898  git reset --hard da920cb
+ 1899  ls
+ 1900  git log
+ 1901  git reset --hard 55aafd97e7140a9f50d9d4cc12cdbd32397c1824
+ 1902  ls 
+ 1903  cat third.sh 
+ 1904  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1905  ls
+ 1906  git log
+ 1907  git reset --hard 55aafd97e7140a9f50d9d4cc12cdbd32397c1824
+ 1908  git log
+ 1909  git reset --hard HEAD~1
+ 1910  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1911  ls
+ 1912  git reset --hard HEAD~1
+ 1913  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1914  git reset --hard HEAD~1
+ 1915  git reset --hard HEAD
+ 1916  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1917  git reset --hard HEAD~2
+ 1918  git reset --hard HEAD~3
+ 1919  git log
+ 1920  ls
+ 1921  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1922  ls
+ 1923  cat third.sh 
+ 1924  git reset --hard HEAD~5
+ 1925  ls
+ 1926  cat third.sh 
+ 1927  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1928  git reset --soft HEAD~5
+ 1929  ls
+ 1930  cat third.sh 
+ 1931  ls
+ 1932  git branch dev
+ 1933  git checkout dev
+ 1934  ls
+ 1935  cd .git/
+ 1936  ls
+ 1937  cd branches/
+ 1938  ls
+ 1939  cd ..
+ 1940  cd objects/
+ 1941  ls
+ 1942  cd ..
+ 1943  cd info
+ 1944  ls
+ 1945  cd ..
+ 1946  cd hooks/
+ 1947  ls
+ 1948  cd ..
+ 1949  ls
+ 1950  cd ..
+ 1951  ls
+ 1952  git branch dev
+ 1953  git checkout dev
+ 1954  git checkout master
+ 1955  git checkout dev
+ 1956  touch c.txt d.txt
+ 1957  ls
+ 1958  git add .
+ 1959  git commit -m "First change"
+ 1960  ls
+ 1961  git checkout master
+ 1962  ls
+ 1963  git log --oneline --decorate
+ 1964  git reset --hard da920cbadd1f2db64c6620ee9d56be59b227a9ba
+ 1965  git log --oneline --decorate
+ 1966  git checkout dev
+ 1967  git log --oneline --decorate
+ 1968  git remote show
+ 1969  git remote show origin
+ 1970  git remote 
+ 1971  git remote --help
+ 1972  cd ..
+ 1973  ls
+ 1974  git clone https://github.com/sidv/python-hello
+ 1975  ls
+ 1976  cd python-hello/
+ 1977  ls -a
+ 1978  git log
+ 1979  git clone https://github.com/BrainJS/brain.js
+ 1980  ls
+ 1981  rm -rf brain.js/
+ 1982  ls
+ 1983  cd ..
+ 1984  ls
+ 1985  git clone https://github.com/BrainJS/brain.js
+ 1986  ls
+ 1987  cd brain.js/
+ 1988  ls
+ 1989  git checkout develop
+ 1990  git remote show
+ 1991  git remote show origin
+ 1992  git ls-remote origin
+ 1993  cd ..
+ 1994  cd python-hello/
+ 1995  git remote origin
+ 1996  git remote show origin
+ 1997  git ls-remote origin
+ 1998  history 
+
