@@ -1,5 +1,0 @@
-siddhant 3000 Pune
-rajaprasad 3000 Noida
-ramya 2000 Chennai
-pooja  1000 Pune
-Neha 2000  Noida

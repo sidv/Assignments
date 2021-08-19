@@ -1,0 +1,70 @@
+Lets start with docker commands:
+
+Pull First image from docker-hub:
+hello-world
+Command: docker pull hello-world
+
+Run image:
+command: docker run hello-world
+If you run docker run image_name and 
+its not on your pc.It'll pull it from docker hub
+.And if its there(local pc).It'll execute the image
+
+Lets run node-red application in container:
+docker pull node-red
+docker run -it -p 8080:1880 -v ~/nodereddata:/data nodered/node-red
+
+Map Standard Input/Ouput:
+option: -it
+
+Map Directory:
+option: -v OS-directory_path:container_directory_path
+
+Map Port:
+option: -p OS_POrt:Container_Port
+
+
+Run web servers:
+docker run -it -p 8080:80 httpd
+docker run -it -p 8081:80 nginx
+
+
+_________________________________________________________
+Docker Hub login:
+docker login
+
+Assign a name to container
+Option: --name
+docker run -it --name webserver httpd
+
+Start a container:
+docker start container_name
+
+Rename a container:
+docker rename old_container new_container
+
+Delete container
+docker rm container_name
+
+Delete image
+docker rmi container_name
+
+Check all runnning container:
+docker ps
+
+Check all container running and exited
+docker ps -a
+
+Manage image:
+docker image option
+
+
+
+
+
+
+
+
+
+
+

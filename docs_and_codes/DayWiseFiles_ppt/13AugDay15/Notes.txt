@@ -1,0 +1,75 @@
+Functions:
+Simple functions:
+	-Simple functions: No parameter no return
+	-Function with retrurn value: with input and return value
+
+def function_name(arguments):
+	statements
+
+function_name(input)
+
+def function_name(arguments):
+	statement
+	return something
+ret = function_name(input)
+
+
+Default argument functions:
+If you have optional argument.Use this kind of argument:
+
+
+def function_name(arguments,optional=0):
+	statement
+	return something
+ret = function_name(input)
+
+_________________________________________________________________________
+Sets: Unordered collections of unique elements
+e.g: {"Audi","BMW","Skoda",20}
+-> Uses {}
+->Not key-value pair
+->Not ordered
+->Not indexed
+->Can store differnt type of data types
+->Unique element
+->Mutable
+
+
+Set functions:
+setvariable.function(arguments)
+
+add(data) -> Add new data to the set
+clear() -> Empty whole set
+pop() ->  This returns(Item its removed) after removing element .Removes random element from the set
+remove(data) -> This does not return anything. It removes particular element.If the element is not there it'll raise error
+discard(data) -> This does not return anything. It removed particular elements. If the element is not there it'll not raise error
+
+Operation:
+A.issubset(B) -> Testing A is subset of or not
+A.issuperset(B) -> Testing A is superset of not 
+
+A.intersection(B) -> returns common element of A and B set
+A.union(B) -> returns all elements of A and B and single copy of common elements
+
+A.difference(B) ->returns all elements present in A but not in B
+A.symmetric_update(B) ->returns all elements from A and B except command elements
+
+
+______________________________________________________________________________
+
+More keywords:
+continue
+
+
+
+
+
+Remove function causes:
+KeyError: 'XYZ'
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+ 2024  nano day_of_week.sh
+ 2025  nano employees.sh
+ 2026  ps
+ 2027  ps -e
+ 2028  ps aux
+ 2029  ps -e
+ 2030  top
+ 2031  nano infinite.sh
+ 2032  chmod +x infinite.sh 
+ 2033  ./infinite.sh 
+ 2034  ./infinite.sh \
+ 2035  ./infinite.sh 
+ 2036  nano infinite.sh
+ 2037  ./infinite.sh 
+ 2038  ps -ef
+ 2039  man ps
+ 2040  ./infinite.sh 
+ 2041  jobs
+ 2042  fg
+ 2043  ./infinite.sh 
+ 2044  cat > data.txt
+ 2045  jobs
+ 2046  fg 2
+ 2047  jobs
+ 2048  fg 3
+ 2049  jobs
+ 2050  ps -e
+ 2051  kill -9 16097 16253
+ 2052  jobs
+ 2053  mousepad &
+ 2054  mousepad 
+ 2055  pidgin 
+ 2056  pidgin &
+ 2057  firefox \
+ 2058  firefox 
+ 2059  firefox &
+ 2060  jobs\
+ 2061  jobs
+ 2062  ./infinite.sh 
+ 2063  jobs
+ 2064  fg 1
+ 2065  fg 2
+ 2066  nice -n 15 firefox
+ 2067  sudo nice -n -10 firefox
+ 2068  sudo nice -n -10 mousepad
+ 2069  nice -n 15 firefox
+ 2070  nice -n 3 mousepad
+ 2071  sudo apt-get update
+ 2072  sudo apt-get install tree
+ 2073  ls /
+ 2074  ls
+ 2075  cd data/
+ 2076  nano create_files.sh 
+ 2077  history 
+

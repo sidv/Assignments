@@ -1,0 +1,26 @@
+__add__(self,other):
+	return self.slry + othen.slry
+
+
+
+
+e1+e2+e3+e4
+
+
+
+
+
+
+
+
+__add__(self,other):
+	temp = Employee()
+	temp.slry = self.slry +other.slry
+	return temp.slry
+
+
+__add__(self,other):
+	if type(other) is int:
+		return self.slry + other
+	else:
+		return self.slry + other.slry
