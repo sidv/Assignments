@@ -1,0 +1,5 @@
+print("program to find the addition of two numbers")
+n1=input("enter the no\n")
+n2=input("enter the no\n")
+add=int(n1)+int(n2)
+print("The result is\n",add)

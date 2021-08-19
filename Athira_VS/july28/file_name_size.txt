@@ -1,0 +1,13 @@
+91524 28JulDay3.zip
+515 assmnt.txt
+221 bulk_rename.sh
+722 calculator.sh
+601 create_user.sh
+125 even.sh
+64 file_name_permission.sh
+0 file_name_size.txt
+260 file_permission.sh
+380 filesize1000.sh
+362 greatest_number.sh
+319 greatest_number.sh.save
+26 table.sh

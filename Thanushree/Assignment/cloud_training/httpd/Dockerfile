@@ -1,0 +1,7 @@
+FROM httpd
+
+WORKDIR /home
+
+EXPOSE 80
+
+COPY 

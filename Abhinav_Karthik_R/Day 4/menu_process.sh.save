@@ -1,0 +1,5 @@
+#i/bin/bash
+
+echo "______________________SELECT A CHOICE___________________________"
+echo "
+result=$(sub $first $second)

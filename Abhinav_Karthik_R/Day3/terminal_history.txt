@@ -1,0 +1,87 @@
+1  sudo
+    2  sudo su
+    3  ls
+    4  pwd
+    5  mkdir data
+    6  ls
+    7  pwd
+    8  touch bio.txt
+    9  ls
+   10  cd data
+   11  cd ..
+   12  pwd
+   13  mkdir sample
+   14  cd sample
+   15  mkdri abhinav
+   16  mkdir abhinav
+   17  ls
+   18  cd ..
+   19  mkdir data1
+   20  cd data1
+   21  mkdir data2
+   22  cd data2
+   23  mkdir data3
+   24  cd data3
+   25  mkdir data4
+   26  cd data4
+   27  cd ..
+   28  mkdir data5
+   29  cd ..
+   30  touch a.txt
+   31  touch b.txt
+   32  ls
+   33  cd data2
+   34  ls
+   35  cd data3
+   36  ls
+   37  cd data5
+   38  touch c.txt
+   39  touch d.txt
+   40  pwd
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd data5
+   45  ls
+   46  cp d.txt ../data4/
+   47  ls ../data4
+   48  cd ../
+   49  ls
+   50  cd data4
+   51  ls
+   52  cd data5
+   53  cd ../data5
+   54  ls
+   55  mv c.txt ../data4/
+   56  ls ../data4
+   57  ls
+   58  ../../ls
+   59  ls ../../
+   60  ls ../../../
+   61  cp ../../../a.txt ../
+   62  cd ..
+   63  ls
+   64  cd ../../
+   65  ls
+   66  pwd
+   67  ls
+   68  mv /home/superuser/data1/b.txt /home/superuser/data1/data2/data3/data4/
+   69  ls
+   70  ls data2/data3/data4
+   71  cd data2/data3/data4
+   72  ls
+   73  ls ../../../
+   74  mv ../../../a.txt ../../
+   75  cd /home/superuser/data1
+   76  cp -r data2/data3/data5 data2
+   77  ls
+   78  cd data2
+   79  ls
+   80  cd ../
+   81  mv data2/data3/data4 data2/data3/data5
+   82  cd data2/data3/
+   83  ls
+   84  cd data5
+   85  ls
+   86  history
+

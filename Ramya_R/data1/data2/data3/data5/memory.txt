@@ -1,0 +1,23 @@
+              total        used        free      shared  buff/cache   available
+Mem:        8123388      958056     3921756       10976     3243576     6848680
+Swap:       2097148           0     2097148
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             4032364       0   4032364   0% /dev
+tmpfs             812340    1660    810680   1% /run
+/dev/sda5      102168536 8574744  88360896   9% /
+tmpfs            4061692       0   4061692   0% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs            4061692       0   4061692   0% /sys/fs/cgroup
+/dev/loop1        261760  261760         0 100% /snap/gnome-3-34-1804/36
+/dev/loop2         63616   63616         0 100% /snap/gtk-common-themes/1506
+/dev/loop0         56320   56320         0 100% /snap/core18/1880
+/dev/loop3         30720   30720         0 100% /snap/snapd/8542
+/dev/loop4         51072   51072         0 100% /snap/snap-store/467
+/dev/sda1         523248       4    523244   1% /boot/efi
+/dev/loop5         33152   33152         0 100% /snap/snapd/12398
+/dev/loop6         56832   56832         0 100% /snap/core18/2074
+/dev/loop7         66688   66688         0 100% /snap/gtk-common-themes/1515
+/dev/loop8         52224   52224         0 100% /snap/snap-store/547
+/dev/loop9        224256  224256         0 100% /snap/gnome-3-34-1804/72
+tmpfs             812336      28    812308   1% /run/user/1000
+/dev/sr0         2719744 2719744         0 100% /media/superuser/Ubuntu 20.04.1 LTS amd64
