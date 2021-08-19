@@ -38,6 +38,8 @@ B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/
 
 Gopi: https://github.com/bhagamgopi/github/blob/main/Employee_fun_manage.py
 
+Lakshmi T : https://github.com/Lakshmit1127/ERP-Project
+
 
 
 Fruit Shop:
@@ -75,3 +77,5 @@ Pooja SR :https://github.com/HaiPooja/Fruit_shop
 B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/fruits1_dict.py
 
 Gopi Bhagam :https://github.com/bhagamgopi/github/blob/main/fruit_shop_fun.py
+
+Lakshmi T : https://github.com/Lakshmit1127/Fruit-
