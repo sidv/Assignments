@@ -1,0 +1,38 @@
+1.Write a menu driven calculator modules and use that(Put calculation function in calc.py and import them in main.py)
+2.Write a menu driven code for file operations(Use modules,Take filename from users)
+	-Create file
+	-Write data to file(Any data)
+	-Delete data from file
+	-Read data from file
+	-Copy content of one file to another
+	-Find certain string inside a file
+	-Compare two files content and print unique content of both file
+3. Convert ERP project to modules
+	-Organization
+	-Employees ->search_emp,change_emp_data
+	-Teams ->members
+
+
+Projects Assignment:(Create modules)
+1.Console ERP project
+Implement using Class Object:
+	-Add Employee
+	-Delete Employee
+	-Search Employee
+		-search by name
+		-search by age
+		-search by salary
+		-search by gender
+	-Change Employee Data
+		=>Change name
+		=>change age
+		=>Change gender
+		=>change salary
+	-Display 
+
+Properties:Empid, Name,age,gender,place,salary,previous_company,joining_date
+Date format "21/04/2021" dd/mm/yyyy
+Modules: employee, search_emp,change_emp
+
+
+labtest link :https://docs.google.com/forms/d/e/1FAIpQLSfndE-6vxGQsD5ifQqaQv5k4fScsjmYf8s0h7mVduENMrEdHw/viewscore?viewscore=AE0zAgDVAFlfEs0ZumbqzCm-XjmJujttCjVGbvxgQRYXDOq42U8lTWxLSAxF8rgo7DffdUA
