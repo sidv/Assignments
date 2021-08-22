@@ -1,0 +1,40 @@
+In-Built_attributes:
+__dict__ -> Contains the dictionary of class namespace's
+__doc__ -> Its documentation in string format.
+__name__ -> class name
+__module__ -> Module name
+__bases__ -> Tuple of parent class
+
+In-Built functions:
+__add__ -> for add operation
+__eq__ -> equal to operation
+__gt__ -> greater than operation
+__len__ -> to use len() function
+__str__ -> to use str() function
+
+Iterators:
+
+Generators:
+
+
+_________________________________________________________________________
+Regular expressions:
+^ -> line starting with
+$ -> line ending with
+[] -> range
+| -> or
+. -> any character
+* -> zero or more occurance
++ -> one or more occurance
+() -> grouping
+\ -> for writing shortcuts/special symbols
+{} -> exact no of occurances 
+
+Functions:
+modulename.functionname()
+
+findall(pattern,string) -> returns list of all string matched with your pattern
+search(pattern,string) -> Retuns the match object
+sub(arg) -> replaces the matched string(with your pattern) replaces with the given string
+split(arg) -> Split the string with pattern seperator and returns list
+

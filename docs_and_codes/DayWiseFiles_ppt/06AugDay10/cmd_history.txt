@@ -1,0 +1,64 @@
+1851  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+ 1852  heroku
+ 1853  heroku login
+ 1854  ls
+ 1855  cp ../app_server/Dockerfile .
+ 1856  ls
+ 1857  nano Dockerfile 
+ 1858  nano server.py 
+ 1859  heroku container:login
+ 1860  newgrp docker
+ 1861  heroku container:login
+ 1862  nano Dockerfile 
+ 1863  rm requirements.txt 
+ 1864  nano Dockerfile 
+ 1865  heroku container:push web
+ 1866  heroku container:push web --app sidappserver
+ 1867  heroku container:release web 
+ 1868  heroku container:release web --app sidappserver
+ 1869  heroku open
+ 1870  heroku open --app sidappserver
+ 1871  cd ..
+ 1872  mkdir nodeapp
+ 1873  echo "# nodeapp" >> README.md
+ 1874  git init
+ 1875  git add README.md
+ 1876  git commit -m "first commit"
+ 1877  git branch -M main
+ 1878  git remote add origin https://github.com/sidv/nodeapp.git
+ 1879  git push -u origin main
+ 1880  cd nodeapp/
+ 1881  echo "# nodeapp" >> README.md
+ 1882  git init
+ 1883  git add README.md
+ 1884  git commit -m "first commit"
+ 1885  git branch -M main
+ 1886  git remote add origin https://github.com/sidv/nodeapp.git
+ 1887  git push -u origin main
+ 1888  git pull
+ 1889  git pull origin
+ 1890  git pull origin main
+ 1891  git push origin main
+ 1892  git fetch origin
+ 1893  git merge origin/main
+ 1894  git checkout main
+ 1895  ls
+ 1981  scp -i ~/sid.pem docker_install.sh ubuntu@18.222.215.30
+ 1982  scp -i ~/sid.pem docker_install.sh ubuntu@18.222.215.30:~/
+ 1983  ls
+ 1984  rm ubuntu@18.222.215.30 
+ 1985  ls
+ 1986  scp -i ~/sid.pem -r app_server/ ubuntu@18.222.215.30:~/
+ 1987  docker images
+ 1988  docker push nodeserver
+ 1989  ls
+ 1990  cd app_server/
+ 1991  ls
+ 1992  docker push sid45/app
+ 1993  docker push sid45/nodeserver:v1
+ 1994  docker tag nodeserver:v1 sid45/nodeserver:v1
+ 1995  docker push sid45/nodeserver:v1
+ 1996  docker images
+ 1997  scp sid.pem sid@192.168.1.11:~/
+ 1998  history 
+

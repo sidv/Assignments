@@ -1,0 +1,49 @@
+"Click Open link on the dialog shown by your browser"
+Note: Use above string in below questions.
+Write code in python
+1.Fetch "browser"
+2.Fetch "link"
+3.Convert Whole string to uppercase
+4.Convert whole string to lowercase
+5.Convert "Click" to upper case in string
+6.Convert "Open" and "browser" to upper case in string
+7.Print "Open link: in reverse order
+
+num="1,2,3,4,5,6,7,8,9"
+Note:Use num string in below questions:
+1.Print only numbers not comma
+2.Print all even numbers
+3.Fetch "1" and "5" from string and perform numerical addition
+4.Fetch "2" and "8" from string and perfrom numerical muliplication
+_______________________________________________________________________
+
+1.Write a code to find out which number is greater out of four number
+2.Write a code to print day of the week.
+3.Write a code to print table of given number.(Take input from user)
+4.Write a menu driven calculator, Addition,Substraction,Muliplication,Divison,Floor divison,Modulas(Try float values for all operation)
+5.Write a menu driven code to print table of given number for given range.
+
+Basics(Optional):
+1.Write a program to find even number
+2.Write a program to find odd number
+3.Write a program to check given string ends with "t" or not
+4.Write a program to check given string containes "iis" at the end or not.
+5.Write a program to print even number from 1 to 20
+6.Write a program to print odd number from 1 to 20
+
+
+num="1,2,3,4,5,6,7,8,9"
+Use above string in below questions:
+1.Perform addition of all numbers in the string
+2.Perform addition of all even number from string
+
+var="Click Open link on the dialog shown by your browser"
+3.Write a code to search substring in above string using while loop.(Take substring from user)
+
+
+
+
+
+
+
+

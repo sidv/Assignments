@@ -1,0 +1,39 @@
+cp /home/sid/linux_training/data2/a.txt /home/sid/linux_training/data1/
+ 2009  tree
+ 2010  cd data1
+ 2011  ls
+ 2012  cd ..
+ 2013  pwd
+ 2014  cd data1
+ 2015  pwd\
+ 2016  pwd
+ 2017  cd ..
+ 2018  mv /home/sid/linux_training/data2/b.txt /home/sid/linux_training/data1/
+ 2031  mv data1/b.txt data2
+ 2032  ls data1/
+ 2041  mkdir data1/data3
+ 2042  tree
+ 2043  mkdir data1/data3/data4
+ 2048  cd data1/data3/data4
+ 2053  mkdir ../../../data2/data5
+ 2054  cd ../../../
+ 2057  cd data2/data5
+ 2058  cp ../b.txt ../../data1/data3/data4/
+ 2059  cd ../../
+ 2060  tree
+ 2061  cd data2/data5/
+ 2062  ls
+ 2063  pwd
+ 2064  cp ../../data1/a.txt .
+ 2068  touch c.txt
+ 2069  ls
+ 2070  cp c.txt ../data1/data3/
+ 2071  ls
+ 2072  cp data5 ../data1/
+ 2073  cp -r data5 ../data1/
+ 2074  cd ../
+ 2075  tree
+ 2076  ls data1/data3/data4/
+ 2077  pwd
+ 2078  history 
+

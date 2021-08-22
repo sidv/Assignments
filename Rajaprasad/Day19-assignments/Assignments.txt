@@ -1,0 +1,21 @@
+1.Define a class named Circle which can be constructed by a radius.
+ The Circle class has a method which can compute the area.
+-Implement + operation (Perform addition of radius)
+-Implement documentation attribute(__doc__ attribute)
+-Implement string typecasting and print "The radius is ..value.."(__str__)
+
+
+2.Define a class named Rectangle which can be constructed by a length 
+and width. The Rectangle class has a method which can compute the area.
+-Implement + operation (Perform addition of length and width)
+-Implement documentation attribute(__doc__ attribute)
+-Implement string typecasting and print "The length is ..value.. and width is ..value.."(__str__)
+-Implement > operation(__gt__(self,other) and return true or false if area is greater or smaller)
+-Implement == operation(__eq__(self,other) and return true or false if area is equal or not)
+
+3.Define a class named Shape and its subclass Square. The Square class
+ has an init function which takes a length as argument. Both classes
+ have a area function which can print the area of the shape 
+where Shape's area is 0 by default.
+-Use math function to perform here calculation
+

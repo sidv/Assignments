@@ -1,0 +1,70 @@
+1.Create a directory sample
+2.Go inside  sample directory
+3.Create directory with your name
+4.Check the list of directories here
+5.Go outside of current directory
+
+6.Create data1->data2->data3->data4 directory
+7.Go to data4
+8.Create data5 dir inside data3
+9.Create a.txt,b.txt file inside data1
+10.Create c.txt d.txt file inside data5
+11.Go to data5
+12.Copy d.txt to data4
+13.Move c.txt to data4
+14.Copy a.txt to data3
+15.Move b.txt to data4
+
+16.Go to data4
+17.Move a.txt to data2
+18.Go to data1
+19.Copy data5 to data2
+20.Move data4 to data5
+
+21.Create bio.txt in data5 and write your name in it.
+22.Append your age to the bio.txt
+23.Store memory stats in file memory.txt (COmmand: free)
+24.Append disk stats to memory.txt (Command : df)
+
+25.Give executable permission to user only to memory.txt
+26.Only user should able to read and write the bio.txt.Group and others 
+can't do anything
+27.Create a file data.txt.And write your name inside it.
+28.Only user can edit the file. Group and others can read the file only
+29.Edit the data.txt and write your age inside it.
+
+30.Create Data1,Data2 and Data3 directory
+31.Give all permissions to all users on all three dir.
+32.Create a.txt,b,txt and c.txt in Data1,Data2 and Data3
+33.Give read and write and executables permisison to user only on a.txt
+34.Give read,write and executable permission to group only on b.txt
+35.Give read,write and executable permission to others only on c.txt.
+36.Rename c.txt to info.txt
+37.Write your name into info.txt
+38.Give read only permission to only user on Data1
+39.Change directory to Data1
+40.List content of Data1 directory
+41.Copy a.txt from Data1 to Data2
+42.Give executable only permisson to only user on Data2 
+43.Change directory to Data2
+44.List content of Data2 directory
+45.Copy b.txt from Data2 to Data3
+
+46. Create test user and add test to sudo,lp,lpadmin,audio,video
+47. Create test1 user with 2000 uid
+48. create test2 user with 1000 gid
+49. Set password for test,test1,test2
+50. login with test user and create bio.txt 
+51. Change permission to read and write for user and read for group only.
+52. Logout form test user
+53. try to write your name inside bio.txt
+54. Create user user1 using adduser command.
+
+
+
+
+
+
+
+
+

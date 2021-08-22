@@ -1,0 +1,32 @@
+Basics(optional):
+1.Write a code to print the Table of given number(Input from user) using for loop.
+2.Write a code to print even number using for loop in given range(Take range from user)
+3.Write a code to print odd number using for loop in given range(Take input from user)
+4.Write a code to print fibonnaci series( 1,1,2,3,5,8,13,21...) till 100.
+5.Write a code to check the given string is palindrome or not. (abba)
+6.Write a code to check wether a given number is divisible by the given number(Take both number from user)
+
+
+1.Start a mini project Console ERP system. Initialize git in this project.
+	-Add Employee
+	-Delete Employee
+	-Search Employee
+	-Change Employee Data
+	-Display 
+Notes for Q1:
+Output of display should be like
+1.Sid
+2.Bhargav
+3.Raja
+Check if user have entered or not(Check for None)
+
+Optional(Advanced)
+1.Create a small fruit shop software
+-Add fruit
+-Delete fruit by name
+-Search fruit by name and rate
+-Change fruit name and rate
+-Display
+Here store Fruit name and rate together in nested list
+[[Apple,10],[mango,20]]
+

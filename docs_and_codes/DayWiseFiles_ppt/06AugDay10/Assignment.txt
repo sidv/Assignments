@@ -1,0 +1,29 @@
+1. Write a docker file to create a python server
+Files: server.py,requirements.txt
+->Base Image: Python 3.9
+->Port 4000
+->Install library: pip install -r requirements.txt
+->launch command: python server.py
+Deploy on heroku
+
+2. Write a docker file to create a nodejs server
+Files: app.js,package.json
+->Base Image: node 14
+->Port 3000
+->Install library: npm install
+->launch command: node app.js
+Deploy on heroku
+
+3. Write a docker file to create a nodejs server
+Files: app.js,package.json
+Deploy on heroku using github
+
+
+4.UPload all your assignment to sidv/Assignments repo
+
+5.Download https://corgis-edu.github.io/corgis/datasets/csv/aids/aids.csv
+6.Write a shell script to find all records where Year is more than 2007(Use aids.csv)
+7.Write a shell script to find all records where Year is more than 2005 and Data.New HIV Infections.Adults is more than 10000
+8.Write a shell script to find all records where Data.New HIV Infections.All Ages is less than 100 and Data.New HIV Infections.Female Adults also less than 100
+10.Write a shell script to find country name where Data.People Living with HIV.Total is greater than 100000.
+

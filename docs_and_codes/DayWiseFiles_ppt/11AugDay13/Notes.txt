@@ -1,0 +1,185 @@
+Two types of language:
+Dynamic typed language:loosly typed language: No need to define data type and you can reassign variable with any other data type .Python,Javascript/Nodejs
+Strongly typed language:You cannot change the data type of a variable. C,Java,.Net,Go,Rust
+
+Use type() function to find the datatype of variable
+Data Type:
+int -> Integer
+str -> String
+float -> Decimal number like 10.3
+bool -> Boolean,Either True or False
+
+list -> List
+tuple -> Tuple
+
+None -> instance of NoneType
+_________________________________________________________________________
+More Operator:
+in -> If you want to find something inside object(String,List,etc) 
+is -> If you want to compare that object is equivalent to something or not
+not -> negation of above operator
+Difference between "is" operator and "=="
+is -> Compares memory address and data
+== -> Compares data
+a = "10"
+b = 10
+c = "Sid"
+if type(a) is int:
+        print("a is integer")
+if type(b) is int:
+        print("b is integer")
+if type(c) is str:
+        print("c is string")
+
+frnds = ["Siddhant","Anubhav","Shweta","Rajat"]
+if "Shweta" in frnds: # what_to_search in Where_to_search
+        print("Found her")
+else:
+        print("She is not in the frnds list")
+print("__________________________________________________________>
+
+for i in frnds: #i is variable which is pointing to frnds element>
+        print(i)
+if type(frnds) is not list:
+        print("Correct the data type! You code is wrong")
+
+if type(frnds) is not list:
+        print("Correct the data type! You code is wrong")
+
+_______________________________________________________________________________
+Literals : Constant values like 10 , sid , 20 ,10.2
+Variable: Memory location
+Identifier: Name pointing to memory location
+We store literals at memory location(variable) and identifiers points
+ to them.Identifiers is the Name of the memory location.
+
+How to find address of a variable?
+use id() function
+id
+
+->In Python,If you have same literal Number.
+Identifiers will point to same address location
+
+->Literal Number: If you assign new value to the identifier.It'll create new memory
+Identifier will point ot new memory
+
+->Literal Number: If you assign old value again.The identifier will point to old location
+because that literal is already in memory so no need to create new location
+
+-> Same mechanism for boolean(as Literal Number)
+
+-> String mechanism same as Number Literal
+
+For List:
+-> If you assign list identifier to new variable.Both identifer wil point to same location
+->If you are creating new variable with same data . It'll create new memory
+-> List is mutable
+
+__________________________________________________________________________
+List:
+->List is mutable
+students = [] #empty list
+
+List functions:
+
+How to user functions?
+listvariable.function(arg)
+
+append(data) -> Append at the end.
+insert(index,data) ->Insert at certain location
+clear() -> Remove all elements of List
+index(data) -> find the index of first occurance of data in list .ValueError If data is not there.If index is out of range then IndexError
+pop(index) -> If no argument Removes element from end.Otherwise removes from certain index and returns the removed element
+remove(data) ->If data is not in the list ValueError.otherwise it'll remove data from list and will not return anything
+reverse() -> Reverse the List
+sort(function) -> Retuns nothing.By default sorts by alphabet and in memory.Function is optional
+count(data) -> Returns count of that data in list
+copy() -> Get another copy of memory
+
+_______________________________________________________________________
+Format string:
+How to print string with data?
+-TypeConversion,Concatination
+-%Formatting
+-Format function
+-F string
+
+-> %Formatting:
+%s -> string
+%d -> integer
+%f -> float
+# %Formatting
+print("______________% formatting_______________________________")
+print("Hello %s!" % name)  #Hello Sid
+print("Today's Temperature is %d and humidity is %d" % (temp,humid))
+
+#Format function
+print("_____________Format functions_____________________________")
+print("Hello {}!".format(name)) #Hello sid!
+print("Today's Temperature is {} and Humidity is {}".format(temp,humid))
+print("Today's Temperatue is {1} and humidity is {0}".format(temp,humid))
+#F string
+print("__________________F string______________________________")
+print(f"Hello {name}!") #Hello sid!
+print(f"Hello {name.upper()}")
+print(F"Today's Temperature is {temp} and Humidity is {humid}")
+print(f"Today's Temperature is {temp * 100/20} and humidity is {humid * 0.12}")
+
+__________________________________________________________________________
+Tuple:
+x = (10,20)
+Tuple is immutable
+Tuple can contain hetrogenous data
+(10, 20, ('sid', 20), 'Neha', ['Sid', 20, 30])
+  0   1       2         3         4
+__________________________________________________________________________
+Functions:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

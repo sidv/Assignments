@@ -1,0 +1,26 @@
+1.Create dev branch and switch to dev branch.
+2.Create file name with your name.Commit
+3.Create branch name with your v416412 .Switch to this branch
+4.Create a script with name write_log.sh. Inside script dmesg >> log.txt.Commit
+5.Push the code to the server
+	git push origin dev
+	username: sid0308v@gmail.com
+	password : Sidver@123
+6.Switch to v416412 and push data to server.
+	git push origin v416412
+7.Create demo project folder and create a.txt,b.txt and c.txt in it
+8.Initialize git inside demo
+9.Add remote repo
+10.Push data to github
+
+11.Go to your shell script assignment folder.Initialize git .
+12.Create shell_script_assignment repo on github.com
+13.Push all your shell_script assignment to shell_script_assignment repo
+
+14.Fork sidv/process_cars 
+15.Clone forked project
+16.Add your name text file in the project
+17.Commit and push the project
+18.Create pull request
+
+

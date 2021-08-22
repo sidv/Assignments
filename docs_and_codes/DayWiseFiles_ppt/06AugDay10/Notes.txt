@@ -1,0 +1,34 @@
+Remote Access:
+ftp -> file sharing
+telnet -> Remote access.But not encrypted.
+ssh -> Remote access .Encrypted.Secure shell.
+ssh username@domain_name
+ssh username@ip
+ssh -i key.pem username@ip
+ssh -i path_to_key.pem username@domain_name
+
+Remote Copy data:
+scp  -i path_to_key_file -r sourccePath user@ip:path
+
+scp source username@ip:destination
+
+
+Deployment Methods:
+Container Method: You must have Dockerfile
+Github : Connect to your repo
+
+Heroku
+1.Create app
+2.Choose deployment method
+3.If its docker follow given steps
+	heroku login
+	heroku container:login
+	
+4.If its github simply connect repo
+
+AWS(Amazin web services):
+Region: Which region?
+Choose nearest region.Because distance matters over internet
+
+IaaS service:
+EC2 Instance: 
