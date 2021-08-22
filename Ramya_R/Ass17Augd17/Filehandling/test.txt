@@ -1,0 +1,1 @@
+Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support 

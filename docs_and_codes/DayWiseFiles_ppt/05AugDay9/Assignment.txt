@@ -1,0 +1,48 @@
+1. Write a docker file to create a python server
+Files: server.py,requirements.txt
+->Base Image: Python 3.9
+->Port 4000
+->Install library: pip install -r requirements.txt
+->launch command: python server.py
+
+2. Write a docker file to create a nodejs server
+Files: app.js,package.json
+->Base Image: node 14
+->Port 3000
+->Install library: npm install
+->launch command: node app.js
+
+3.Write a docker file to process airplanes data.
+Files. parseAirplanes.sh
+->Base Image: ubuntu
+->Instllation: apt-get update
+apt-get install -y wget
+wget https://corgis-edu.github.io/corgis/datasets/csv/airlines/airlines.csv
+->Launch command : ./parseAirplanes.sh
+
+4.Create a docker image of httpd (web server) image with your html files
+Files: index.html,register.html(All files in html folder)
+->base Image: httpd
+->Port: 80
+->Copy all files to /usr/local/apache2/htdocs/
+->No Launch command
+
+5.Create a docker image of nginx (web server) image with your html files
+Files: index.html,register.html,signup.html(All files in html folder)
+->base Image: nginx
+->Port: 80
+->Copy all files to /usr/share/nginx/html/
+->No Launch command
+
+6.Create a docker image of httpd (web server) image with your html files
+Files: index.html,register.html(All files in html folder)
+->base Image: httpd
+->Port: 80
+->Copy all files to /usr/local/apache2/htdocs/
+->working directory /usr/local/apache2/htdocs/
+->Create data folder
+->No Launch command
+Run container and map container data directory with your os folder
+Create data.txt inside os mapped folder and write your name in data.txt.
+
+

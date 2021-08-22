@@ -1,0 +1,60 @@
+Installation:
+sudo apt-get update
+sudo apt-get install git-all
+
+Setup:
+git config --list --show-origin
+git config --list
+COnfigure:
+Set Username
+git config --global user.name sid
+git config --global user.email sid0308v@gmail.com
+
+Change master branch name:
+git config --global init.defaultBranch main
+
+Check verison:
+git --version
+
+Project Setup:
+1.Initialize the git.Run this is project folder
+git init
+
+Optional step:
+Config git for project
+git config user.name sid
+git config user.email sid0308v@gmail.com
+
+2.Create some files
+
+3.Add them to staging area
+git add filename
+
+4.Commit change to branch
+git commit -m "Message"
+
+
+By default whenever it creates a branch
+Workflow
+1.Create files / MOdify files
+2.Add it to staging area/Index (using git add)
+3.Commit it to the branch
+
+Create a branch:
+git branch dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

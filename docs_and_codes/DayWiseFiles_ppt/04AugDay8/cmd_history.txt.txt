@@ -1,0 +1,77 @@
+44  mkdir nodereddata
+   45  ls
+   46  docker run -it -p 8080:8080 -n nodereddata:/data nodered/node-red
+   47* docker run -it -p 8080: -v nodereddata:/data nodered/node-red
+   48* docker run -it -p :1880 -v nodereddata:/data nodered/node-red
+   49  docker run -it -p 8080:1880 -n nodereddata:/data nodered/node-red
+   50  docker run -it -p 8080:1880 -v nodereddata:/data nodered/node-red
+   51  ls
+   52  cd nodereddata/
+   53  ls
+   54  cd ..
+   55  mkdir data
+   56  docker run -it ubuntu bash
+   57  docker run -it -v data:/home ubuntu bash
+   58  docker run -it -v /home/superuser/cloud_training/data:/home ubuntu bash
+   59  docker run -it -p 8080:1880 -v ~/cloud_training/nodereddata:/data nodered/node-red
+   60  docker run -it -v data:/home ubuntu bash
+   61  docker run -it -v ~/cloud_training/data:/home ubuntu bash
+   62  history 
+
+ 1999  docker ps
+ 2000  docker ps -a
+ 2001  docker
+ 2002  docker rmi httpd
+ 2003  docker rmi --force httpd
+ 2004  docker 
+ 2005  docker rmi hello-world
+ 2006  docker rmi --force hello-world
+ 2007  docker search restapi
+ 2008  docker search debian
+ 2009  docker
+ 2010  docker start d65b56d47caf
+ 2011  docker start --help
+ 2012  docker start -i d65b56d47caf
+ 2013  docker ps -
+ 2014  docker ps 
+ 2015  docker rm webserver
+ 2016  docker rmi https
+ 2017  docker rmi httpd
+ 2018  docker rmi --force httpd
+ 2019  docker
+ 2020  docker ps -a
+ 2021  docker stats
+ 2022  docker
+ 2023  docker image
+ 2024  docker image ls
+ 2025  docker image inspect ubuntu
+ 2026  docker login
+ 2027  history 
+
+1999  docker run -it nginx
+ 2000  docker run -it -p 8081:80 nginx
+ 2001  docker rename dreamy_lederberg nginx_serverrrrr
+ 2002  docker rename nginx_serverrrrr
+ 2003  docker rename nginx_serverrrrr nginx_server
+ 1999  docker pull hello-world
+ 2000  docker run hello-world
+ 2001  docker run -it ubuntu bash
+ 2002  ls
+ 2003  sudo systemctl stop docker.service 
+ 2004  sudo systemctl disable docker.service
+ 2005  sudo systemctl stop containerd.service 
+ 2006  sudo systemctl disable containerd.service 
+ 2007  sudo systemctl start containerd.service 
+ 2008  sudo systemctl start docker.service 
+ 2009  docker run -it https
+ 2010  docker run -it httpd
+ 2011  docker run -it -p 8080:80 httpd
+ 2012  docker ps -a
+ 2013  docker run -it -p 8080:80 httpd
+ 2014  docker ps -a
+ 2015  docker run --name webserver -it -p 8080:80 httpd
+ 2016* docker start -i webserver
+ 2017  docker run --name webserver -it -p 8080:80 httpd
+ 2018  history 
+
+

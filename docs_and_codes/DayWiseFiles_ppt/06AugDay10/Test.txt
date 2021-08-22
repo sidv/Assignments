@@ -1,0 +1,9 @@
+Download file from this url https://corgis-edu.github.io/corgis/datasets/csv/cancer/cancer.csv 
+
+Total Marks :10
+Note: 
+A.Upload file to this url https://forms.gle/m3uZMpxsE9F3uVky7
+B.Upload before 07 Aug 23:00PM
+
+
+1.Write a script to find all "State" where Total.Population is greater than 10000000 and total rate is greater than 200

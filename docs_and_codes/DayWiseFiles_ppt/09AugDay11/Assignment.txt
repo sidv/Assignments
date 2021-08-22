@@ -1,0 +1,97 @@
+Note: Ip address might change
+
+1.Login to my ec2 instance 
+Username:ubuntu
+IP:13.235.245.119
+Domain name:ec2-13-235-245-119.ap-south-1.compute.amazonaws.com
+Command to access:
+ssh -i Path_to_access.pem ubuntu@13.235.245.119
+example: ssh -i ~/access.pem ubuntu@13.235.245.119
+or
+ssh -i Path_to_access.pem ubuntu@ec2-13-235-245-119.ap-south-1.compute.amazonaws.com
+
+
+2.Create a directory with your name 
+Copy cloud_deploy directory to your name directory(Use scp)
+Syntax:
+scp -i access.pem cloud_deploy_folder_path ubuntu@13.235.245.119:~/your_name_directory
+
+example: scp -i ~/access.pem docker_install.sh ubuntu@18.222.215.30:~/
+
+
+3.Do the following question inside your name folder.(Do not use home directory)
+
+A. Write a docker file to create a python server
+Files: server.py,requirements.txt
+->Base Image: Python 3.9
+->Port 4000
+->Install library: pip install -r requirements.txt
+->launch command: python server.py
+For mapping to port follow port mapping with your name
+
+B. Write a docker file to create a nodejs server
+Files: app.js,package.json
+->Base Image: node 14
+->Port 3000
+->Install library: npm install
+->launch command: node app.js
+For mapping to port follow port mapping with your name
+
+C.Create a docker image of httpd (web server) image with your html files
+Files: index.html,register.html(All files in html folder)
+->base Image: httpd
+->Port: 80
+->Copy all files to /usr/local/apache2/htdocs/
+->No Launch command
+For mapping to port follow port mapping with your name
+
+D.Create a docker image of nginx (web server) image with your html files
+Files: index.html,register.html,signup.html(All files in html folder)
+->base Image: nginx
+->Port: 80
+->Copy all files to /usr/share/nginx/html/
+->No Launch command
+For mapping to port follow port mapping with your name
+
+
+
+4.Create calc folder.Go inside it.
+5.Initialize git in it.
+6.Write a python program to perfom multiplication.(Take input from user)
+7.Write a python program to perfom addition.(Take input from user)
+8.Create github repo 
+9.Push this calc repo to github
+
+10.Create shell_Practice folder.Intialize git in it.Go inside it
+11.Write a shell script to create 10 directories data1,data2,data3 and so on.
+12.Create shell script to create a.txt b.txt and c.txt inside each directory you created in Question 11.
+
+
+
+
+3005,8080,Ramya, Rachapalem
+3006,8081,Chandrashekar, Thanushree
+3007,8082,Buchapati Venkata, Bhargava Krishna
+3008,8083,Bhagam, Gopi
+3009,8084,Shanu, Abraham
+3010,8085,Rajabatthula, Durga Siva Prasad
+3011,8086,Sivaraman, Sachin
+3012,8087,Kaladharan, Bijith
+3013,8088,Gopal, Govind
+3014,8089,PS, ANANTHU
+3015,8090,Paikaray, Rajaprasad
+3016,8091,SABU, ANEENA
+3017,8092,SR, Pooja
+3018,8093,Thomas, Pavan
+3019,8094,R, Abhinav
+3020,8095,TK, Neethu
+3021,8096,PS, SUFAIL
+3022,8097,S, Anjitha
+3023,8098,VS, Athira
+3024,8099,PRAKASAN, GREESHMA
+3025,8060,Lakshmi Mol
+3026,8061,Lekshmi P
+
+
+
+

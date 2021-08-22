@@ -1,0 +1,26 @@
+Docker assignment:
+1.Pull debian image.Run it
+2.Pull apline image.Run it
+3.Pull mysql image.Run it
+4.Pull ubuntu image.Run it
+	->Map home directory of ubuntu image with your home directory
+	->Install tree inside it
+	->Install curl inside it
+	->Install wget inside it
+	->Download https://corgis-edu.github.io/corgis/datasets/csv/cars/cars.csv using wget in home directory
+	->Write a shell script in your os folder to filter out Identification.Make of cars
+
+5.Pull httpd(Apache) image.Run it(Its web server runs at 80 port by default)
+6.Pull nginx image.Run it(Its web server runs at 80 port by default)
+
+8.Clone https://github.com/sidv/Assignments repo
+9.Use main branch
+10.Create folder with your name(e.g siddhant_verma)
+11.Copy all your assignments into folder with your name
+12.Add and commit
+13.Push data to the github
+
+Optional:
+1.Pull poroko/flask-demo-app . Run it 
+
+

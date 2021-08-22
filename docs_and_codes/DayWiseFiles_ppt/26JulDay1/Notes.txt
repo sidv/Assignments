@@ -1,0 +1,325 @@
+Shortcuts:
+ctrl+l -> clear terminal
+
+Command Syntax:
+command arguments
+command options arguments
+Note: Options always start with  - or --
+Note: - stands for single letter option
+Note: -- stands for word option
+Note: Any file/dir starting with . is a hidden file.
+
+ls -> List Content(directory or files)
+options:
+-a -> all files
+-l -> long listing
+-t -> sort by time
+-r -> sort in reverese
+-h -> human readable format
+
+
+First letter in long listing:
+- -> file
+d -> directory
+l -> link
+c -> character device
+b -> block device
+
+pwd -> Present working directory
+For Linux:
+/home/superuser
+/ -> root directory
+/home/superuser
+
+For Windows:
+C:\Users\Default
+D:\MyFiles\
+
+mkdir -> make directory
+oprions
+-p -> create nested dir
+
+touch -> create empty files
+
+cd -> change dir
+e.g:
+cd dirname -> go inside folder
+cd .. -> go outside
+
+cp ->  Copy file or dir
+cp source_path destination_path
+To copy dir: Use -r
+cp -r source_path destination_path
+
+mv -> Move file or dir
+mv source_path destination_path
+
+mv oldfilename newfilename -> rename
+
+
+man -> Read manual of a command
+e.g man command
+
+apropos -> find command by keyword
+
+
+cat -> prints file on terminal
+tac -> prints file on terminal in reverse
+_______________________________________________________________
+Create file and write content:
+cat > filename
+Write your content over here
+Press Ctrl+d to enter EOF(End of file) character
+_______________________________________________________________
+Redirection Operator:
+Pass the output of a command to a file.
+Pass data from file to command.
+<,>,>>,<<
+<,> -> overwrite
+<<,>> -> append
+
+e.g:
+command redirection_operator filename
+ls > filename -> this will always overwrite data in file
+
+ls >> filename -> this will append
+_______________________________________________________________
+Permissions:
+r -> read
+w -> write
+x -> executable
+
+u -> user/owner
+g -> group
+o -> other
+
+Command :
+chmod 
+Syntax:
+chmod permissions file/dir
+
+rwxrwxrwx
+ u  g  o
+rw-r--r-- 
+u -> read,write
+g -> read
+o -> read
+
+
+chmod g+w file/dir
+chmod o-r file/dir
+chmod u+x file/dir
+chmod u-w file/dir
+chmod g+w,u+x file/dir
+
+Numerical Representation:
+r->4
+w->2
+x->1
+
+u->rw-  ->4+2=6
+g->r--  ->4
+o->r--  ->4
+
+chmod 644 file/dir
+
+u->rwx -> 6+2+1 =7
+g->rw- -> 4+2 =6
+o->--x -> 1
+
+chmod 764 file/dir
+
+Umask:
+Set default permissions:
+For file:
+default permission:666
+Umask:022
+
+u->6 ->rw  0 -  rw ->6
+g->6 ->rw  2 w  r  ->4
+o->6 ->rw  2 w  r  ->4
+
+For Dir:
+default permission:777
+Umask:022
+
+u->7 ->rwx  0 -  rwx ->7
+g->7 ->rwx  2 w  r-x ->5
+o->7 ->rwx  2 w  r-x ->5
+
+e.g
+u->6 ->rw  0 -  rw ->6
+g->6 ->rw  0 -  rw ->6
+o->6 ->rw  1 x  rw ->6
+
+
+Set umask from terminal:
+umask 001 -> this is temporary. Its for current terminal.
+For Permanent change Write in .bashrc
+__________________________________________________________________
+sudo -> command to get root privilege
+sudo command
+su -> login with certain user
+su - root -> login with root user
+su - test -> login with test user
+exit -> logout
+
+__________________________________________________________________
+User management:
+useradd -> to add new user
+userdel -> delete user
+usermod -> modify user
+adduser -> add new user. Its a script
+passwd -> set password for user
+
+Configuration files:
+/etc/passwd -> containes user details
+/etc/group -> containes group details
+/etc/shadow -> contanes password
+
+test -> username
+:x -> password in shadow
+:1001 -> User id
+:1001 -> group id
+:Description -> comment
+:/home/test -> home dir path
+:/bin/bash -> shell path
+
+
+Create User:
+useradd test
+
+create user with specific uid
+useradd -u 2000 test3
+
+create user with specific gid
+useradd -g 2002 test3
+
+create user without home dir
+useradd -M test3
+
+Create user with its comment
+useradd -c "Siddhant" sid
+
+Create user with custom shell
+useradd -s /bin/bash sid
+
+create user and add him to multiple groups
+useradd -G lp,lpadmin,audio sid
+
+Delete user:
+userdel test
+
+Modify user id
+usermod -u 2001 test3
+
+Modify user group id test3
+usermod -g 1000 test3
+
+Modify user with its comment
+usermod -c "Siddhant" sid
+
+Modify user with custom shell
+usermod -s /bin/bash sid
+
+Change username
+usermod -l newusername sid
+
+Using adduser command:
+adduser test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+ 1910  ls -l | tr -s " "
+ 1911  cd linux_training/
+ 1912  cat names.txt 
+ 1913  cat names.txt | grep '^si'
+ 1914  cat names.txt | grep '^si' | tr -s "d"
+ 1915  cat names.txt | grep '^si' | tr -s " "
+ 1916  ls -l
+ 1917  cat names.txt | grep '^si' | tr -s " "
+ 1918  ls -l | tr -s " "
+ 1919  tr --help
+ 1920  cat /etc/passwd
+ 1921  cat /etc/passwd 
+ 1922  cat /etc/passwd | cut -d":"
+ 1923  cat /etc/passwd | cut -d":" -f1
+ 1924  cat /etc/passwd | cut -d":" -f2
+ 1925  cat /etc/passwd | cut -d":" -f3
+ 1926  cat /etc/passwd | cut -d":" -f4
+ 1927  cat /etc/passwd | cut -d":" -f5
+ 1928  cat /etc/passwd | cut -d":" -f6
+ 1929  cat /etc/passwd | cut -d":" -f7
+ 1930  cat /etc/passwd | cut -d":" -f1,7
+ 1931  cat /etc/passwd | cut -d":" -f1,3
+ 1932  cat cars.csv 
+ 1933  cat cars.csv | cut -d"," -f1
+ 1934  cat cars.csv | cut -d"," -f2
+ 1935  cat cars.csv | cut -d"," -f3
+ 1936  cat cars.csv | cut -d"," -f4
+ 1937  cat cars.csv | cut -d"," -f5
+ 1938  cat cars.csv | cut -d"," -f6
+ 1939  cat cars.csv | cut -d"," -f7
+ 1940  cat cars.csv | cut -d"," -f8
+ 1941  cat cars.csv | cut -d"," -f1,7
+ 1942  cat cars.csv | cut -d"," -f1,2,6
+ 1943  cat cars.csv | cut -d"," -f1,2,5
+ 1944  cat /etc/passwd
+ 1945  cat /etc/passwd | cut -d":" -f1
+ 1946  cat /etc/passwd | cut -d":" -f2
+ 1947  cat /etc/passwd | cut -d":" -f3
+ 1948  cat /etc/passwd | cut -d":" -f4
+ 1949  cat /etc/passwd | cut -d":" -f5
+ 1950  cat /etc/passwd | cut -d":" -f6
+ 1951  cat /etc/passwd | cut -d":" -f7
+ 1952  cat /etc/passwd | cut -d":" -f1,7
+ 1953  cat /etc/passwd | cut -d":" -f1,7,2
+ 1954  cat /etc/passwd | cut -d":" -f1,7,3
+ 1955  cat /etc/passwd
+ 1956  ls -l
+ 1957  ls -l | cut -d" " -f1
+ 1958  ls -l | cut -d" " -f2
+ 1959  ls -l | cut -d" " -f3
+ 1960  ls -l | cut -d" " -f4
+ 1961  ls -l | cut -d" " -f5
+ 1962  ls -l | cut -d" " -f6
+ 1963  ls -l | cut -d" " -f7
+ 1964  ls -l | cut -d" " -f8
+ 1965  ls -l
+ 1966  ls -l | cut -d" " -f4
+ 1967  ls -l | cut -d" " -f5
+ 1968  ls -l | tr -s " "
+ 1969  ls -l | tr -s " " | cut -d" " -f1
+ 1970  ls -l | tr -s " " | cut -d" " -f2
+ 1971  ls -l | tr -s " " | cut -d" " -f3
+ 1972  ls -l | tr -s " " | cut -d" " -f4
+ 1973  ls -l | tr -s " " | cut -d" " -f5
+ 1974  ls -l | tr -s " " | cut -d" " -f6
+ 1975  ls -l | tr -s " " | cut -d" " -f7
+ 1976  ls -l | tr -s " " | cut -d" " -f8
+ 1977  ls -l | tr -s " " | cut -d" " -f9
+ 1978  ls -l | tr -s " " | cut -d" " -f1,9
+ 1979  ls -l | tr -s " " | cut -d" " -f1,9 | grep '^-' 
+ 1980  ls -l | tr -s " " | cut -d" " -f1,9 | grep '^d' 
+ 1981  ls -lh | tr -s " " | cut -d" " -f1,9 | grep '^d' 
+ 1982  ls -lh | tr -s " " | cut -d" " -f1,6,9 | grep '^d' 
+ 1983  ls -lh | tr -s " " | cut -d" " -f1,5,9 | grep '^d' 
+ 1984  ls -lh | tr -s " " | cut -d" " -f1,5,9 | grep '^-' 
+ 1985  cat cars.csv | cut -d"," -f5,10
+ 1986  cat cars.csv | cut -d"," -f5,10 | grep "Audi"
+ 1987  cat cars.csv | grep "All-wheel drive"|cut -d"," -f5,10 |
+ 1988  cat cars.csv | grep "All-wheel drive" |cut -d"," -f5,10 
+ 1989  cat cars.csv | grep "All-wheel drive" |cut -d"," -f5,10 | grep "Audi"
+ 1990  cat cars.csv 
+ 1991  cd linux_training/
+ 1992  cat cars.csv | cut -d"," -f5
+ 1993  cat cars.csv | cut -d"," -f5 | cut -d" " -f1
+ 1994  cat cars.csv | cut -d"," -f5 | cut -d" " -f1,2
+ 1995  history 
+ 1996  cd linux_training/shell_scripts/
+ 1997  ls
+ 1998  nano bulk_rename.sh 
+ 1999  nano backtick.sh
+ 2000  whoami
+ 2001  nano backtick.sh
+ 2002  date
+ 2003  nano backtick.sh
+ 2004  chmod +x backtick.sh 
+ 2005  ./backtick.sh 
+ 2006  nano bulk_rename.sh 
+ 2007  nano backtick.sh
+ 2008  nano bulk_rename.sh 
+ 2009  ./bulk_rename.sh 
+ 2010  ls data/
+ 2011  nano bulk_rename.sh 
+ 2012  nano remove_duplicate_lines.sh
+ 2013  ls
+ 2014  cd ..
+ 2015  cat cars.csv 
+ 2016  cat names.txt 
+ 2017  sort names.txt 
+ 2018  uniq names.txt 
+ 2019  sort names.txt | uniq
+ 2020  sort cars.csv | uniq 
+ 2021  sort cars.csv | uniq > data.txt
+ 2022  sort cars.csv | uniq | tee data.txt
+ 2023  sort cars.csv | uniq > data.txt
+ 2024  cd shell_scripts/
+ 2025  nano remove_duplicate_lines.sh 
+ 2026  who
+ 2027  history 
+sid@sid-laptop:~/linux_training/shell_scripts$ 
+
+
