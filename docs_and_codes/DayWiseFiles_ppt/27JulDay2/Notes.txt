@@ -1,0 +1,140 @@
+ u  g  o
+rwxrwxrwx
+rw-------
+
+chmod o+w filename/dir
+chmod u-x,g-rwx file/dir
+chmod o-rwx file/dir
+
+chmod 600 file/dir
+
+chmod 740 file/dir
+
+ u  g  o
+rw-rw-r--
+
+_______________________________________________________________________
+Create user with different shell:
+useradd -s /bin/bash username
+usermod -s /bin/bash username
+
+No login to user
+useradd -s /usr/sbin/nologin username
+usermod -s /use/sbin/nologin username
+
+Create user with different home directory:
+useradd -d /tmp/sid username
+usermod -d /tmp/sid username
+
+Create user without home different:
+useradd -M test10
+______________________________________________________________________
+Check groups of current user:
+Command:groups
+______________________________________________________________________
+Create group: 
+groupadd groupname
+
+Delete group:
+groupdel groupname
+____________________________________________________________________
+change group:
+chgrp groupname file/dir
+
+Change ownership:
+chown owner file/dir
+
+___________________________________________________________________
+Delete a file:
+rm filename
+
+Delete a directory:
+rm -rf dir
+__________________________________________________________________
+Misc. Commands:
+grep -> find pattern
+wc -> find no. of lines,words,chars
+more -> Read file with cursor. Cursor moves only forward.Press q
+less -> Read file with cursor. Cursor moves forward and backwards.Press q
+dmesg -> prints system log
+head -> print top of the file
+tail -> print bottom of the file
+
+__________________________________________________________________
+Wild card:
+* -> all occurance
+? -> single letter occurance
+__________________________________________________________________
+Editors:
+GUI:gedit,kate,pluma,featherpad,mousepad
+CLI:vi,nano
+__________________________________________________________________
+Pipes:
+Pass output of a command to another command.
+__________________________________________________________________
+regular expression:
+^ -> line starts with
+$ -> line ends with
+. -> any character
+* -> zero or more occurance
++ -> one or more occurance
+{} -> exact no. of occurance
+[] -> range
+| -> or
+() -> group
+
+/d -> only digit
+/D -> non digit
+/w -> alphabet,underscore,numbers [0-9a-z_]
+/W -> all special char except _(opposite of /w)
+/s -> white space
+/S -> non white space
+_______________________________________________________________
+grep options pattern
+-v -> invert the match
+-i -> ignore cases
+-n -> line number
+-c -> line count
+
+_______________________________________________________________
+ip -> print ip details
+ip addr -> print ip address
+ip address -> print ip address
+ip a -> print ip address
+_______________________________________________________________
+cut command:
+cut the data into columns based on seperator
+
+
+________________________________________________________________
+tr -> truncate
+tuncate the given character
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

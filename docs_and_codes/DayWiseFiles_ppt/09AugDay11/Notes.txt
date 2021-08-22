@@ -1,0 +1,78 @@
+If you are creating the project:
+git init
+Create files
+add and commit to master
+add remote repo(Empty)
+push
+
+1.If Remote Repo Not empty
+Clone
+Move your file to cloned folder
+Commit and Push
+
+3.git init in your project
+create files
+add and commit
+add remote repo
+fetch and merge to current branch or git pull
+push 
+
+______________________________________________________________
+Python:
+
+Python shell:
+Simple shell where you can write code line by line
+Start shell: python
+Exit shell:exit()
+Exit shell:ctrl+d
+
+Python File:
+Write whole code at a time and execute it at a time
+Use editors to write code
+Maintain indentation(Beacause White space matters in python)
+Use .py extension for file
+Execute: python filename.py
+
+Comment:
+# -> Single line comment
+e.g #this is comment
+No multiline comment in python
+
+
+Print statement:
+print("Hello")
+
+Variable:
+a = 10
+name = "Siddhant" 
+name = 'sid'
+String must be inside double quotes or single quotes
+
+a= 1.5
+How to use variables?
+Note:You must have defined the variable(Assigned something to the varible before using it.)
+Never start a variable name with numberor any special character except underscore _
+Python automatically find out variable data type
+print(a)
+print(name)
+
+Airthmatic operation:
++,-,/,*,%,//(floor division) , **(power)
+Comparison operator
+<,> (Comparison operator return true or false In other words boolean)
+
+Take input from user:
+input()
+e.g. a=input("Enter number")
+By Default input takes all input as string
+
+Typecasting:
+str() ->Convert anything to string
+e.g str(10)
+int() -> Convert string to number
+e.g int("20")
+
+
+
+
+

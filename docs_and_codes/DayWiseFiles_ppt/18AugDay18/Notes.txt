@@ -1,0 +1,53 @@
+Inheritance:
+Inherting properties(attributes and methods) of other class.
+
+Parent/base class: Genric class or have genric attributes
+Child/derived class: Add extra features(attributes) to the parent and create new class
+
+Inheritance is about "is-a" relationship
+
+e.g:
+cars -> sedan,SUV->main
+
+OOPs:
+Abstraction:Hide the implementation details
+Inheritance:Create parent and child class
+Encapsulation:Bindind attributes and methods inside object
+Polymorphism:Creating multiple form of methods in inheritance
+
+e.g:User -> Student,Faculty -> main
+
+Private variable:
+# __ double underscore variable are super private ,accessible only inside class
+# _ single underscore variable are partially private
+
+#Use __ underscore to create private attribute of class. Private attribute are not accessible outside class
+
+Polymorphism:
+Creating multiple forms of functions
+Method overriding: We can do. Redefining function of parent class in child class
+->If you call function by child class object, you are calling overrided method(method you wrote in child)
+
+Method overloading: No we cannot. Redefining the function is the same class
+
+______________________________________________________________________________________
+JSON:
+->It is simple data exchange format
+->It is string
+->Not programming language,Not data structure
+->Other exchange format XML,CSV
+{
+	"name":"Siddhant",
+	"age":10
+	"gender": "Male"
+}
+
+DataType: Number,String,boolean(True,false),null,Object,array
+Number: 10 -> int,float
+String: "Siddhant" ->Same
+Boolean: True -> Same
+None type of python : null -> None
+Object: {"name":"siddhant"} -> dictonary
+Array : [10,20,"sid"] -> List
+____________________________________________________________________________
+

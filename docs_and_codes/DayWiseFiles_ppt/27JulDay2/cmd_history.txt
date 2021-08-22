@@ -1,0 +1,347 @@
+58  sudo useradd -u 2000 test3
+   59  sudo useradd -g 2002 test4
+   60  sudo useradd -g 1002 test4
+   61  cat /etc/passwd
+   62  su - test3
+   63  sudo passwd test3
+   64  su - test3
+   65  sudo userdel test
+   66  cat /etc/passwd
+   67  sudo userdel test4
+   68  cat /etc/passwd
+   69  sudo usermod test5 test3
+   70  sudo usermod -l test5 test3
+   71  cat /etc/passwd
+   72  sudo useradd -aG lp,lpadmin test6
+   73  sudo useradd -G lp,lpadmin test6
+   74  cat /etc/passwd
+   75  cat /etc/group
+   76  sudo adduser test4
+   77  history 
+   78  useradd test
+   79  sudo useradd test
+   80  cat /etc/passwd
+   81  su - test
+   82  sudo passwd test
+   83  su - test
+   84  sudo adduser test8
+   85  cat /etc/group
+   86  cat /etc/passwd
+   87  su - test
+   88  sudo usermod -s /bin/bash test
+   89  cat /etc/passwd
+   90  su - test
+   91  su - test1
+   92  sudo passwd test1
+   93  su - test1
+   94  sudo usermod -s /usr/bin/nologin test1
+   95  su - test1
+   96  cat /etc/passwd
+   97  sudo usermod -s /usr/sbin/nologin test1
+   98  su - test1
+   99  sudo useradd -m /tmp/sid test9
+  100  sudo useradd -d /tmp/sid test9
+  101  cat /etc/passwd
+  102  man useradd
+  103  sudo useradd -M test10
+  104  cat /etc/group
+  105  groups
+  106  sudo cat /etc/shadow
+  107  sudo useradd -s /bin/bash sid
+  108  sudo passwd sid
+  109  su - sid
+  110  sudo usermod -s /usr/sbin/nologin sid
+  111  su - sid
+  112  cat /etc/passwd
+  113  sudo userdel test1
+  114  sudo userdel test5
+  115  sudo userdel test6
+  116  sudo userdel test4
+  117  sudo userdel test
+  118  sudo userdel test8
+  119  sudo userdel test9
+  120* 
+  121  sudo userdel sid
+  122  cat /etc/passwd
+  123  sudo adduser test1
+  124  sudo adduser test2
+  125  sudo adduser test3
+  126  sudo adduser test4
+  127  cat /etc/passwd
+  128  touch data.txt
+  129  ls -l
+  130  cat /etc/groups
+  131  cat /etc/group
+  132  su - test1
+  133  sudo usermod -G superuser test1
+  134  sudo usermod -G superuser test2
+  135  cat /etc/group
+  136  su - test2
+  137  cat /etc/group
+  138  su - test4
+  139  sudo groupadd monitoring
+  140  cat /etc/passwd
+  141  cat /etc/group
+  142  ls
+  143  mkdir projects
+  144  ls -l
+  145  chgrp monitoring projects
+  146  sudo chgrp monitoring projects
+  147  ls -l
+  148  sudo usermod -G monitoring test1
+  149  sudo usermod -G monitoring test4
+  150  chmod 760 projects
+  151  ls -l
+  152  chmod 750 projects
+  153  ls -l
+  154  chown test4 data.txt
+  155  sudo chown test4 data.txt
+  156  ls -l
+  157  rm data.txt
+  158  ls -l
+  159  history 
+  160  nano cmd_history.txt
+  161  history 
+
+
+1889  ls .*
+ 1890  ls 
+ 1891  ls -a
+ 1892  ls .*
+ 1893  man ls
+ 1894  ls -A
+ 1895  ls -A .*
+ 1896  ls .*
+ 1897  ls .?*
+ 1898  ls .??*
+ 1899  ls
+ 1900  ls | grep data
+ 1901  ls 
+ 1902  ls | grep data
+ 1903  cat new_file.txt 
+ 1904  cat new_file.txt | grep data
+ 1905  cat new_file.txt | grep a
+ 1906  cat new_file.txt | grep dev
+ 1907  cat new_file.txt | grep dev > mydata.txt
+ 1908  cat new_file.txt | grep dev 
+ 1909  cat new_file.txt | grep dev |wc
+ 1910  cat new_file.txt | grep dev | wc -l
+ 1911  ls 
+ 1912  ls -l
+ 1913  ls -l | grep ^-
+ 1914  ls -l | grep ^- |wc
+ 1915  ls -l | grep ^- |wc -l
+ 1916  ls -l | grep ^d |wc -l
+ 1917  cat /var/log/kern.log
+ 1918  cat /var/log/kern.log | wc
+ 1919  cat /var/log/kern.log | wc -l
+ 1920  cat /var/log/kern.log |  grep error 
+ 1921  ls
+ 1922  dmesg
+ 1923  dmesg | wc
+ 1924  dmesg > log.txt
+ 1925  ls
+ 1926  ls > file_list.txt
+ 1927  cat file_list.txt 
+ 1928  free
+ 1929  free > file_list.txt 
+ 1930  cat file_list.txt 
+ 1931  free >> file_list.txt 
+ 1932  cat file_list.txt 
+ 1933  df
+ 1934  pwd
+ 1935  ls
+ 1936  dmesg
+ 1937  dmesg > log.txt
+ 1938  cat log.txt 
+ 1939  more log.txt 
+ 1940  less log.txt 
+ 1941  dmesg
+ 1942  dmesg | grep error
+ 1943  dmesg | grep error | less
+ 1944  lspci
+ 1945  lspci | grep wifi
+ 1946  lspci | grep wireless
+ 1947  lspci | grep -i wireless
+ 1948  cat log.txt 
+ 1949  cat log.txt | head
+ 1950  cat log.txt | tail
+ 1951  cat log.txt | tail -n5
+ 1952  cat log.txt | tail -n 5
+ 1953  cat log.txt | head -n 5
+ 1954  cat log.txt | tail -n 4
+ 1955  cat log.txt | tail -n 4 | head -n 1
+ 1956  cat log.txt | head -n 20
+ 1957  cat log.txt | head -n 20 | tail -n 10
+ 1958  cat log.txt | head -n 20 | tail -n 10 
+ 1959  cat log.txt | head -n 20 | tail -n 10 > new_log.txt
+ 1960  cat new_log.txt 
+ 1961  ls
+ 1962  nano names.txt
+ 1963  cat names.txt 
+ 1964  cat names.txt | grep '^s'
+ 1965  cat names.txt | grep '^si'
+ 1966  cat names.txt | grep '^sid'
+ 1967  cat names.txt | grep '^sid' | wc
+ 1968  cat names.txt | grep '^sid' | wc -l
+ 1969  cat names.txt | grep '^sid'
+ 1970  cat names.txt | grep '^s.'
+ 1971  cat names.txt | grep '^p'
+ 1972  cat names.txt | grep '^p.'
+ 1973  cat names.txt | grep '^r'
+ 1974  cat names.txt | grep '^ra.'
+ 1975  cat names.txt | grep '^si.'
+ 1976  cat names.txt | grep '^sid'
+ 1977  cat names.txt | grep '^sid*'
+ 1978  cat names.txt | grep '^sid+'
+ 1979  cat names.txt | grep '^sid'
+ 1980  cat names.txt | grep '^sid*'
+ 1981  cat names.txt | grep '^sid+'
+ 1982  cat names.txt | grep '^sid\+'
+ 1983  cat names.txt | grep -P '^sid+'
+ 1984  cat names.txt | grep -P '^sid*'
+ 1985  cat names.txt | grep -P '^sid+'
+ 1986  cat names.txt | grep -P '^sid.'
+ 1987  cat names.txt | grep -P '^si.'
+ 1988  cat names.txt | grep -P '^si.*'
+ 1989  cat names.txt | grep -P '^si.*t$'
+ 1990  cat names.txt | grep -P '^sid.*t$'
+ 1991  cat names.txt | grep -P '^sid.*'
+ 1992  cat names.txt | grep -P '^s.*'
+ 1993  cat names.txt | grep -P '^s.*t$'
+ 1994  cat names.txt | grep -P '^s.*n$'
+ 1995  cat names.txt | grep -P '^s.*u$'
+ 1996  history 
+
+
+1998  cat names.txt | grep -P 'sid{2}'
+ 1999  cat names.txt | grep  'sid\{2\}'
+ 2000  cat names.txt | grep -P 'sid{2}'
+ 2001  cat names.txt | grep -P '^r[a-f]'
+ 2002  cat names.txt | grep -P '^ra[f-z]'
+ 2003  cat names.txt | grep -P '^ra[f-j]'
+ 2004  cat names.txt | grep -P '^ra[f-s]'
+ 2005  cat names.txt | grep -P '^si[a-f]'
+ 2006  cat names.txt | grep -P '^si[a-f][2-8]'
+ 2007* cat names.txt | grep -P '^si[a-f]*'
+ 2008  cat names.txt | grep -P '^si[a-f][2-8].*'
+ 2009  cat names.txt | grep -P '^ra[m|j]'
+ 2010  cat names.txt | grep -P '^ra.*'
+ 2011  cat names.txt | grep -P '^ra[m|j]+'
+ 2012  cat names.txt | grep -P '^s(id)*'
+ 2013* cat names.txt | grep -P 
+ 2014  cat names.txt | grep -P '^ra[m|j]+'
+ 2015  cat names.txt | grep -P '^ra[m|j]+' | wc
+ 2016  cat names.txt | grep -P '^ra[m|j]+' | wc -l
+ 2017  cat names.txt | grep -vP '^ra[m|j]+' 
+ 2018  cat names.txt | grep -iP '^ra[m|j]+' 
+ 2019  cat names.txt | grep -inP '^ra[m|j]+' 
+ 2020  cat names.txt | grep -icP '^ra[m|j]+' 
+ 2021  cat log.txt 
+ 2022  cat log.txt | grep 'CPU[0-4]'
+ 2023  ip a
+ 2024  ip a | grep inet
+ 2025  ip a wlo1 | grep inet
+ 2026  ip a dev wlo1 | grep inet
+ 2027  ip address help
+ 2028  ip a show wlo1
+ 2029  ip a show wlo1 |grep inet
+ 2030  ip a show wlo1 |grep -P 'inet '
+ 2031  ip a show wlo1 |grep -P 'inet ' | tr -s " "
+ 2032  ip a show wlo1 |grep -P 'inet ' | tr -s " "| cut -d" " -f3
+ 2033  ip a show wlo1 |grep -P 'inet ' | tr -s " "| cut -d" " -f3 | cut =d"/" -f1
+ 2034  ip a show wlo1 |grep -P 'inet ' | tr -s " "| cut -d" " -f3 | cut d"/" -f1
+ 2035  ip a show wlo1 |grep -P 'inet ' | tr -s " "| cut -d" " -f3 | cut -d"/" -f1
+ 2036  ip a show wlo1 |grep -P 'inet ' | tr -s " "| cut -d" " -f3 | cut -d"/" -f1 
+ 2037  cat cars.csv \
+ 2038  cat cars.csv 
+ 2039  cat cars.csv | grep "Audi"
+ 2040  history 
+1916  ls -l | tr -s " "
+ 1917  cd linux_training/
+ 1918  cat names.txt 
+ 1919  cat names.txt | grep '^si'
+ 1920  cat names.txt | grep '^si' | tr -s "d"
+ 1921  cat names.txt | grep '^si' | tr -s " "
+ 1922  ls -l
+ 1923  cat names.txt | grep '^si' | tr -s " "
+ 1924  ls -l | tr -s " "
+ 1925  tr --help
+ 1926  cat /etc/passwd
+ 1927  cat /etc/passwd 
+ 1928  cat /etc/passwd | cut -d":"
+ 1929  cat /etc/passwd | cut -d":" -f1
+ 1930  cat /etc/passwd | cut -d":" -f2
+ 1931  cat /etc/passwd | cut -d":" -f3
+ 1932  cat /etc/passwd | cut -d":" -f4
+ 1933  cat /etc/passwd | cut -d":" -f5
+ 1934  cat /etc/passwd | cut -d":" -f6
+ 1935  cat /etc/passwd | cut -d":" -f7
+ 1936  cat /etc/passwd | cut -d":" -f1,7
+ 1937  cat /etc/passwd | cut -d":" -f1,3
+ 1938  cat cars.csv 
+ 1939  cat cars.csv | cut -d"," -f1
+ 1940  cat cars.csv | cut -d"," -f2
+ 1941  cat cars.csv | cut -d"," -f3
+ 1942  cat cars.csv | cut -d"," -f4
+ 1943  cat cars.csv | cut -d"," -f5
+ 1944  cat cars.csv | cut -d"," -f6
+ 1945  cat cars.csv | cut -d"," -f7
+ 1946  cat cars.csv | cut -d"," -f8
+ 1947  cat cars.csv | cut -d"," -f1,7
+ 1948  cat cars.csv | cut -d"," -f1,2,6
+ 1949  cat cars.csv | cut -d"," -f1,2,5
+ 1950  cat /etc/passwd
+ 1951  cat /etc/passwd | cut -d":" -f1
+ 1952  cat /etc/passwd | cut -d":" -f2
+ 1953  cat /etc/passwd | cut -d":" -f3
+ 1954  cat /etc/passwd | cut -d":" -f4
+ 1955  cat /etc/passwd | cut -d":" -f5
+ 1956  cat /etc/passwd | cut -d":" -f6
+ 1957  cat /etc/passwd | cut -d":" -f7
+ 1958  cat /etc/passwd | cut -d":" -f1,7
+ 1959  cat /etc/passwd | cut -d":" -f1,7,2
+ 1960  cat /etc/passwd | cut -d":" -f1,7,3
+ 1961  cat /etc/passwd
+ 1962  ls -l
+ 1963  ls -l | cut -d" " -f1
+ 1964  ls -l | cut -d" " -f2
+ 1965  ls -l | cut -d" " -f3
+ 1966  ls -l | cut -d" " -f4
+ 1967  ls -l | cut -d" " -f5
+ 1968  ls -l | cut -d" " -f6
+ 1969  ls -l | cut -d" " -f7
+ 1970  ls -l | cut -d" " -f8
+ 1971  ls -l
+ 1972  ls -l | cut -d" " -f4
+ 1973  ls -l | cut -d" " -f5
+ 1974  ls -l | tr -s " "
+ 1975  ls -l | tr -s " " | cut -d" " -f1
+ 1976  ls -l | tr -s " " | cut -d" " -f2
+ 1977  ls -l | tr -s " " | cut -d" " -f3
+ 1978  ls -l | tr -s " " | cut -d" " -f4
+ 1979  ls -l | tr -s " " | cut -d" " -f5
+ 1980  ls -l | tr -s " " | cut -d" " -f6
+ 1981  ls -l | tr -s " " | cut -d" " -f7
+ 1982  ls -l | tr -s " " | cut -d" " -f8
+ 1983  ls -l | tr -s " " | cut -d" " -f9
+ 1984  ls -l | tr -s " " | cut -d" " -f1,9
+ 1985  ls -l | tr -s " " | cut -d" " -f1,9 | grep '^-' 
+ 1986  ls -l | tr -s " " | cut -d" " -f1,9 | grep '^d' 
+ 1987  ls -lh | tr -s " " | cut -d" " -f1,9 | grep '^d' 
+ 1988  ls -lh | tr -s " " | cut -d" " -f1,6,9 | grep '^d' 
+ 1989  ls -lh | tr -s " " | cut -d" " -f1,5,9 | grep '^d' 
+ 1990  ls -lh | tr -s " " | cut -d" " -f1,5,9 | grep '^-' 
+ 1991  cat cars.csv | cut -d"," -f5,10
+ 1992  cat cars.csv | cut -d"," -f5,10 | grep "Audi"
+ 1993  cat cars.csv | grep "All-wheel drive"|cut -d"," -f5,10 |
+ 1994  cat cars.csv | grep "All-wheel drive" |cut -d"," -f5,10 
+ 1995  cat cars.csv | grep "All-wheel drive" |cut -d"," -f5,10 | grep "Audi"
+ 1996  cat cars.csv 
+ 1997  cd linux_training/
+ 1998  cat cars.csv | cut -d"," -f5
+ 1999  cat cars.csv | cut -d"," -f5 | cut -d" " -f1
+ 2000  cat cars.csv | cut -d"," -f5 | cut -d" " -f1,2
+ 2001  history 
+
+
