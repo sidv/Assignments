@@ -1,0 +1,9 @@
+
+f=open("string.txt","r")
+r=f.read()
+f.close()
+data=r.split()
+#print(data)
+for i in  data:
+    print(i[0])
+

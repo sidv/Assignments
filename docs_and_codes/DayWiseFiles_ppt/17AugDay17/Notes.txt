@@ -1,0 +1,73 @@
+Lambda functions:
+refer lambda_sort.py
+refer nested_lambda.py
+
+Modules:
+-> Code reusabilty
+-> Easy maintainence
+-> Multiple developer can work parallel
+-> Easy to debug
+-> Portability of part of code
+
+How to use module?
+import modulename
+e.g: import os
+e.g: import sys
+
+Steps to create module:
+-create file with modulename.py
+-write functions and variable in it.(Use functions and varaibles in main code )
+-import the modulename in main code
+-use functions and variables with modulename.functions and variables by modulename.variable
+
+refer learn_modules.py
+___________________________________________________________________________
+Object Oriented Programming:
+-> Implements concept in class and object form
+-> Class is a blueprint(skeleton)
+-> Object is a instance of class
+-> Object resides in memory
+-> Access object through its variable
+
+Benefits:
+->Code reusability
+->Encapsulation
+->Polymorphism
+ 
+Class object:
+-> Class is a blueprint(skeleton)
+-> Object is a instance of class
+-> Object resides in memory
+-> Access object through its variable
+
+->Variable are called atttibutes
+->Functions inside object called methods
+
+Syntax: #Creating class
+class Classname: #Generally Write classname first letter upper case
+        variables=0
+        another_var = ""
+        def ___init___():
+                statements
+        def another_func():
+                statements
+
+object = Classname() #Creating object
+st1.eval_grade() #syntax to call function object.method()
+st1.var #syntax to call attribute object.attribute
+
+Constructor:
+->Afer allocation memory for object,Class automatically executes __init__ function
+->__init__() is constructor
+->Mostly initialilization of attributes
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+1.For All:: Create repo with your name. 
+And create dev branch.Add data.txt and script.sh to it.
+Put the repo url in the chatbox
+
+2.Each group is a team.
+Other member(Except first member of group) fork the repo of first member.
+And create a file with their name in it.And commit and push.
+Create pull request.
+First member will merge the request
+
+3.Member(Except second member of group) fork the repo of second member.
+And create a file with their name in it.And commit and push.
+Create pull request.
+second member will merge the request
+
+Group 1
+Rajaprasad Paikaray, Lekshmi R Pillai,Athira V S ,Govind Gopal
+
+Group 2
+B V Bhargava Krishna ,Abhinav Karthik R ,Thanushree ,Shanu Susan Abraham ,Gopi Bhagam
+
+Group 3
+Durga Siva prasad Rajabatthula ,Sufail Ps ,sachin sivaraman ,Neethu TK ,Greeshma Prakasan
+
+Group 4 
+Ramya Rachapalem ,Aneena Sabu ,Ananthu P S ,Lakshmi Thankachan
+
+Group 5
+POOJA SR,Anjitha, Bijith Kaladharan,Pavan Precious Thomas
+
+

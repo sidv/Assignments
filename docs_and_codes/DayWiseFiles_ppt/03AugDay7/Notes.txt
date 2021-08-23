@@ -1,0 +1,42 @@
+Git setup(After installation):
+git config --global user.name Siddhant
+git config --global user.email sid0308v@gmail.com
+
+
+You are starting the project
+->Initialize git::git init
+->Create repo on server::Create repo on github.com 
+->Add remote origin to your project::git remote add origin url_of_repo
+->WOrk on your project::
+	-->Create files Modify files
+	-->Create branch ::git branch dev
+	-->Add to staging area and Commit
+	-->Push to repo
+
+Other developer(First time):
+-->Clone the project from repo::git clone url_of_repo
+-->(First time )If dev or another branch is on server create tracking branch for dev::git checkout --track origin/branchname
+
+
+Other developer:
+-->checkout your branch:: git checkout branchname
+-->Create or modify the code
+-->Add to staging area and commit
+-->(optional)Developer can create branch depends on scenario ::git branch test
+(-->For sync with remote remote repo:: git fetch origin
+-->Merge with your local branch:: git merge origin/branchname)
+or
+(-->Pull changes from server:: git pull)
+-->Push the changes to server
+
+Simplified steps::Other developer (Not first time):
+-->checkout your branch:: git checkout branchname
+-->create and modify code ::
+-->Add to staging area and commit:: git add . && git commit -m "Message"
+-->Git pull to fetch changes:: git pull or git fetch origin && git merge origin/branch
+-->Push the changes to server:: git push origin branchname
+
+
+
+
+

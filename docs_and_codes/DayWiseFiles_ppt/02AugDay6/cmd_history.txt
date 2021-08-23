@@ -1,0 +1,232 @@
+ 2014  git ls-remote
+ 2015  git remote show origin
+ 2016  git checkout develop
+ 2017* git clone https://github.com/vishu978/Abnormal-Activity-Detection
+ 2018  cd ..
+ 2019  git clone https://github.com/vishu978/Abnormal-Activity-Detection
+ 2020  ls
+ 2021  cd Abnormal-Activity-Detection/
+ 2022  ls
+ 2023  git remote show origin
+ 2024  cd ..
+ 2025  cd process_cars/
+ 2026  ls
+ 2027  cd ..
+ 2028  cd  linux_training/
+ 2029  ls
+ 2030  cd shell_scripts/
+ 2031  ls
+ 2032  git init
+ 2033  git add .
+ 2034  git commit -m "My Shell scripts"
+ 2035  ls
+ 2036  git branch dev
+ 2037  git add .
+ 2038  git switch dev
+ 2039  touch a.txt
+ 2040  git add .
+ 2041  git checkout dev
+ 2042  git add .
+ 2043  git commit -m "Commiting to dev"
+ 2044  git remote show origin
+ 2045  ls
+ 2046  cd ../../learn_git/
+ 2047  ls
+ 2048  cd python-hello/
+ 2049  ls
+ 2050  git remote show origin
+ 2051  git checkout master
+ 2052  git checkout origin/master
+ 2053  ls
+ 2054  nano data.txt
+ 2055  nano script.sh
+ 2056  git remote show origin
+ 2057  git checkout master
+ 2058  git add .
+ 2059  git commit -m "Added shell script scrip.sh"
+ 2060  git checkout master
+ 2061  git remote show origin
+ 2062  git log
+ 2063  git log --online --decorate
+ 2064  git log --oneline --decorate
+ 2065  touch a.txt b.txt
+ 2066  nano a.txt 
+ 2067  git add .
+ 2068  git commit -m "Added content to a.txt"
+ 2069  git log --oneline --decorate
+ 2070  git checkout master
+ 2071  git fetch origin
+ 2072  git log --oneline --decorate
+ 2073  git switch origin/master
+ 2074  git checkout origin/master
+ 2075  ls
+ 2076  git checkout master
+ 2077  ls
+ 2078  git checkout origin/master
+ 2079  ls
+ 2080  cat newfile.txt 
+ 2081  git log --oneline --decorate
+ 2082  git log
+ 2083  git checkout master
+ 2084  git merge origin/master
+ 2085  ls
+ 2086  git checkout origin/master
+ 2087  ls
+ 2088  git checkout master
+ 2089  ls
+ 2090  git log --oneline --decorate
+ 2091  git log
+ 2092  git checkout master
+ 2093  git branch dev
+ 2094  git checkout dev
+ 2095  df >> memory.txt
+ 2096  git add .
+ 2097  git commit -m "Added memory details in memory.txt"
+ 2098  git log --oneline --decorate
+ 2099  ls
+ 2100  git checkout master
+ 2101  ld
+ 2102  ls
+ 2103  git merge dev
+ 2104  ls
+ 2105  git log --oneline --decorate
+ 2106  touch data2.txt
+ 2107  ls
+ 2108  git add .
+ 2109  git commit -m "Added data2.txt"
+ 2110  git log --oneline --decorate
+ 2111  git long
+ 2112  git log
+ 2113  git log --oneline
+ 2114  git log --oneline 
+ 2115  ls
+ 2116  git fetch origin
+ 2117  git log
+ 2118  git log --online
+ 2119  git log --oneline
+ 2120  git branch test
+ 2121  git checkout test
+ 2122  git merge origin/master
+ 2123  fg
+ 2124  ls
+ 2125  git checkout master
+ 2126  ls
+ 2127  git checkout test
+ 2128  ls
+ 2129  nano script.sh 
+ 2130  nano script1.sh
+ 2131  chmod +x script1.sh 
+ 2132  ./script1.sh 
+ 2133  git add .
+ 2134  git commit -m "Added script1.sh file"
+ 2135  ls
+ 2136  git checkout master
+ 2137  git merge test
+ 2138  git log --oneline
+ 2139  git checkout master
+ 2140  git remote show origin
+ 2141  git push origin 
+ 2142  git checkout dev
+ 2143  git push origin dev
+ 2144  ls
+ 2145  git checkout dev
+ 2146  touch sid.txt
+ 2147  git add .
+ 2148  git commit -m "Added sid.txt"
+ 2149  git push origin dev
+ 2150  git fetch origin/dev
+ 2151  git fetch origin
+ 2152  git push origin dev
+ 2153  ls
+ 2154  git merge orgin/dev
+ 2155  git merge origin/dev
+ 2156  ls
+ 2157  git push origin dev
+ 2158  git fetch origin
+ 2159  git remote origin show
+ 2160  git remote show origin 
+ 2161  ls
+ 2162  git checkout dev
+ 2163  git fetch origin
+ 2164  git checkout origin/dev
+ 2165  ls
+ 2166  git fetch origin
+ 2167  git remote show origin
+ 2168  git checkout -b v416412 origin/v416412
+ 2169  ls
+ 2170  git checkout -b v185386 origin/v185386
+ 2171  ls
+ 2172  git fetch origin
+ 2173  ls
+ 2174  git log --online
+ 2175  git log --oneline
+ 2176  git pull
+ 2177  ls
+ 2178  git checkout --track origin/v184537
+ 2179  git branch -vv
+ 2180  git remote show origin
+ 2181  git branch v146420
+ 2182  git checkout v146420
+ 2183  ls
+ 2184  git log --online
+ 2185  git log --oneline
+ 2186  git checkout v146420
+ 2187  ls
+ 2188  git checkout --track origin/v183005
+ 2189  ls
+ 2190  git push origin --delete develop
+ 2191  cd ..
+ 2192  cd ../linux_training/
+ 2193  ls
+ 2194  cd shell_scripts/
+ 2195  ls
+ 2196  git init
+ 2197  git add .
+ 2198  git commit -m "All shell scripts"
+ 2199  git checkout master
+ 2200  git add .
+ 2201  git commit -m "All shell scripts"
+ 2202  git remote add origin https://github.com/sidv/shell_script.git
+ 2203  git push origin master
+ 2204  cd ..
+ 2205  ls
+ 2206  cd ..
+ 2207  ls
+ 2208  cd learn_git/
+ 2209  ls
+ 2210  cd process_cars/
+ 2211  git remote add https://github.com/sidv/process_cars.git
+ 2212  git remote add origin https://github.com/sidv/process_cars.git
+ 2213  git remote remove origin
+ 2214  git remote add origin https://github.com/sidv/process_cars.git
+ 2215  git push orgin master
+ 2216  git push origin master
+ 2217  history 
+
+ 1998  cd learn_git/python-hello/
+ 1999  git checkout origin/v146420
+ 2000  ls
+ 2001  git remote show origin
+ 2002  git checkout origin/v183005
+ 2003  ls
+ 2004  cd ..
+ 2005  mkdir demo
+ 2006  ls
+ 2007  cd demo
+ 2008  touch a.txt b.txt c.txt
+ 2009  ls
+ 2010  git init
+ 2011  nano README.md
+ 2012  ls
+ 2013  git add .
+ 2014  git commit -m "First commit"
+ 2015  git remote add origin git https://github.com/sidv/demo.git
+ 2016  git remote add origin  https://github.com/sidv/demo.git
+ 2017  git remote show origin
+ 2018  git push origin master
+ 2019  git branch
+ 2020  git branch --help
+ 2021  ls
+ 2022  history 
+
+
