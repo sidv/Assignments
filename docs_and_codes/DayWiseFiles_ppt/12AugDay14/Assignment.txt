@@ -1,0 +1,62 @@
+1.Write a code to store fruit details in dictionary(fruit_name,rate,imported_from,import_date,buy_price)
+Take input from user
+
+2.Write a code to store employee information in dictionary(Only one employee details)
+Take input from user
+Properties: Name,Age,Gender,Place,Salary,Previous_company
+
+3.Store all the state names in tuple.And iterate through it and print on terminal
+
+4.Write a code to create a dictonary from given number range
+-If the input is 4 then the keys in dictionary are 1,2,3,4
+-And value is square of the key
+{1:1, 2:4, 3:9 ,4:16, 5:25}
+
+5.Write a code to iterate through the given string and store the alphabet and count(occurance) in dictionary
+-{A:2,a:1, s:10, d:20 ,f:30}
+"A computer is a machine that can be programmed to carry out sequences of
+ arithmetic or logical operations automatically. Modern computers can perform
+ generic sets of operations known as programs. These programs enable computers
+ to perform a wide range of tasks. A computer system is a complete computer
+ that includes the hardware operating system main software  and peripheral
+ equipment needed and used for full operation. This term may also refer 
+to a group of computers that are linked and function together"
+
+
+Projects Assignment:
+1.Console ERP project
+Implement using dictionary:
+	-Add Employee
+	-Delete Employee
+	-Search Employee by name
+	-Change Employee Data
+		=>Change name
+		=>change age
+		=>Change gender
+		=>change salary
+	-Display 
+
+Properties:Empid, Name,age,gender,place,salary,previous_company,joining_date
+Date format "21/04/2021" dd/mm/yyyy
+
+2.Fruit shop project:
+Implement using dictionary
+	-Add fruit
+	-Delete fruit by name
+	-Search fruit by name and rate
+	-Change fruit name and rate
+	-Add to cart(List the fruits with fruit_id->select id->store in cart list)
+	-Display
+	-Display the cart
+Properties: fruit_id,fruit_name,rate,imported_from,import_date,buy_price
+
+
+4.Implement above both questions using functions.
+
+
+
+
+
+
+
+

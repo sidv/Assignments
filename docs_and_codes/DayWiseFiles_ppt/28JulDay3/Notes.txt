@@ -1,0 +1,163 @@
+regex
+^ -> line starting with
+$ -> line ending with
+* -> zero or more occurance
++ -> one or more occurance
+. -> any char
+{} -> exact no of occurance/range of occurance
+() -> grouping od char
+| -> or
+[] -> range
+________________________________________________________
+whoami -> gives logged in username
+_______________________________________________________________________
+Bash is a interpreter.
+Notes:
+a)First line is always she-bang
+#!/bin/bash
+
+b)Execute the file:
+-> ./filename
+-> bash filename
+
+c) Make sure file have executable permissions
+
+d)Use # for comments
+#your comments
+
+Shell Scripting:
+
+1.Print data on terminal:
+echo "Hello"
+
+2.Variables
+->No Datatypes.Consider everything is a string
+num=10
+num="sid"
+num="0.2"
+->Use $ with variables wherever you using it
+echo $num
+
+3.Airthmatic operation
+-> Use $(( expressions))
+$(( num1 + num2 ))
+Operators: +,-,*,/,<,>
+
+4.Read input from user
+read variable
+
+5.If block
+refer control_struct.sh
+Conditionl operator:
+Numerical Comprasions
+-gt -> greater than
+-lt -> less than
+-ge -> greater than and equal to
+-le -> less than  and equal to
+-eq -> equal to
+-ne -> not equal to
+
+String Comparsions:
+refer string_comp.sh
+str1 == str2 -> equal to 
+str2 != str2 -> not equal to
+-z -> empty string
+-n -> non empty string
+str1 =~ "pattern" -> compare string with regular expressions
+
+
+Airthmatic comparisons:
+(( num1 < num2 ))
+refer airthmatic_comp.sh
+
+Logical operator:
+&& -> and
+|| -> or
+refer logical_comp.sh
+
+
+6.if-else block
+refer control_struct.sh
+
+7.elif block
+refer control_struct.sh
+
+8. File conditional operator:
+-e -> if file exists return true
+-r -> if file readable return true
+-h -> if file is symlink return true
+-d -> if its directory return true
+-f -> if its file return true
+-s -> if size is greater than 0 return true
+-w -> if file is writable return true
+-x -> if file is executable return true
+-ef -> if files are same
+refer file_comp.sh
+
+_____________________________________________________________________
+
+Command line arguments:
+refer cmd_arg.sh
+'$# -> No of arguments : '$#
+'$* -> All arguments as a single word : '$*
+'$1 -> first arg : '$1
+'$2 -> second arg : '$2
+'$_ -> last arg : '$_
+'$@ -> all arguments as separate words : '$@
+'$0 -> command name : '$0
+
+___________________________________________________________________
+Loops:
+for loop:
+
+for ((i=0;i<10;i++))
+do
+	#write statement here
+done
+
+for i in {1..10}
+do
+	#write statement here
+done
+
+refer print_table.sh
+refer list_files
+refer bulk_rename.sh
+
+while loop:
+refer while_table.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+Tuple Functions:
+variable.function(arg)
+
+count(data) -> Occurance count of that data
+index(data) -> Find index of data (First occurance)
+
+Looping on tuple:
+for i in tuple_variable:
+	statements
+
+Concatination:
+[10,20] + [30,40] => [10,20,30,40] #Creates new memory
+"sid" + "verma" => sidverma #Creates new memory
+(10,20) + (30,40) =>(10,20,30,40) #Creates new memory
+_______________________________________________________________________
+Dictionary:
+->Mutable
+->Now they are ordered(Before 3.7 it wasn't ordered )
+->Key - value pair
+->Cannot have duplicate keys
+->They can grow
+Syntax:
+{
+	"name":"Siddhant",
+	"age":20,
+	"Place":"MH"
+}
+
+bio = {} #Empty dictionary
+
+len(bio) #length of dictionary
+
+Dictionary functions:
+variable.function(arg)
+
+get(key) -> get value of given key
+keys() -> Fetch all keys.It returns a list format of keys
+values() -> Fetch all values.Its returns a list format of values
+update({key:value}) -> Update the value.If key is not there it'll add to dictionary and does not return anything
+pop(key) -> remove the key:value
+popitem() -> removes last inserted element
+clear() -> empty the dictionary
+copy() -> get copy of dictionary
+items() -> Returns keya nnd value in tuple format
+
+______________________________________________________________________________
+Functions:
+functions are a way to create modular structure(functionality based) of code
+Function is a small functionality.Its simply take input and process and returns
+Code reusablility
+Syntax:
+def function_name(argument/input):
+	statements
+	processing data
+	return something(optional)
+
+return_variable(optional)=function_name(input)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+1.Delete test,test1,test2
+2.Create three users, raj,ravi,neha using adduser command.
+3.Create data1.txt,data2.txt.Write your name in data1.txt
+4.Add neha and ravi to superuser group.
+5.Login with raj and try to write content in data2.txt.
+6.Read the data1.txt
+7.Logout from raj and login with ravi.
+8.Try to write content in data2.txt and data1.txt.
+9.Read the data1.txt and data2.txt
+10.Logout from ravi
+11.Change ownership of data1.txt to raj
+12.Change ownership and group of data2.txt to neha and raj.
+13.Try to append your name to data1.txt
+14.Try to append your name to data2.txt
+15.login with raj and try to change the ownership of data2.txt to raj.
+16.Logout and Deactivate the ravi account.(Change login shell to nologin)
+17.Login with neha and change ownership of data1.txt to neha.
+
+18.login with superuser
+19.Create hidden directory data
+20.Create hidden file a.txt inside data
+21.Remove data directory
+
+22.Download https://corgis-edu.github.io/corgis/csv/cars/ csv file from this page.
+23.Find all lines with "All-wheel drive"
+24.Find all lines with "Gasoline"
+25.Find all lines which have Audi and 8 cylinder
+26.Find all lines which have 2.0L to 4.2L
+27.Find all lines with "Front-wheel drive" and "Trubo".
+
+28.Print all files ending with .txt in current directory.
+29.Print count of lines with "8 cylinder" from cars.csv
+30.Store top 5 lines from cars.csv to file.txt
+31.Find All lines "Volvo" from 3.0L to 4.4L from cars.csv. Store last 5 lines 
+in filedata.txt
+
+
+32.Write Cars height,width,length to file.txt from cars.csv 
+33.Find car no of gears and Identification.make from cars.csv
+34.Use ls -l command.Print size of file and name of file(size in human readable format)
+35.Print Driveline,Engine type and identification.year from cars.csv.Print only 2009 identification year car
+36.Find Cars height,width,length whose Identification.Classification starts with A from cars.csv
+37.Print all directory permissions and name.
+38.Print all files permissions and name.
+39.Print all the rows of Identification.make is of 5  letters
+
+40.Change owner of cars.csv to root
+41.Change group of cars.csv to root
+42.Try to copy cars.csv to Documents dir
+43.Try to move cars.csv to Documents dir
+
+44.Write all users name and uid into users.txt
+45.Write all groups name into groups.txt
+46.Append all users name with nologin shell to users.txt
+47.Find all usersname,uid with 4 digit uid
+
+
+Optional:
+1.Print the output of "lspci -vvn". Find all driver word in output 
+2.Find CPU0 to CPU6 in your logs(Use command dmesg)
+3.Find all occurance starts with '0x0' and ends with 'f' in your system logs
+4.Find all "SerialNumber" in your system log file
+5.Find all lines containing words starts with "io 0x" and ends with "f". 
+only 0-9 number allowed and a-f alphabet allowed in between
+6.Find all users with nologin in /etc/passwd
+
+
+0x0.*f
+io 0x[0-9a-f]*f
+
+
+
+
+
+
+
+
+

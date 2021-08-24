@@ -1,0 +1,191 @@
+File handling:
+refer file_handling.sh
+refer while_file.sh
+__________________________________________________________________________
+Strings
+name="Siddhant"
+echo $name -> print string
+echo ${name} -> print string
+
+echo ${name:0:3} -> slicing
+Syntax:
+${variable:start index: count of char}
+Slicing Use this to get substring
+echo ${name:0:3} #slicing #ouput = sid
+echo ${name:2:4} #${variable:start index: count of char}
+echo ${name::3} #First index you dont need to mention
+echo ${name:4:} #Invalid
+echo ${name:4}
+echo ${name:(-1)}
+echo ${name:(-4):2}
+echo ${name::-3}
+echo ${name:2:(-3)}
+
+#Substitution
+echo ${name//dd/hh} # Replace all occurance ${variable//from/to}
+echo ${name/dd/hh} #Replace first occurance ${varible/from/to}
+
+echo ${name/#Si/di} # Replace from font(prefix)
+echo ${name/%nt/as} # Replace from suffix(back)
+echo "__________________________________"
+
+#Manupulation
+file="data/a.txt"
+echo ${file%.txt} #removes the suffix(backside) ${variable%string}
+echo ${file%a.txt}
+echo ${file%.txt}".doc" #data/a.doc
+
+echo ${file%/a.txt} 
+echo ${file%/*}
+
+echo ${file#data/} # removes the prefix(frontside)
+echo "___________________________________"
+#Change case
+data="sid"
+echo ${data^^} #Change all letters to uppercase
+echo ${data^} #Chnage first letter to upper case
+echo "___________________________________"
+#Change to lower case
+data="SID"
+echo ${data,}
+echo ${data,,}
+
+a=10
+name="sid"
+echo $a" is number"
+echo "$a is number"
+echo '$a is number'
+
+refer string_opr.sh
+__________________________________________________________________________
+Functions:
+refer functions.sh
+refer functions_arg.sh
+_________________________________________________________________________
+Array:
+refer arrays.sh
+refer arrays_loop.sh
+________________________________________________________________________
+Dictionary:(Associative array)
+refer dictionary.sh
+refer dictionary_loop.sh
+_______________________________________________________________________
+Case:
+refer day_of_week.sh
+refer employees.sh
+__________________________________________________________________________
+Process management
+Process: Runtime of a program
+ps -> prints all current terminal process
+ps -e -> prints all system-wide process
+ps aux -> All process with more details
+top -> prints process in real time.Press q to exit
+
+e.g
+ps -e 
+15052 pts/0    00:00:00    ps
+ PID   terminal  time    command/programnamne
+
+PID -> Process Id. OS assigns unique identifier(number) to each process
+terminal -> tty
+pseudo-terminal -> Termial inside terminal pts/0 pts/1 and so on
+command/programname
+
+First process pid is 1. Name is init or systemd
+
+Terminate a process
+kill -> terminate the process
+kill processid
+kill -signal processid
+kill -l -> get list of signal
+->By default kill sends SIGINT(2) signal
+->You cannot stop SIGKILL and SIGSTOP
+kill 7102
+kill -9 7102
+
+pkill processname
+killall processname
+
+
+
+
+Shortcuts:
+ctrl+c -> terminate a process
+ctrl+z -> suspend a process
+
+jobs -> list all jobs on current terminal
+fg jobid -> move the job to foreground. WIthout jobid it'll move first job to foreground
+command & -> Send process to background
+______________________________________________________________________________
+
+Priority of process:
+nice -> start a process by given priority.For high priority use sudo.
+-20 is highest and 19 is the lowest
+nice -n 19 firefox
+
+renice -> change the priority of running process
+renice -n 10 pid
+_____________________________________________________________________________
+Package management:
+Debian based system:
+First setup:
+1.sudo apt-get update
+2.sudo apt-get install packagename
+
+Install software
+sudo apt-get install packagename
+sudo apt-get install vlc
+sudo apt-get install python
+sudo apt-get install tree
+sudo apt-get install mousepad
+sudo apt-get install kate
+
+Uninstall
+sudo apt-get remove packagename
+
+Reinstall
+sudo apt-get install packagename --reinstall
+
+Update 
+sudo apt-get update
+-> Downloading the list of software from server
+
+Upgrade
+sudo apt-get upgrade
+
+Clean the cache:
+sudo apt-get autoremove
+
+Redhat Based system
+sudo yum install python
+
+Arch based system
+sudo pacman -Syy python
+
+__________________________________________________________________
+/bin -> executable
+/etc -> configuration
+/var -> variable size files
+/run -> runtime file
+/dev -> device files
+/usr -> user fs
+/sys -> system files
+/proc -> stores all running process files
+/media -> other storage device
+/mnt -> other storage device
+/lib -> library
+/home -> containes all home dir
+/opt -> optional softwares
+/root -> root user home directory
+/tmp -> temprory files
+
+______________________________________________________________________
+
+
+
+
+
+
+
+
+

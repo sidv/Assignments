@@ -1,0 +1,7 @@
+f1 = open("data1.txt","r")
+f2 = open("data2.txt","r")
+x = set(f1.read().split(" "))
+y = set(f2.read().split(" "))
+print(x.difference(y))
+f1.close()
+f2.close()
