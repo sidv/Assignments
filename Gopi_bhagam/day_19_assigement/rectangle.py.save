@@ -1,0 +1,21 @@
+class rectangle:
+	__doc__ ="area of reactnagle class"
+	def __init__(self,length,width):
+		self.length=length
+		self.width =width
+	def area(self):
+		return  self.length *self.width
+	def __add__(self,length,width):
+		return self.length+self.width
+	def __str__(self):
+		return fen=int(input("enter a rect of length:"))
+wid=int(input("enter a rect of width:"))
+rec=rectangle(len,wid)
+print("area of rectangle:",rec.area())
+r=len+wid
+print(r)
+g=reactangle(len,wid)
+print(a > g)
+print(rectangle.__doc__)
+print(rectangle.__str__)
+
