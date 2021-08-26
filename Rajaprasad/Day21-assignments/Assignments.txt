@@ -1,0 +1,11 @@
+1.Write a program using os module to create all alphabetical letters file
+(E.g filename should be a.txt , b.txt and so on)(Use os module)
+
+2.Write a program to rename the file 1a.txt,2b.txt,3c.txt and so on(Use os module)
+
+3.Write a program to plot graph on "Year"(x axis) and "Data.AIDS-Related Deaths.All Ages"(y axis) from aids.csv
+
+4.Write a program to plot graph on "Location.Country"(x axis) and total of "Data.Cases" and "Data.Deaths"(y axis) from covid csv
+
+
+
