@@ -16,6 +16,8 @@ Anjitha M S : https://github.com/Anjitha-mundanmani/ERP
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/ERP_SYS
 
+Durga siva prasad : https://github.com/sivaprasad0/AssignmentsDaily/blob/master/Aug13/ERP%20_teamorgs.py
+
 Sachin CS : https://github.com/sachinconquerguru/ERP
 
 Neethu TK : https://github.com/NEETHUMOLTK99/ERP
@@ -55,6 +57,8 @@ Bijith Kaladharan : https://github.com/BijithKaladharan/FRUIT_SHOP
 Anjitha M S : https://github.com/Anjitha-mundanmani/FruitProject
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Fruit-Shop
+
+Durgas siva prasad : https://github.com/sivaprasad0/AssignmentsDaily/blob/master/Aug12/FruitDictFun.py
 
 Sachin CS : https://github.com/sachinconquerguru/fruit_shop
 
