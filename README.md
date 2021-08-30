@@ -42,6 +42,7 @@ Gopi: https://github.com/bhagamgopi/github/blob/main/Employee_fun_manage.py
 
 Lakshmi T : https://github.com/Lakshmit1127/ERP-Project
 
+Pavan Precious Thomas : https://github.com/PavPrecious/ERP
 
 
 Fruit Shop:
@@ -83,3 +84,5 @@ B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python/blob/master/
 Gopi Bhagam :https://github.com/bhagamgopi/github/blob/main/fruit_shop_fun.py
 
 Lakshmi T : https://github.com/Lakshmit1127/Fruit-
+
+Pavan Precious Thomas :https://github.com/PavPrecious/Fruit_Shop
