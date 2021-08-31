@@ -1,0 +1,2 @@
+count*num
+	print(f"{num}*{count}=count")
