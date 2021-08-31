@@ -1,0 +1,11 @@
+1.Install wireshark and tcpdump and nmap
+
+---- installing wireshark -------
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+sudo usermod -aG wireshark $(whoami)
+
+
+-- install tcpdump and nmap -----
+sudo apt-get install tcpdump nmap
