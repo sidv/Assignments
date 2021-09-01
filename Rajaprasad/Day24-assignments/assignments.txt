@@ -1,0 +1,25 @@
+1.Write a menu drievn code to for Employee management.
+	-Add employee(https://sidnodeapp.herokuapp.com/register)(POST)(Response TEXT)
+	-Delete employee(https://sidnodeapp.herokuapp.com//delete)(POST)(Response TEXT)
+	-Search employee by name(https://sidnodeapp.herokuapp.com/getuserbyname))(POST)(Response JSON)
+	-Search employee by id(https://sidnodeapp.herokuapp.com/getuserbyid)(POST)(Response JSON)
+	-display employee(https://sidnodeapp.herokuapp.com/getalluser)(GET)(Response JSON)
+	-update employee username(https://sidnodeapp.herokuapp.com/changeusername)(PUT)(Response TEXT)
+	-update employee email(https://sidnodeapp.herokuapp.com/changeemail)(PUT)(Response TEXT)
+Notes:Update operation must be by id
+Content Type : json
+Properties: id,name,username,email,salary,previous_company
+
+2.Draw the graph for "totalnoofapplication" and "districtname" from this data link.
+https://data.gov.in/resources/district-wise-total-msme-registered-service-enterprises-till-last-date/api
+
+3.Print a dataframe which contain "clustername","clusterno", and "centroid"
+https://smartcities.data.gov.in/resources/surat-covid-19-cluster-containment-zone-details/api
+
+4.Create a GUI app using tkinter and show the data "year_" and "actual_rainfall_in_south_west_monsoon_in_mm_"
+https://smartcities.data.gov.in/resources/surat-covid-19-cluster-containment-zone-details/api
+
+Note: If you want more data from data.gov.in(default is 10 records)
+-Use loop because in one itereation you'll get 10 records only
+-In each iteration change the offset parameter in url(use string concatination)
+-Increase offset by 1 in each iteration

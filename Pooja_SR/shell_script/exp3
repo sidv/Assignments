@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo"Enter name"
+read f
+
+if [[ -e  $f ]]
+then
+	echo "file exist"
+elif [[ -r  $f ]]
+then
+	echo "file is readable"
+elif [[ -w  $f ]]
+then
+	echo "writable"
+elif [[ -x  $f ]]
+then
+	echo "executable"
+fi
+
