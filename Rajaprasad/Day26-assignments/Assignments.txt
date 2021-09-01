@@ -1,0 +1,23 @@
+Today's Assignment:
+1.Create socket chat application.
+2.Create multithreaded socket server which connect to multiple client.Each thread will recieve data and print on the terminal only and exit
+
+3.Create a socket application where client is sending random number continously.
+
+4.Create a socket application where a client connect to two servers and fetch string from the server.
+
+5.Implement question3 using separator.
+
+6.Take two lists, say for example these two:
+
+	a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+	b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). 
+
+7.Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right.
+
+8.Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates.
+
+9.Generate a password with length "passlen" with no duplicate characters in the password(Read about random module)
+
