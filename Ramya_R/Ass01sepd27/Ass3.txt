@@ -1,0 +1,29 @@
+3.Calculate the subnet mask,network address
+
+I want to create a subnet and with maximum 126 host
+
+192.168.0.0
+
+ip:192.168.0.0
+11000000.10101000.00000000.00000000
+maximum 126 host -2**7
+11111111.11111111.11111111.10000000 -MASK -25
+255.255.255.128
+11000000.10101000.00000000.00000000 - NETWORK
+192.168.0.0
+
+0 0000000 - network
+1 0000000 - mask
+0 1111111
+    0-127
+    
+ (0-127) -   128 possibilities
+ 
+128-(0.0 broad cast value)
+128-1 = 127 count
+
+128-2(network address and actual address)
+126 Available ip address
+
+192.168.0.1 - 192.168.0.127
+    

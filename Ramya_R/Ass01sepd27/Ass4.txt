@@ -1,0 +1,30 @@
+
+4.Calculate the subnet mask,network address
+
+I want to create a subnet and with maximum 237 host
+
+192.168.0.0
+
+ip:192.168.0.0
+11000000.10101000.00000000.00000000
+maximum 237 host -2**8
+11111111.11111111.11111111.00000000 -MASK-/24
+255.255.255.128
+11000000.10101000.00000000.00000000 - NETWORK
+192.168.0.0
+
+.00000000 - network
+.00000000 - mask
+.11111111
+    0-255
+    
+ (0-255) -   256 possibilities
+ 
+256-(0.0 and 0.255 broad cast value)
+256-2 = 254 count
+
+256-2(network address and actual address)
+254 Available ip address
+
+192.168.0.1 - 192.168.0.254
+    
