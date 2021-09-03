@@ -1,10 +1,10 @@
-
 5.Calculate the subnet mask,network address
-
 I want to create a subnet and with maximum 100000 host
-
 192.168.0.0
 
+we can't have subnet mask for 100000 hosts
+
+*********************
 ip:192.168.0.0
 11000000.10101000.00000000.00000000
 maximum 100000 host -2*17
@@ -21,13 +21,13 @@ maximum 100000 host -2*17
  (0-1)*(0-255)*(0-255) -  possibilities
  131072 possibilities
  
-131072-(0.0 and 0.255 and o.255 broad cast value)
-131072-6 = 254 count
+11000000.10101001.11111111.11111111
+192.169.255.255 - broadcast address
 
 131072-2(network address and actual address)
 131070 Available ip address
 
-192.168.0.1 - 192.168.0.254
+192.168.0.1 - 192.169.255.254
     **********************************************
 
 ip:192.168.0.0
@@ -41,17 +41,16 @@ maximum 100000 host -2*16
 00.00000000.00000000 - network
 11.00000000.00000000 - mask
   .11111111.11111111
- . 0-255 . 0-255
+  . 0-255 . 0-255
     
  (0-255)*(0-255) -  possibilities
  65536 possibilities
  
-65536-(0.0 and 0.255 and o.255 broad cast value)
-65536-256 -256 = 65024 count
+11000000.10101000.11111111.11111111 - broadcast address
+192.168.255.255
 
 65536-2(network address and actual address)
 65534 Available ip address
 
-192.168.0.1 - 192.168.0.254
-192.168.254.1 - 192.168.254.254
+192.168.0.1 - 192.168.255.254
     

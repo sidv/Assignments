@@ -1,0 +1,10 @@
+21:19:39.554975 IP ec2-35-163-208-27.us-west-2.compute.amazonaws.com.https > superuser.54296: Flags [P.], seq 1759649612:1759649643, ack 4225385236, win 64240, length 31
+21:19:39.555030 IP superuser.54296 > ec2-35-163-208-27.us-west-2.compute.amazonaws.com.https: Flags [.], ack 31, win 62780, length 0
+21:19:39.555819 IP superuser.54296 > ec2-35-163-208-27.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1:36, ack 31, win 62780, length 35
+21:19:39.556554 IP ec2-35-163-208-27.us-west-2.compute.amazonaws.com.https > superuser.54296: Flags [.], ack 36, win 64240, length 0
+21:19:39.967731 IP superuser.50361 > _gateway.domain: 48764+ [1au] PTR? 129.49.168.192.in-addr.arpa. (56)
+21:19:40.117343 IP _gateway.domain > superuser.50361: 48764 NXDomain 0/1/1 (133)
+21:19:40.118441 IP superuser.50361 > _gateway.domain: 48764+ PTR? 129.49.168.192.in-addr.arpa. (45)
+21:19:40.119808 IP _gateway.domain > superuser.50361: 48764 NXDomain 0/1/0 (122)
+21:19:40.121054 IP superuser.46201 > _gateway.domain: 40475+ [1au] PTR? 27.208.163.35.in-addr.arpa. (55)
+21:19:40.280919 IP lb-140-82-113-26-iad.github.com.https > superuser.39932: Flags [P.], seq 164060885:164060911, ack 1468324154, win 64240, length 26
