@@ -92,3 +92,19 @@ Pavan Precious Thomas :https://github.com/PavPrecious/Fruit_Shop
 
 Thanushree K C : https://github.com/Thanushree28/Fruit_Shop
 
+
+Subnet Calculator:
+
+
+
+Packet Sniffer tool:
+
+
+
+Network Scanner tool:
+
+
+
+
+
+
