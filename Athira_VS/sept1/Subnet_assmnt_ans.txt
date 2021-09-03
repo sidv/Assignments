@@ -105,6 +105,17 @@ i.e. (2^n) = 239  , where n is the total number of trailing 0's in the subnet ma
 But in this case, n is not a whole number, which contradicts the fact that it  is a counting number.
 Hence we can't have a subnet mask which can support a maximum of 237 hosts.
 
+To accomodate 237 hosts, we can have a subnet mask as follows:
+
+IP:		11000000.10101000.00000000.00000000 = 192.168.0.0
+Subnet mask:	11111111.11111111.11111111.00000000 = 255.255.255.0
+		------------------------------------
+Network Addr:	11000000.10101000.00000000.00000000 = 192.168.0.0
+Broadcast Addr:	11000000.10101000.00000000.11111111 = 192.168.0.255
+
+Available hosts:	2^8-2 = 256 - 2 = 254
+IP addr range:	192.168.0.1 - 192.168.0.254
+
 
 #####################################################################
 5.Calculate the subnet mask,network address
@@ -118,6 +129,15 @@ But in this case, n is not a whole number, which contradicts the fact that it  i
 Hence we can't have a subnet mask which can support a maximum of 100000 hosts.
 
 
+To accomodate 100000 hosts, we can have a subnet mask as follows:
 
+IP:		11000000.10101000.00000000.00000000 = 192.168.0.0
+Subnet mask:	11111111.11111110.00000000.00000000 = 255.254.0.0
+		------------------------------------
+Network Addr:	11000000.10101000.00000000.00000000 = 192.168.0.0
+Broadcast Addr:	11000000.10101001.11111111.11111111 = 192.169.255.255
+
+Available hosts:	2^17-2 = 131072 - 2 = 131070
+IP addr range:	192.168.0.1 - 192.169.255.254
 
 
