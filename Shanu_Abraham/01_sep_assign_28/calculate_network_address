@@ -1,0 +1,188 @@
+# Calculating network address,broadcast address,maximum no:of host,IP # address range
+
+1)a.Given:
+	IP: 192.168.1.4
+ 	subnet mask:21
+ 
+	11000000.10101000.00000001.00001000   192.168.1.8
+	11111111.11111111.11111000.00000000   21
+     ------------------------------------------
+	11000000.10101000.00000000.00000000 network address
+        192.168.0.0 network address
+
+	11000000.10101000.00000111.11111111 broadcast address
+	192.168.7.255    broadcast address	
+
+	11111 000.00000000
+
+	11111 000
+	00000 000 = 0
+	00000 111 = 7 =8
+
+	00000000 = 0    
+	11111111 = 255 = 256
+
+	8*256 = 2048
+	2048 -2(1 for network and another 1 for broadcast)=2046	(available ips)
+	
+	2048 -8 -8 = 2032 (actual available)
+
+	IP address range 
+	192.168.0.1 - 192.168.0.254
+	192.168.7.1 - 192.168.7.254
+
+1)b. Given
+	IP: ip : 10.1.4.5
+	subnet mask : 16
+
+	00001010.00000001.00000100.00000101 10.1.4.5
+	11111111.11111111.00000000.00000000 16
+      -------------------------------------------
+	00001010.00000001.00000000.00000000 network address
+	10.1.0.0 network address
+
+	00001010.00000001.11111111.1111111 broadcast address
+	10.1.255.255  broadcast address
+	
+	00000000.00000000
+	11111111 =256
+
+	00000000
+	11111111 = 256
+	
+	(2^16) - 2 (actual IP address)
+	256 * 256 = 65536
+	
+	65536 -2 = 65534
+	 
+	65534 -256 -256 = 65024
+
+	IP address range
+	10.1.0.1 - 10.1.0.254
+	10.1.255.1 - 10.1.255.254
+
+
+1)c. Given
+	IP : 192.0.2.3
+	subnet mask : 12
+
+	11000000.00000000.00000010.00000011 192.0.2.3
+	11111111.11110000.00000000.00000000 12
+      -------------------------------------------
+	11000000.00000000.00000000.00000000 network address
+
+	192.0.0.0 network address
+
+	11000000.0000 1111.11111111.11111111  broadcast address
+	192.15.255.255 broadcast address
+		
+	2^20(no:of zeroes in subnet mask) - 2 
+	(2^20)-2 = 1048576 - 2 = 1048574 (actual available IP address)
+
+	IP address range
+	192.0.0.1 - 192.15.255.254
+
+
+2.a)
+	IP: 192.0.4.8
+	subnet mask: 255.255.255.252
+
+	11000000.00000000.00000100.00001000  192.0.4.8
+	11111111.11111111.11111111.11111100  255.255.255.252
+     -------------------------------------------
+	11000000.00000000.00000100.00001000 network address
+
+	192.0.4.8 network address
+
+
+	11000000.00000000.00000100.00001011 broadcast address
+	192.0.4.11 broadcast address
+	           
+	2^2 -2
+
+	4-2 = 2
+
+	IP address range
+	192.0.4.9 - 192.0.4.10
+
+2.b)
+	IP: 10.1.4.5
+	subnet mask: 255.255.254.0
+
+	00001010.00000001.00000100.00000101 10.1.4.5
+	11111111.11111111.11111110.00000000 255.255.254.0
+      ------------------------------------------------
+	00001010.00000001.00000100.00000000 network address
+	10.1.4.0 network address
+
+	00001010.00000001.00000101.11111111 broadcast address
+	10.1.5.255 broadcast address
+
+	(2^9) - 2 = 512 - 2 =510 (actual available IPs)
+	
+	IP address range
+	10.1.4.1 - 10.1.5.254
+
+
+
+2.c)
+	IP: 192.0.2.3 
+	subnet mask: 255.255.224.0
+
+	11000000.00000000.00000010.00000011  192.0.2.3
+	11111111.11111111.11100000.00000000  255.255.224.0
+       --------------------------------------------------
+	11000000.00000000.00000000.00000000 network address
+	192.0.0.0 network address
+
+	11000000.00000000.00011111.11111111 broadcast address
+	192.0.31.255 broadcast address
+
+	(2^13) - 2 =8192 -2 = 8190 (actual available IPs)
+	
+	IP address range
+	192.0.0.1 - 192.0.31.254
+
+3.	Calculate the subnet mask,network address
+  	I want to create a subnet and with maximum 126 host
+  	192.168.0.0
+	
+	IP: 192.168.0.0
+	max 126 host = (2^7) - 2 
+	
+	7bits will be zeros (32 - 7) = 25(subnet mask)
+	
+	11000000.10100000.00000000.00000000 192.168.0.0
+	11111111.11111111.11111111.10000000 25
+      --------------------------------------------
+	11000000.10100000.00000000.00000000 network address
+	192.168.0.0 network address
+
+	11000000.10100000.00000000.01111111 broadcast network
+	192.168.0.127 broadcast network
+
+	IP address range
+	192.168.0.1 - 192.168.0.126
+
+4.	Calculate the subnet mask,network address
+	I want to create a subnet and with maximum 237 host
+	192.168.0.0
+	
+	IP:192.168.0.0
+	max 237 host = (2^n) - 2
+
+	where n will be the no of zeros in subnet mask.
+	we can't create a subnet with maximum 237 host.
+
+5.	Calculate the subnet mask,network address
+	I want to create a subnet and with maximum 100000 host
+	192.168.0.0	
+
+	IP:192.168.0.0
+	max 100000 host = (2^n) - 2
+
+	where n will be the no of zeros in subnet mask.
+	we can't create a subnet with maximum 100000 host.
+	
+
+	
