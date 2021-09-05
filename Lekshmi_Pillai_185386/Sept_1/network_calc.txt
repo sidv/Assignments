@@ -1,0 +1,134 @@
+#1.Calculate the network address,subnet mask(octet format),Count of host system,broad cast address for following
+
+#a. 192.168.1.4/21
+ip_addr		=   11000000 10101000 00000001 00000100
+sub_mask	=   11111111 11111111 11111000 00000000
+sub_oct		=   255.255.248.0
+newtowrk addr	=   11000000 10101000 00000000 00000000
+broadcast addr	=   11000000 10101000 00000111 11111111
+net_in_octe	=   192.168.0.0
+total_system	=   2040 - (248-255 = 8*255)
+000.00000000
+broadcast_addr	=   2040(8*256) - 8 - 8 = 2032
+		=   0-7, 0-255
+range 		=   192.168.0.0 - 192.168.7.0
+		    192.168.7.0 - 192.168.7.255
+
+#b. 10.1.4.5/16
+ip_addr		=   00001100 00000001 00000100 00000101
+sub_mask	=   11111111 11111111 00000000 00000000
+sub_oct		=   255.255.0.0
+newtowrk addr	=   00001100 00000001 00000000 00000000
+broad addr	=   00001100 00000001 11111111 11111111
+net_in_octe	=   10.1.0.0
+total_system	=   65536 ( 256*256)
+0000000.00000000
+available_system	=   65536 ( 256*256) - 256 - 256 = 65024
+		=   0-255, 0-255
+range 		=   10.1.0.1 - 192.168.255.0
+		    10.1.255.0 - 1.1.255.254
+
+#c. 192.0.2.3/12
+ip_addr		=   11000000 00000000 00000010 00000011
+sub_mask	=   11111111 11110000 00000000 00000000
+sub_oct		=   255.240.0.0
+newtowrk addr	=   11000000 00000000 00000000 00000000
+broadcast addr	=   11000000 00001111 11111111 11111111
+net_in_octe	=   192.0.0.0
+total_system	=   1048576 ( 256*16*256)
+0000.0000000.00000000
+avilable_host	=   1048576 (  256*16*256) - 256 - 256 - 16 = 1048048
+		=   0-16,0-255, 0-255
+range 		=   192.0.0.1 - 192.15.0.255
+		    192.16.254.0 - 192.15.254.254 
+
+#2.Calculate the network address,Count of host system,broad cast address for following
+#a.ip : 192.0.4.8 subnet mask: 255.255.255.252
+ip_addr		=   11000000 00000000 00000100 00001000
+sub_mask	=   11111111 11111111 11111111 11111100
+sub_oct		=   255.255.255.252
+newtowrk addr	=   11000000 00000000 00000100 00000000
+broadcast addr	=   11000000 00000000 00000100 00000011
+net_in_octe	=   192.0.4.0
+total_system	=   2(2)
+0000.0000000.00000000
+total_system	=   4 - 2 = 2
+		=   0-2
+range 		=   192.0.4.0 - 192.0.4.4
+
+#b.ip : 10.1.4.5 subnet mask: 255.255.254.0
+
+ip_addr		=   00001100 00000001 00000100 00000101
+sub_mask	=   11111111 11111111 11111110 00000000
+sub_oct		=   255.255.254.0
+newtowrk addr	=   00001100 00000001 00000000 00000000
+broadcast addr	=   00001100 00000001 00000001 11111111
+net_in_octe	=   10.1.0.0
+total_system	=   256(256*1)
+0000.0000000.00000000
+total_system	=   256-2 = 254
+
+range 		=   10.1.0.1 - 10.1.1.254	     
+  
+#c.ip :192.0.2.3 subnet mask: 255.255.224.0
+
+
+ip_addr		=   11000000 00000000 00000010 00000011
+sub_mask	=   11111111 11111111 11100000 00000000
+sub_oct		=   255.255.254.0 /19 
+newtowrk addr	=   11000000 00000000 00000000 00000000
+broadcast addr	=   11000000 00000000 00011111 11111111
+net_in_octe	=   10.0.0.0
+total_system	=   8192(32*256)
+0000.0000000.00000000
+available_system	=   256-2 = 254
+
+range 		=   10.0.0.0 - 10.0.32.254	     
+ 
+
+3.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 126 host
+192.168.0.0
+
+ip_addr		=   11000000 10101000 00000000 00000000
+sub_mask	=   11111111 11111111 11111111 10000000
+sub_oct		=   255.255.255.0 /25
+
+network_add	=   11000000 10101000 00000000 00000000
+broadcast	=   11000000 10101000 00000000 01111111
+net_in_octe	=   192.168.0.0/25
+
+total system 	=   2**7 - 2 = 126
+
+range		=   192.168.0.0 - 192.168.0.127
+
+4.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 237 host
+192.168.0.0
+
+ip_addr		=   11000000 10101000 00000000 00000000
+sub_mask	=   11111111 11111111 11111111 00000000
+sub_oct		=   255.255.255.0 /24
+
+network_add	=   11000000 10101000 00000000 00000000
+broadcast	=   11000000 10101000 00000000 11111111
+net_in_octe	=   192.168.0.0/24
+
+total system 	=   2**8 - 2 = 255
+
+range		=   192.168.0.0 - 192.168.0.255
+
+5.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 100000 host
+192.168.0.0
+ip_addr		=   11000000 10101000 00000000 00000000
+sub_mask	=   11111111 11111110 00000000 00000000
+sub_oct		=   255.254.0.0 /15
+
+network_add	=   11000000 00000000 00000000 00000000
+broadcast	=   11000000 10101001 11111111 11111111
+net_in_octe	=   192.0.0.0/15
+
+total system 	=   2**17 - 2 = 131070
+
+range		=   192.0.0.0 - 192.169.255.255
