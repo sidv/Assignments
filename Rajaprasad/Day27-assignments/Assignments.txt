@@ -1,0 +1,58 @@
+1.Calculate the network address,subnet mask(octet format),Number of  available address,broad cast address,range for following
+ip : 192.168.1.4/21
+ip : 10.1.4.5/16
+ip : 192.0.2.3/12
+
+11000000.10101000.00000 001.00000100 Ip address
+11111111.11111111.11111 000.00000000 Mask
+11000000.10101000.00000 000.00000000 Network address
+192.168.0.0 Network address
+
+11000000.00000000........
+11111111.11110000.0000000.00000000 Netmask (count of 1's)
+192.0.0.0
+
+11000000.0000 0000.0000000.00000000 = Network address
+192.0.0.0
+11000000.0000 1111.1111111.11111111 = Broadcast address
+192.15.255.255
+
+
+
+2.Calculate the network address,Number of  available address,broad cast address,range for following
+ip : 192.0.4.8 subnet mask: 255.255.255.252
+ip : 10.1.4.5 subnet mask: 255.255.254.0
+ip : 192.0.2.3 subnet mask: 255.255.224.0
+
+3.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 126 host
+192.168.0.0
+
+4.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 237 host
+192.168.0.0
+
+5.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 100000 host
+192.168.0.0
+
+6. Write code to create UDP socket to send dump file of tcpdump command to the server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
