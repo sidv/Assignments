@@ -1,0 +1,93 @@
+2.Calculate the network address,Number of  available address,broad cast address,range for following
+
+ip : 192.0.4.8 subnet mask: 255.255.255.252
+ip : 10.1.4.5 subnet mask: 255.255.254.0
+ip : 192.0.2.3 subnet mask: 255.255.224.0
+
+**************************************
+ip : 192.0.4.8 subnet mask: 255.255.255.252
+
+ip : 192.0.4.8
+11000000.00000000.00000100.00001000
+subnet mask: 255.255.255.252
+11111111.11111111.11111111.11111100
+Network Address
+11000000.00000000.00000100.00001000
+192.0.4.8
+	00001 0 00 -mask
+	00000 0 11 -network
+	   01 0 11 -broadcast
+	        0-3
+11000000.00000000.00000100.00001011
+192.0.4.11 - broadcast address
+
+(0-3) possibilities 
+4
+
+
+4-2(network address and actual address)
+2 Available ip address
+
+ip range : 192.0.4.9 - 192.0.4.10
+
+**************************************
+ip : 10.1.4.5 subnet mask: 255.255.254.0
+ip : 10.1.4.5
+00001010.00000001.00000100.00000101
+subnet mask: 255.255.254.0
+11111111.11111111.11111110.00000000
+Network Address
+00001010.00000001.00000100.00000000
+10.1.4.0
+	1111111 0.00000000 -mask
+	0000010 0.00000000 -network
+	        1.11111111
+	      0-1.0-255
+00001010.00000001.00000101.11111111
+10.1.5.255 - broadcast addr
+
+(0-1)*(0-255) possibilities 
+2*256 = 512
+
+512-2(network address and actual address)
+510 Available ip address
+
+512-(0.0 and 0.255 like broad cast values)
+512-2-2=508 count
+
+ip range
+10.1.4.1 - 10.1.5.254
+
+
+**************************************
+ip : 192.0.2.3 subnet mask: 255.255.224.0
+
+ip : 192.0.2.3
+11000000.00000000.00000010.00000011
+255.255.224.0 -mask
+11111111.11111111.11100000.00000000
+Network Address
+11000000.00000000.00000000.00000000
+192.0.0.0
+
+	111 00000.00000000 -mask
+	000 00010.00000000 -network
+	    11111.11111111 -broadcast
+	      0-31.0-255
+	      
+(0-31)*(0-255) possibilities 
+32*256 = 8192 possibilities
+
+11000000.00000000.00011111.11111111
+192.0.31.255 - broadcast address
+
+8192-255(0.0 and 0.255 like broad cast values)
+7937 count
+
+8192-2(network address and actual address)
+8190 Available ip address
+
+192.0.0.1-192.0.31.254
+***********************************
+
+

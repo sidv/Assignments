@@ -1,0 +1,10 @@
+22:54:35.132086 IP 23.55.108.81.https > veena.51772: Flags [P.], seq 2490577036:2490577060, ack 626414795, win 279, options [nop,nop,TS val 2308637700 ecr 3602785914], length 24
+22:54:35.132164 IP veena.51772 > 23.55.108.81.https: Flags [.], ack 24, win 501, options [nop,nop,TS val 3602806032 ecr 2308637700], length 0
+22:54:35.132873 IP veena.51772 > 23.55.108.81.https: Flags [F.], seq 1, ack 24, win 501, options [nop,nop,TS val 3602806033 ecr 2308637700], length 0
+22:54:35.132898 IP 23.55.108.81.https > veena.51772: Flags [F.], seq 24, ack 1, win 279, options [nop,nop,TS val 2308637700 ecr 3602785914], length 0
+22:54:35.132934 IP veena.51772 > 23.55.108.81.https: Flags [.], ack 25, win 501, options [nop,nop,TS val 3602806033 ecr 2308637700], length 0
+22:54:35.236337 IP 23.55.108.81.https > veena.51772: Flags [.], ack 2, win 279, options [nop,nop,TS val 2308637813 ecr 3602806033], length 0
+22:54:36.150312 IP 192.168.1.101.49893 > 239.255.255.250.1900: UDP, length 125
+22:54:36.465955 IP 192.168.1.101.49893 > 239.255.255.250.1900: UDP, length 125
+22:54:36.774339 IP 192.168.1.101.49893 > 239.255.255.250.1900: UDP, length 125
+22:54:37.508314 IP6 veena > ff02::1:ff66:ed82: ICMP6, neighbor solicitation, who has _gateway, length 32

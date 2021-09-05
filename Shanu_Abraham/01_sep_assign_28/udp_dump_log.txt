@@ -1,0 +1,10 @@
+00:08:38.407785 IP shanu.57448 > whatsapp-cdn-shv-01-maa2.fbcdn.net.https: Flags [P.], seq 3531336419:3531336450, ack 1349825713, win 856, options [nop,nop,TS val 3107139843 ecr 331931742], length 31
+00:08:38.425955 IP whatsapp-cdn-shv-01-maa2.fbcdn.net.https > shanu.57448: Flags [.], ack 31, win 788, options [nop,nop,TS val 331946514 ecr 3107139843], length 0
+00:08:38.670760 IP whatsapp-cdn-shv-01-maa2.fbcdn.net.https > shanu.57448: Flags [P.], seq 1:39, ack 31, win 788, options [nop,nop,TS val 331946743 ecr 3107139843], length 38
+00:08:38.670851 IP shanu.57448 > whatsapp-cdn-shv-01-maa2.fbcdn.net.https: Flags [.], ack 39, win 856, options [nop,nop,TS val 3107140106 ecr 331946743], length 0
+00:08:39.235216 IP shanu.53911 > _gateway.domain: 33519+ PTR? 53.23.240.157.in-addr.arpa. (44)
+00:08:39.300793 IP _gateway.domain > shanu.53911: 33519 1/0/0 PTR whatsapp-cdn-shv-01-maa2.fbcdn.net. (92)
+00:08:43.690354 IP 192.168.1.2.mdns > 224.0.0.251.mdns: 266 [2q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (61)
+00:08:58.407772 IP shanu.57448 > whatsapp-cdn-shv-01-maa2.fbcdn.net.https: Flags [P.], seq 31:62, ack 39, win 856, options [nop,nop,TS val 3107159843 ecr 331946743], length 31
+00:08:58.425893 IP whatsapp-cdn-shv-01-maa2.fbcdn.net.https > shanu.57448: Flags [.], ack 62, win 788, options [nop,nop,TS val 331966514 ecr 3107159843], length 0
+00:08:58.743674 IP whatsapp-cdn-shv-01-maa2.fbcdn.net.https > shanu.57448: Flags [P.], seq 39:77, ack 62, win 788, options [nop,nop,TS val 331966742 ecr 3107159843], length 38

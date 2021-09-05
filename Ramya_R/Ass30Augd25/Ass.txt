@@ -1,0 +1,6 @@
+sudo apt-get install wireshark
+sudo wireshark
+sudo apt-get update
+sudo apt-get install tcpdump
+sudo apt-get install nmap
+tcpdump --version
