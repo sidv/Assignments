@@ -96,13 +96,10 @@ Thanushree K C : https://github.com/Thanushree28/Fruit_Shop
 Subnet Calculator: https://github.com/hyraja/Subnet-calculator
 
 
-
-Packet Sniffer tool:
-
-
-
 Network Scanner tool:
 
+
+Packet Sniffer tool:
 
 
 

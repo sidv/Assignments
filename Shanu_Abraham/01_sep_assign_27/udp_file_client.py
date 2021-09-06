@@ -1,4 +1,3 @@
-#Write code to create UDP socket to send dump file of tcpdump command #to the server.
 import socket
 import os
 
