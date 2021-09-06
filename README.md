@@ -95,7 +95,8 @@ Thanushree K C : https://github.com/Thanushree28/Fruit_Shop
 Command Manual:
 
 
-Subnet Calculator: https://github.com/hyraja/Subnet-calculator
+Subnet Calculator: 
+Rajaprasad Paikaray : https://github.com/hyraja/Subnet-calculator
 
 
 Network Scanner tool:
