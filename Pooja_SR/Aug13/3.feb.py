@@ -1,4 +1,4 @@
-#Write a python code to print comma seperated fibinacci numbers(1,1,2,3,5,8,11)(Take limit from user)
+# 3 Write a python code to print comma seperated fibinacci numbers(1,1,2,3,5,8,11)(Take limit from user)
 nterms = int(input("How many terms you want? "))
 
 n1 = 0

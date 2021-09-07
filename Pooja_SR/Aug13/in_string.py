@@ -1,4 +1,4 @@
-#Write a python code to take string input from user and remove duplicate words.
+# 1) Write a python code to take string input from user and remove duplicate words.
 
 string = input("Enter the string")
 
