@@ -103,6 +103,7 @@ Abhinav Karthik R : https://github.com/karthikwgz/subnet_calc
 
 Sachin CS : https://github.com/sachinconquerguru/subnet_calc
 
+Anjitha M S : https://github.com/Anjitha-mundanmani/subnet-calculator
 
 Network Scanner tool:
 
