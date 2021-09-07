@@ -101,6 +101,8 @@ Rajaprasad Paikaray : https://github.com/hyraja/Subnet-calculator
 
 Abhinav Karthik R : https://github.com/karthikwgz/subnet_calc
 
+Sachin CS : https://github.com/sachinconquerguru/subnet_calc
+
 
 Network Scanner tool:
 
