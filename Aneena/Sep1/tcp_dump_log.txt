@@ -1,0 +1,10 @@
+23:56:13.453291 ARP, Request who-has EARTH-1010.bbrouter tell aneena-HP-Notebook.bbrouter, length 28
+23:56:13.456349 ARP, Reply EARTH-1010.bbrouter is-at bc:62:d2:2e:b3:44 (oui Unknown), length 28
+23:56:13.764152 IP aneena-HP-Notebook.bbrouter.54784 > EARTH-1010.bbrouter.domain: 47970+ PTR? 1.1.168.192.in-addr.arpa. (42)
+23:56:13.767926 IP EARTH-1010.bbrouter.domain > aneena-HP-Notebook.bbrouter.54784: 47970* 1/0/0 PTR EARTH-1010.bbrouter. (75)
+23:56:13.769082 IP aneena-HP-Notebook.bbrouter.52588 > EARTH-1010.bbrouter.domain: 28544+ PTR? 11.1.168.192.in-addr.arpa. (43)
+23:56:13.772793 IP EARTH-1010.bbrouter.domain > aneena-HP-Notebook.bbrouter.52588: 28544* 1/0/0 PTR aneena-HP-Notebook.bbrouter. (84)
+23:56:16.525329 IP aneena-HP-Notebook.bbrouter.43924 > ec2-13-234-210-38.ap-south-1.compute.amazonaws.com.https: Flags [.], ack 3597852579, win 501, options [nop,nop,TS val 1729644551 ecr 45009925], length 0
+23:56:16.554105 IP ec2-13-234-210-38.ap-south-1.compute.amazonaws.com.https > aneena-HP-Notebook.bbrouter.43924: Flags [.], ack 1, win 80, options [nop,nop,TS val 45055492 ecr 1729553903], length 0
+23:56:16.814328 IP aneena-HP-Notebook.bbrouter.51312 > EARTH-1010.bbrouter.domain: 36595+ PTR? 38.210.234.13.in-addr.arpa. (44)
+23:56:16.928425 IP EARTH-1010.bbrouter.domain > aneena-HP-Notebook.bbrouter.51312: 36595 1/4/0 PTR ec2-13-234-210-38.ap-south-1.compute.amazonaws.com. (245)

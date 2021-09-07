@@ -1,0 +1,20 @@
+21:15:06.460644 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:07.004107 IP superuser.60518 > _gateway.domain: 13155+ [1au] PTR? 2.49.168.192.in-addr.arpa. (54)
+21:15:07.005385 IP _gateway.domain > superuser.60518: 13155 NXDomain 0/1/1 (131)
+21:15:07.005618 IP superuser.60518 > _gateway.domain: 13155+ PTR? 2.49.168.192.in-addr.arpa. (43)
+21:15:07.006439 IP _gateway.domain > superuser.60518: 13155 NXDomain 0/1/0 (120)
+21:15:07.007635 IP superuser.41922 > _gateway.domain: 46893+ [1au] PTR? 1.49.168.192.in-addr.arpa. (54)
+21:15:07.008567 IP _gateway.domain > superuser.41922: 46893 NXDomain 0/1/1 (131)
+21:15:07.008767 IP superuser.41922 > _gateway.domain: 46893+ PTR? 1.49.168.192.in-addr.arpa. (43)
+21:15:07.009628 IP _gateway.domain > superuser.41922: 46893 NXDomain 0/1/0 (120)
+21:15:07.015427 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:08.016352 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:08.026910 IP superuser.53047 > _gateway.domain: 31036+ [1au] PTR? 129.49.168.192.in-addr.arpa. (56)
+21:15:08.028378 IP _gateway.domain > superuser.53047: 31036 NXDomain 0/1/1 (133)
+21:15:08.028588 IP superuser.53047 > _gateway.domain: 31036+ PTR? 129.49.168.192.in-addr.arpa. (45)
+21:15:08.029719 IP _gateway.domain > superuser.53047: 31036 NXDomain 0/1/0 (122)
+21:15:12.466399 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:13.015205 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:14.015216 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:15.472559 ARP, Request who-has _gateway tell 192.168.49.1, length 46
+21:15:16.015471 ARP, Request who-has _gateway tell 192.168.49.1, length 46

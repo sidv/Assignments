@@ -1,0 +1,11 @@
+1.Write a hello world application in python and build by jenkins(freestyle)
+
+2.Write a program to write your name to file and use jenkins(pipeline) to build it
+
+3.Write a calculator program(Use modules)(create a class of calculator and create object in main.py)
+(Use command line arguments).Build it using jenkins pipeline
+Hints:First checkout then build module then run main.py using arguments
+
+
+
+ALL the codes available on this repo : https://github.com/hyraja/Jenkins.git

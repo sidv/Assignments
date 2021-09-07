@@ -1,0 +1,7 @@
+Project:
+1.Create GUI subnet calculator.
+	-Take IP address input
+	-Take subnet mask as input
+	-Display IP adresss,subnet mask,Network address,Broadcast address,No.of available IP address,Range
+
+
