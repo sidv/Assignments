@@ -94,6 +94,7 @@ Thanushree K C : https://github.com/Thanushree28/Fruit_Shop
 
 Command Manual:
 
+Abhinav Karthik R : https://github.com/karthikwgz/command_manual
 
 Subnet Calculator:
  
