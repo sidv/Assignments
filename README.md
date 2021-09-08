@@ -46,7 +46,12 @@ Pavan Precious Thomas : https://github.com/PavPrecious/ERP
 
 Thanushree K C : https://github.com/Thanushree28/ERP_console_mini_project
 
+
+Ramya R : https://github.com/Ramya74/ERP-projects
+
+
 _________________________________________________________________________________________
+
 
 Fruit Shop:
 
@@ -92,7 +97,13 @@ Pavan Precious Thomas :https://github.com/PavPrecious/Fruit_Shop
 
 Thanushree K C : https://github.com/Thanushree28/Fruit_Shop
 
+
+Ramya R : https://github.com/Ramya74/fruit_project
+
+
+
 _____________________________________________________________________________________________________________________
+
 Command Manual:
 
 Abhinav Karthik R : https://github.com/karthikwgz/command_manual
