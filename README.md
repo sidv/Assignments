@@ -96,6 +96,9 @@ Command Manual:
 
 Abhinav Karthik R : https://github.com/karthikwgz/command_manual
 
+Rajaprasad Paikaray : https://github.com/hyraja/command-manual-python
+
+
 Subnet Calculator:
  
 Rajaprasad Paikaray : https://github.com/hyraja/Subnet-calculator
