@@ -46,7 +46,11 @@ Pavan Precious Thomas : https://github.com/PavPrecious/ERP
 
 Thanushree K C : https://github.com/Thanushree28/ERP_console_mini_project
 
+
 Ramya R : https://github.com/Ramya74/ERP-projects
+
+
+_________________________________________________________________________________________
 
 
 Fruit Shop:
@@ -93,21 +97,51 @@ Pavan Precious Thomas :https://github.com/PavPrecious/Fruit_Shop
 
 Thanushree K C : https://github.com/Thanushree28/Fruit_Shop
 
+
 Ramya R : https://github.com/Ramya74/fruit_project
 
 
+
+_____________________________________________________________________________________________________________________
+
 Command Manual:
 
+Abhinav Karthik R : https://github.com/karthikwgz/command_manual
 
+Rajaprasad Paikaray : https://github.com/hyraja/command-manual-python
+
+__________________________________________________________________________________________________________________
 Subnet Calculator:
  
 Rajaprasad Paikaray : https://github.com/hyraja/Subnet-calculator
 
+Abhinav Karthik R : https://github.com/karthikwgz/subnet_calc
 
-Network Scanner tool:
+Sachin CS : https://github.com/sachinconquerguru/subnet_calc
 
+Shanu Susan Abraham : https://github.com/shanu-123/subnet_calculator
+
+Ananthu PS : https://github.com/AnanthuPS/Subnet_Calculator
+
+Neethu TK : https://github.com/NEETHUMOLTK99/Subnet_Calculator
+
+Bijith : https://github.com/BijithKaladharan/subnet_calc
+
+Athira V S: https://github.com/athira-vs/Subnet_Calculator
+
+
+
+________________________________________________________________________________________________________________________
+
+Network Scanner tool: 
+
+Rajaprasad Paikaray : https://github.com/hyraja/Network-scan-python
+
+______________________________________________________________________________________________________________________
 
 Packet Sniffer tool:
+
+Rajaprasad Paikaray : https://github.com/hyraja/packet-sniffer-python
 
 
 
