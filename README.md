@@ -134,6 +134,8 @@ Bijith : https://github.com/BijithKaladharan/subnet_calc
 
 Athira V S: https://github.com/athira-vs/Subnet_Calculator
 
+Sufail PS : https://github.com/sufailps/subnet_calc
+
 
 
 ________________________________________________________________________________________________________________________
