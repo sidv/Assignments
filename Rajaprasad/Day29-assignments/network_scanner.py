@@ -91,7 +91,16 @@ while True:
             console.print(
                 f'Command : {nm.command_line()}', style="bold yellow")
             # print("scan Info : ", nm.scaninfo())
-            result()
+            hostname = f"Hostname : {scan['scan'][ip]['hostnames']}"
+            address = f" Address : {scan['scan'][ip]['addresses']}"
+            status = f"status : {scan['scan'][ip]['status']}"
+
+            console.print(hostname, address, status, end='\n',
+                          style="bold italic #FF00FF")
+            for port in scan['scan'][ip]['tcp'].items():
+                if port[1]['state'] == 'open':
+                    console.print(
+                        f"{port[0]}, state : {port[1]['state']},name : {port[1]['name']},reason : {port[1]['reason']},Product : {port[1]['product']},version : {port[1]['version']},conf: {port[1]['conf']},cpe : {port[1]['cpe']}", style="bold #00FFFF")
         except:
             console.print("Use root priviliege", style="bold red")
 
