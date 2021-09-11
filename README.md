@@ -126,6 +126,7 @@ Aneena Sabu : https://github.com/Elizabethaneena/Command_manual
 
 Pooja SR :https://github.com/HaiPooja/Command_manual
 
+Pavan Precious Thomas : https://github.com/PavPrecious/project_CommandManual
 __________________________________________________________________________________________________________________
 Subnet Calculator:
  
@@ -179,5 +180,5 @@ Aneena Sabu : https://github.com/Elizabethaneena/Packet_sniffer
 
 Pooja SR : https://github.com/HaiPooja/Packet_sniffer
 
-
+Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
 
