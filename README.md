@@ -129,6 +129,8 @@ Pooja SR :https://github.com/HaiPooja/Command_manual
 Pavan Precious Thomas : https://github.com/PavPrecious/project_CommandManual
 
 Lakshmi T :https://github.com/Lakshmit1127/Command-Manual
+
+Ramya R : https://github.com/Ramya74/command_manual
 __________________________________________________________________________________________________________________
 Subnet Calculator:
  
@@ -149,6 +151,8 @@ Bijith : https://github.com/BijithKaladharan/subnet_calc
 Athira V S: https://github.com/athira-vs/Subnet_Calculator
 
 Sufail PS : https://github.com/sufailps/subnet_calc
+
+Ramya R: https://github.com/Ramya74/subnet_calculator
 
 
 
@@ -184,3 +188,4 @@ Pooja SR : https://github.com/HaiPooja/Packet_sniffer
 
 Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
 
+Ramya R : https://github.com/Ramya74/sniffer
