@@ -150,6 +150,7 @@ Athira V S: https://github.com/athira-vs/Subnet_Calculator
 
 Sufail PS : https://github.com/sufailps/subnet_calc
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
 
 
 ________________________________________________________________________________________________________________________
@@ -178,9 +179,12 @@ Athira V S: https://github.com/athira-vs/PacketSniffer
 
 Neethu : https://github.com/NEETHUMOLTK99/packet_sniffer
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/packet_sniffer
+
 Aneena Sabu : https://github.com/Elizabethaneena/Packet_sniffer
 
 Pooja SR : https://github.com/HaiPooja/Packet_sniffer
 
 Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
+
 
