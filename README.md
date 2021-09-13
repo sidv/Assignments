@@ -148,6 +148,13 @@ Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Command_Manual
 
 Sufail PS : https://github.com/sufailps/command_manual
 
+Thanushree K C : https://github.com/Thanushree28/Command_manual
+
+
+Anjitha M S : https://github.com/Anjitha-mundanmani/cmd-manual
+
+
+
 
 
 __________________________________________________________________________________________________________________
@@ -196,14 +203,18 @@ Lakshmi T : https://github.com/Lakshmit1127/project_subnet_calc
 
 Sufail PS : https://github.com/sufailps/subnet_calc
 
+Thanushree K C : https://github.com/Thanushree28/Subnet_Calculator
+
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
+
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
+
 Gopi Bhagam :https://github.com/bhagamgopi/Subnet_caluclator
 
 
 Ramya R: https://github.com/Ramya74/subnet_calculator
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/subnet_calculator
-
-
 
 
 
@@ -247,7 +258,11 @@ Athira V S: https://github.com/athira-vs/PacketSniffer
 Neethu : https://github.com/NEETHUMOLTK99/packet_sniffer
 
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/packet_sniffer
+
+
 Lakshmi T : https://github.com/Lakshmit1127/packet_sniffer
+
 
 Aneena Sabu : https://github.com/Elizabethaneena/Packet_sniffer
 
@@ -255,6 +270,8 @@ Aneena Sabu : https://github.com/Elizabethaneena/Packet_sniffer
 Pooja SR : https://github.com/HaiPooja/Packet_sniffer
 
 Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
+
+
 
 
 Gopi Bhagam: https://github.com/bhagamgopi/Packet_Sniffer/tree/master
@@ -266,6 +283,8 @@ Ramya R : https://github.com/Ramya74/sniffer
 
 Sufail PS : https://github.com/sufailps/packet_sniffer
 
+
+Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
 
 
 
