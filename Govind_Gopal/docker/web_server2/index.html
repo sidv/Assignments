@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Login</title>
+	</head>
+	<style>
+		.input{
+			display: flex;
+			background-color: white;
+			padding: 9px;
+		}
+		.userinput:hover{
+		}
+		.container{
+			height:100vh;
+			width:100vw;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+
+		fieldset{
+			width:30vw;
+			height:165px;
+			padding:2rem;
+			background-color:#53d053;
+			border-radius:5px;
+		//	margin-top:26vh;
+		//	margin-left:30vw
+
+		}
+		.row{
+			display: flex;
+			align-items: center;
+			margin:3px;
+			border:1px solid white;
+			padding: 6px;
+			border-radius: 4px;
+			background-color: rgba(255,255,255,0.4);
+		}
+		.label{
+			width: 6.5rem;
+		}
+		.userinput:hover {
+ 		   border-bottom: 1px solid black;
+		}
+		input:hover{
+			outline:none;
+		}
+		input:focus{
+			outline:none;
+		}
+	</style>
+<body>
+	<div class="container">		
+		<fieldset>
+		
+			<div class="row">
+				<div class="label">
+					<label>Username<label>
+				</div>
+				<div class="userinput">
+					<img src="user.png" height="33" width="33">
+					<input style="border:0px" type="text" placeholder="Write username here">
+				</div>
+			</div>
+			<div class="row">	
+				<div class="label">	
+					<label>Password</label>
+				</div>
+				<div>
+					<input type="password" placeholder="write password here">
+				</div>
+				
+			</div>
+			<div style=" display:flex;justify-content:center">
+				<button>Submit</button>
+			</div>
+		</fieldset>
+	</div>
+</body>
+</html>
