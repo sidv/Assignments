@@ -200,6 +200,8 @@ Lakshmi T : https://github.com/Lakshmit1127/project_subnet_calc
 
 Sufail PS : https://github.com/sufailps/subnet_calc
 
+Thanushree K C : https://github.com/Thanushree28/Subnet_Calculator
+
 B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
 
 B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
@@ -210,6 +212,7 @@ Gopi Bhagam :https://github.com/bhagamgopi/Subnet_caluclator
 Ramya R: https://github.com/Ramya74/subnet_calculator
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/subnet_calculator
+
 
 
 
