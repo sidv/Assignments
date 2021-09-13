@@ -108,12 +108,34 @@ Command Manual:
 
 Abhinav Karthik R : https://github.com/karthikwgz/command_manual
 
+Lekshmi Pillai : https://github.com/lekshmir80/Command-Manual
+
+
 Rajaprasad Paikaray : https://github.com/hyraja/command-manual-python
 
-Sachin CS :https://github.com/sachinconquerguru/Command_Manual
+Sachin CS : https://github.com/sachinconquerguru/Command_Manual
 
 Shanu Susan Abraham : https://github.com/shanu-123/command_manual
+
+Ananthu PS : https://github.com/AnanthuPS/Command_Manual
+
+Bijith : https://github.com/BijithKaladharan/command_manual
+
+Neethu : https://github.com/NEETHUMOLTK99/Command_Manual
+
+Athira V S: https://github.com/athira-vs/CommandManual
+
+Aneena Sabu : https://github.com/Elizabethaneena/Command_manual
+
+Pooja SR :https://github.com/HaiPooja/Command_manual
+
+Pavan Precious Thomas : https://github.com/PavPrecious/project_CommandManual
+
+Lakshmi T :https://github.com/Lakshmit1127/Command-Manual
+
+Sufail PS : https://github.com/sufailps/command_manual
 __________________________________________________________________________________________________________________
+
 Subnet Calculator:
  
 Rajaprasad Paikaray : https://github.com/hyraja/Subnet-calculator
@@ -122,31 +144,91 @@ Abhinav Karthik R : https://github.com/karthikwgz/subnet_calc
 
 Sachin CS : https://github.com/sachinconquerguru/subnet_calc
 
+Anjitha M S : https://github.com/Anjitha-mundanmani/subnet-calculator
+
+Lekshmi Pillai : https://github.com/lekshmir80/IP_Projrct
+
+Lekshmi Pillai : https://github.com/lekshmir80/IP_Projrct
+
 Shanu Susan Abraham : https://github.com/shanu-123/subnet_calculator
 
+
 Ananthu PS : https://github.com/AnanthuPS/Subnet_Calculator
+
+
+Greeshma Prakasan : https://github.com/Greeshma-Prakasan/subnet_calculator
 
 Neethu TK : https://github.com/NEETHUMOLTK99/Subnet_Calculator
 
 Bijith : https://github.com/BijithKaladharan/subnet_calc
 
+
+Pooja SR :https://github.com/HaiPooja/Subnet_calculator
+
 Athira V S: https://github.com/athira-vs/Subnet_Calculator
+
 
 Pavan Precious Thomas:https://github.com/PavPrecious/subnetCalc_Project
 
+
+Aneena Sabu : https://github.com/Elizabethaneena/Subnet_Calculator
+
+
+Durga Siva prasad : https://github.com/sivaprasad0/network_programming.git
+
+Lakshmi T : https://github.com/Lakshmit1127/project_subnet_calc
+
+Sufail PS : https://github.com/sufailps/subnet_calc
+
+
+
+
+
+
+
 ________________________________________________________________________________________________________________________
+
+
 
 Network Scanner tool: 
 
 Rajaprasad Paikaray : https://github.com/hyraja/Network-scan-python
 
+Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
+
+Lekshmi Pillai : https://github.com/lekshmir80/Network_Scanner
+
 ______________________________________________________________________________________________________________________
+
 
 Packet Sniffer tool:
 
+
+Lekshmi Pillai : https://github.com/lekshmir80/Packet-Sniffer
+
 Rajaprasad Paikaray : https://github.com/hyraja/packet-sniffer-python
 
+Shanu Susan Abraham : https://github.com/shanu-123/network_sniffer_tool
+
+Sachin CS : https://github.com/sachinconquerguru/packet_sniffer
+
+Abhinav Karthik R : https://github.com/karthikwgz/packet_sniffer
+
+Ananthu PS : https://github.com/AnanthuPS/Packet_Sniffer
+
+Bijith : https://github.com/BijithKaladharan/packet_sniffer
+
+Athira V S: https://github.com/athira-vs/PacketSniffer
+
+Neethu : https://github.com/NEETHUMOLTK99/packet_sniffer
+
+Aneena Sabu : https://github.com/Elizabethaneena/Packet_sniffer
 
 
+Pooja SR : https://github.com/HaiPooja/Packet_sniffer
+
+Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
+
+Sufail PS : https://github.com/sufailps/packet_sniffer
 
 

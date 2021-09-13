@@ -1,0 +1,10 @@
+17:17:43.651082 IP lb-140-82-112-26-iad.github.com.https > superuser.42400: Flags [P.], seq 1679304045:1679304070, ack 1914875659, win 64240, length 25
+17:17:43.651987 IP superuser.42400 > lb-140-82-112-26-iad.github.com.https: Flags [P.], seq 1:30, ack 25, win 63184, length 29
+17:17:43.652665 IP lb-140-82-112-26-iad.github.com.https > superuser.42400: Flags [.], ack 30, win 64240, length 0
+17:17:44.631988 IP superuser.43481 > _gateway.domain: 47360+ [1au] PTR? 129.49.168.192.in-addr.arpa. (56)
+17:17:44.785768 IP _gateway.domain > superuser.43481: 47360 NXDomain 0/1/1 (133)
+17:17:44.786428 IP superuser.43481 > _gateway.domain: 47360+ PTR? 129.49.168.192.in-addr.arpa. (45)
+17:17:44.788562 IP _gateway.domain > superuser.43481: 47360 NXDomain 0/1/0 (122)
+17:17:44.791515 IP superuser.40512 > _gateway.domain: 61576+ [1au] PTR? 26.112.82.140.in-addr.arpa. (55)
+17:17:45.037358 IP _gateway.domain > superuser.40512: 61576 1/0/1 PTR lb-140-82-112-26-iad.github.com. (100)
+17:17:45.649271 IP superuser.36096 > _gateway.domain: 6742+ [1au] PTR? 2.49.168.192.in-addr.arpa. (54)
