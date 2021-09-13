@@ -1,69 +1,110 @@
-#!/usr/bin/env python3
-import ipaddress
-import sys
-import tkinter as t
-
-root = t.Tk()
-root.geometry('600x400')
-root.title('Gui subnet calculator')
-
-# defining function
+import tkinter as tk
 
 
-def Display():
-    # print(ip.get())
-    # print(subnet_mask.get())
-    # Ip = f'IP address : {ip.get()}'
-    # subnet = f'subnet :{ip.get()}/{subnet_mask.get()}'
+root = tk.Tk()
+root.title(" GUI Subnet calculator")
+root.geometry("600x400")
+root.config(bg='#00FA9A')
 
-    ipi = ipaddress.ip_interface(f'{ip.get()}/{subnet_mask.get()}')
-    # print("Address", ipi.ip)
-    IP_addr = f' Ip Address : {ipi.ip}'
-    # print("Mask", ipi.netmask)
-    mask_addr = f'Mask : {ipi.netmask}'
-    # print("Cidr", str(ipi.network).split('/')[1])
-    Cidr = f'Cidr : {str(ipi.network).split("/")[1]}'
-    # print("Network", str(ipi.network).split('/')[0])
-    n_w_addr = f'Network Address : {str(ipi.network).split("/")[0]}'
-    # print("Broadcast", ipi.network.broadcast_address)
-    b_address = f'Broad cast Address : {ipi.network.broadcast_address}'
-
-    lst.insert(t.END, IP_addr, mask_addr, Cidr, n_w_addr, b_address)
+ip = tk.StringVar(root)
+sbnt = tk.IntVar(root)
+ntad = tk.StringVar(root)
+bdad = tk.StringVar(root)
+avip = tk.StringVar(root)
+rng = tk.StringVar(root)
 
 
-# if __name__ == "__main__":
+def clean():
+    ip.set('')
+    sbnt.set('')
+    ntad.set('')
+    bdad.set('')
+    avip.set('')
+    rng.set('')
 
-    ipi = ipaddress.ip_interface(f'{ip.get()}/{subnet_mask.get()}')
-    print("Address", ipi.ip)
-    print("Mask", ipi.netmask)
-    print("Cidr", str(ipi.network).split('/')[1])
-    print("Network", str(ipi.network).split('/')[0])
-    print("Broadcast", ipi.network.broadcast_address)
 
-    # creating frame
-lframe = t.Frame(root)
-lframe.place(x=10, y=100)
-rframe = t.Frame(root)
-rframe.place(x=400, y=100)
+def net_adress(ipl, mask):
+    maskb = str("1"*mask+"0"*(32-mask))
+    mlst = [int(maskb[i:i+8], 2) for i in range(0, len(maskb), 8)]
+    return [ipl[i] & mlst[i] for i in range(4)]
 
-# creating variable
-ip = t.StringVar(lframe)
-subnet_mask = t.StringVar(lframe)
 
-# creating labels
-t.Label(root, text='GUI subnet calculator ',
-        font='consolas 14 bold', padx=20, pady=20).grid(row=0, column=1)
+def broadcast(ntadr, mask):
+    maskb = str("0"*mask+"1"*(32-mask))
+    inv = [int(maskb[i:i+8], 2) for i in range(0, len(maskb), 8)]
+    return [ntadr[i] | inv[i] for i in range(4)]
 
-t.Label(lframe, text='Enter Ip address : ').grid(row=1, column=0)
-t.Entry(lframe, textvariable=ip).grid(row=1, column=1)
 
-t.Label(lframe, text='Enter subnet mask(0-32) : ').grid(row=2, column=0)
-t.Entry(lframe, textvariable=subnet_mask).grid(row=2, column=1)
+def available(mask, ipl):
+    if 0 < ipl[0] < 128:
+        subnetbit = mask - 8
+        hostbit = 32 - mask
+        snets = 2**subnetbit
+        hosts = 2**hostbit - 2
+    elif 128 < ipl[0] < 192:
+        subnetbit = mask - 16
+        hostbit = 32 - mask
+        snets = 2**subnetbit
+        hosts = 2**hostbit - 2
+    elif 191 < ipl[0] < 224:
+        subnetbit = mask - 24
+        hostbit = 32 - mask
+        snets = 2**subnetbit
+        hosts = 2**hostbit - 2
+    else:
+        print(" class d or e ")
+    return snets, hosts
 
-t.Button(lframe, text='Submit', command=Display).grid(row=3, column=0)
 
-lst = t.Listbox(rframe, bg='grey', fg='white', justify='left')
-lst.grid(row=1, column=3)
+def subrange(ntadr, bdcst):
+    ntadr[-1] = ntadr[-1]+1
+    bdcst[-1] = bdcst[-1]-1
+    ntadr = [str(x) for x in ntadr]
+    bdcst = [str(x) for x in bdcst]
+    return ".".join(ntadr)+"-"+".".join(bdcst)
 
+
+def calculate():
+    ipl = [int(x) for x in ip.get().split(".")]
+    mask = sbnt.get()
+    ntadr = net_adress(ipl, mask)
+    ntad.set(".".join([str(x) for x in ntadr]))
+    bdcst = broadcast(ntadr, mask)
+    bdad.set(".".join([str(x) for x in bdcst]))
+    rng.set(subrange(ntadr, bdcst))
+    subnets, hosts = available(mask, ipl)
+    avip.set(f"hosts : {hosts} subnets: {subnets}")
+
+
+tk.Label(root, text="IP Address").grid(row=0, column=0)
+ipfld = tk.Entry(root, textvariable=ip)
+ipfld.grid(row=0, column=1)
+
+tk.Label(root, text="Subnet").grid(row=1, column=0)
+sbntfld = tk.Entry(root, textvariable=sbnt)
+sbntfld.grid(row=1, column=1)
+
+tk.Label(root, text="Subnet").grid(row=1, column=0)
+sbntfld = tk.Entry(root, textvariable=sbnt)
+sbntfld.grid(row=1, column=1)
+
+tk.Button(root, text="Calculate", command=calculate).grid(row=2, column=0)
+tk.Button(root, text="Clear", command=clean).grid(row=2, column=1)
+
+tk.Label(root, text="Network Address").grid(row=3, column=0)
+ntfld = tk.Entry(root, textvariable=ntad)
+ntfld.grid(row=3, column=1)
+
+tk.Label(root, text="Broadcast Address").grid(row=4, column=0)
+bdfld = tk.Entry(root, textvariable=bdad)
+bdfld.grid(row=4, column=1)
+
+tk.Label(root, text="No Of available IP").grid(row=5, column=0)
+avipfld = tk.Entry(root, textvariable=avip)
+avipfld.grid(row=5, column=1)
+
+tk.Label(root, text="Range").grid(row=6, column=0)
+rngfld = tk.Entry(root, textvariable=rng)
+rngfld.grid(row=6, column=1)
 
 root.mainloop()

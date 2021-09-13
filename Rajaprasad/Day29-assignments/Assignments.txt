@@ -1,0 +1,15 @@
+Project:
+1.Write a network scanner tool:
+	-Scan single host
+	-scan range
+	-Scan network
+	-Agressive scan
+	-Scan ARP packet
+	-Scan All port only
+	-Scan in verbose mode
+
+Notes: Scan TCP SYN pack,OS,PORT in all scan
+Do'nt print the dictionary.Print all details line by line 
+
+Project
+2.Write network sniffer tool(It must take input from command line)
