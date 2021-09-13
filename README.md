@@ -152,7 +152,7 @@ Athira V S: https://github.com/athira-vs/Subnet_Calculator
 
 Sufail PS : https://github.com/sufailps/subnet_calc
 
-
+Thanushree K C : https://github.com/Thanushree28/Subnet_Calculator
 
 ________________________________________________________________________________________________________________________
 
