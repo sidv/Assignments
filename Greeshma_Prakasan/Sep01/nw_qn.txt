@@ -1,0 +1,99 @@
+1.Calculate the network address,subnet mask(octet format),Count of host system,broad cast address for following
+
+ip : 192.168.1.4/21
+ip : 10.1.4.5/16
+ip : 192.0.2.3/12
+
+=>
+ip : 192.168.1.4
+network address - 192.168.0.0
+subnet mask - 11111111.11111111.11111000.00000000
+broad cast -  00001010.10101000.00000111.11111111
+cout of host - 8*256 - 8 - 8 = 2032
+range - 192.168.1.1 - 192.168.1.254
+	   192.168.7.1 - 192.168.7.254
+
+broad cast address - 192.168.7.255
+
+=>
+ip : 10.1.4.5/16
+ip -   00001010.00000001.00000100.00000101
+mask - 11111111.11111111.00000000.00000000
+broad- 00001010.00000001.11111111.11111111
+network address - 10.1.0.0
+cout of host - 256*256 - 256+256 = 65536
+range - 10.1.1.1 - 10.1.1.254
+	   10.1.254.1 - 10.1.254.254
+
+broad cast address - 10.1.255.255
+
+=>
+ip : 192.0.2.3/12
+ip -   11000000.00000000.00000010.00000011
+mask - 11111111.11110000.00000000.00000000
+network address - 192.0.0.0
+cout of host - 15*256*256 - 16 - 256 - 256 = 982512
+range - 192.0.0.1 - 192.15.255.254
+
+broad cast address - 192.15.255.255
+
+
+2.Calculate the network address,Count of host system,broad cast address for following
+
+=>
+ip : 192.0.4.8 subnet mask: 255.255.255.252
+
+192.0.4.8 		- 11000000.00000000.00000100.000010 00
+255.255.255.252 - 11111111.11111111.11111111.111111 00
+
+n/w adr - 192.0.4.8
+broad cast adr - 192.0.4.11
+range - 192.0.4.8 - 192.0.4.11
+
+=>
+ip : 10.1.4.5 subnet mask: 255.255.254.0
+
+10.1.4.5  -	00001010.00000001.00000100.00000101  
+255.255.254.0 - 11111111.11111111.11111110.00000000  
+
+n/w adr - 10.1.4.0
+broad cast adr - 10.1.5.255
+range - 10.1.4.1 - 10.1.5.254
+
+
+=>
+ip : 192.0.2.3 subnet mask: 255.255.224.0
+
+192.0.2.3   -	 11000000.00000000.00000010.00000011  
+255.255.224.0 -	 11111111.11111111.11100000.00000000  
+
+n/w adr - 192.0.0.0
+broad cast adr - 192.0.31.255
+range - 192.0.0.1 - 192.0.31.254
+
+
+3.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 126 host
+
+192.168.0.0
+2^n - 2 = 126 -> 2^n = 128 -> 2^7 = 128 -> n=7
+11111111.11111111.11111111.10000000
+subnet mask - 32 - 7 = 25
+
+n/w adr - 192.168.0.0
+
+
+4.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 237 host
+
+192.168.0.0
+2^n - 2 = 237 -> 2^n = 239 -> n = 8
+subnet mask = 32 - 8 = 24 
+n/w adr - 192.168.0.0
+
+5.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 100000 host
+
+192.168.0.0
+subnet mask = 32 - 17 = 15
+n/w adr - 192.168.0.0
