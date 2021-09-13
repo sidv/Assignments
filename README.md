@@ -148,8 +148,11 @@ Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Command_Manual
 
 Sufail PS : https://github.com/sufailps/command_manual
 
+Thanushree K C : https://github.com/Thanushree28/Command_manual
+
 
 Anjitha M S : https://github.com/Anjitha-mundanmani/cmd-manual
+
 
 
 
