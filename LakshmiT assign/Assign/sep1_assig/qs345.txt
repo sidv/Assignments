@@ -1,0 +1,32 @@
+3.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 126 host
+192.168.0.0
+__________________________________________________________________________________________________________________________________________
+
+IP:		11000000.10101000.00000000.00000000
+Subnet mask:	11111111.11111111.11111111.10000000 = 255.255.255.128
+		------------------------------------
+Network Addr:	11000000.10101000.00000000.00000000 = 192.168.0.0
+Broadcast Addr:	11000000.10101000.00000000.01111111 = 192.168.0.127
+
+Available hosts:	2^7-2 = 128 - 2 = 126
+IP addr range:	192.168.0.1 - 192.168.0.126
+
+________________________________________________________________________________________________
+4.4.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 237 host
+192.168.0.0
+
+	max 237 host = (2^n) - 2
+	here nearest nth value is 8  2^ 8 = 256
+	where n will be the no of zeros in subnet mask.
+	we can't create a subnet with maximum 237 host
+	not possible
+____________________________________________________________________________________________________________________________________
+5.Calculate the subnet mask,network address
+I want to create a subnet and with maximum 100000 host
+192.168.0.0
+	max 100000 host = (2^n) - 2
+	where n will be the no of zeros in subnet mask.
+	we can't create a subnet with maximum 100000 host
+	not possible
