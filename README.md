@@ -134,11 +134,15 @@ Pavan Precious Thomas : https://github.com/PavPrecious/project_CommandManual
 Lakshmi T :https://github.com/Lakshmit1127/Command-Manual
 
 
+Ramya R : https://github.com/Ramya74/command_manual
+
+
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Command_Manual
 
 
 
 Sufail PS : https://github.com/sufailps/command_manual
+
 
 __________________________________________________________________________________________________________________
 
@@ -186,7 +190,11 @@ Lakshmi T : https://github.com/Lakshmit1127/project_subnet_calc
 
 Sufail PS : https://github.com/sufailps/subnet_calc
 
+
+Ramya R: https://github.com/Ramya74/subnet_calculator
+
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/subnet_calculator
+
 
 
 
@@ -239,7 +247,11 @@ Pooja SR : https://github.com/HaiPooja/Packet_sniffer
 
 Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
 
+
+Ramya R : https://github.com/Ramya74/sniffer
+
 Sufail PS : https://github.com/sufailps/packet_sniffer
+
 
 
 
