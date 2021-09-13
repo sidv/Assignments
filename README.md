@@ -108,6 +108,9 @@ Command Manual:
 
 Abhinav Karthik R : https://github.com/karthikwgz/command_manual
 
+Lekshmi Pillai : https://github.com/lekshmir80/Command-Manual
+
+
 Rajaprasad Paikaray : https://github.com/hyraja/command-manual-python
 
 Sachin CS : https://github.com/sachinconquerguru/Command_Manual
@@ -132,6 +135,7 @@ Lakshmi T :https://github.com/Lakshmit1127/Command-Manual
 
 Sufail PS : https://github.com/sufailps/command_manual
 __________________________________________________________________________________________________________________
+
 Subnet Calculator:
  
 Rajaprasad Paikaray : https://github.com/hyraja/Subnet-calculator
@@ -172,7 +176,11 @@ Network Scanner tool:
 
 Rajaprasad Paikaray : https://github.com/hyraja/Network-scan-python
 
+
+Lekshmi Pillai : https://github.com/lekshmir80/Network_Scanner
+
 ______________________________________________________________________________________________________________________
+
 
 Packet Sniffer tool:
 
