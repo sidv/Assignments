@@ -176,6 +176,7 @@ Network Scanner tool:
 
 Rajaprasad Paikaray : https://github.com/hyraja/Network-scan-python
 
+Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
 
 Lekshmi Pillai : https://github.com/lekshmir80/Network_Scanner
 
@@ -211,4 +212,5 @@ Pooja SR : https://github.com/HaiPooja/Packet_sniffer
 Pavan Precious Thomas : https://github.com/PavPrecious/Packet_Sniffer
 
 Sufail PS : https://github.com/sufailps/packet_sniffer
+
 
