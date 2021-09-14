@@ -232,7 +232,6 @@ Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
 
 Lekshmi Pillai : https://github.com/lekshmir80/Network_Scanner
 
-Abhinav Karthik R : https://github.com/karthikwgz/network_scanner
 
 ______________________________________________________________________________________________________________________
 
