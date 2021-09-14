@@ -207,7 +207,6 @@ Thanushree K C : https://github.com/Thanushree28/Subnet_Calculator
 
 B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
 
-B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Subnet_calculator_GUI
 
 Gopi Bhagam :https://github.com/bhagamgopi/Subnet_caluclator
 
@@ -228,11 +227,13 @@ Network Scanner tool:
 
 Rajaprasad Paikaray : https://github.com/hyraja/Network-scan-python
 
-Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
+Anjitha M S : https://github.com/Anjitha-mundanmani/network-scanner
 
 Lekshmi Pillai : https://github.com/lekshmir80/Network_Scanner
 
+Shanu Susan Abraham : https://github.com/shanu-123/network_scanner_tool
 
+Sachin CS : https://github.com/sachinconquerguru/Network_Scanner_tool
 ______________________________________________________________________________________________________________________
 
 
