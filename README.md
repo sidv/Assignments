@@ -228,7 +228,7 @@ Network Scanner tool:
 
 Rajaprasad Paikaray : https://github.com/hyraja/Network-scan-python
 
-Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
+Anjitha M S : https://github.com/Anjitha-mundanmani/network-scanner
 
 Lekshmi Pillai : https://github.com/lekshmir80/Network_Scanner
 
