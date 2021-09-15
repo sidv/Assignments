@@ -1,0 +1,44 @@
+ docker ps
+ 2022  docker network inspect --help
+ 2023  docker network inspect 
+ 2024  docker network ls
+ 2025  docker network inspect 2a01054f877c
+ 2026  docker ps
+ 2027  docker network ls
+ 2028  docker network inspect 2a01054f877c
+ 2029  docker network inspect 83d459736847
+ 2030  docker network inspect 2a01054f877c
+ 2031  docker network inspect bridge\
+ 2032  docker network inspect bridge
+ 2033  docker network inspect bridge --verbose
+ 2034  docker network inspect bridge --format
+ 2035  docker network inspect bridge --format --help
+ 2036  docker network inspect bridge 
+ 2037  docker network inspect --help
+ 2038  docker network --help
+ 2039  docker network disconnect
+ 2040  docker network disconnect bridge
+ 2041  docker network disconnect bridge myapp
+ 2042  docker network connect bridge myapp
+ 2043  docker network --help
+ 2044  docker create network
+ 2045  docker login
+ 2046  docker create network
+ 2047  docker login
+ 2048  docker create network
+ 2049  docker networt create -d bridge xyz
+ 2050  docker network create -d bridge xyz
+ 2051  docker network ls
+ 2052  docker network inspect xyz
+ 2053  docker network disconnect bridge myapp
+ 2054  docker network connect xyz myapp
+ 2055  docker network inspect xyz
+ 2056  docker network create -d bridge --subnet=192.168.1.0/24  xyz
+ 2057  docker network create -d bridge --subnet=192.168.1.0/24  mynetwork
+ 2058  docker network disconnect xyz myapp
+ 2059  docker network ls
+ 2060  docker network inspect mynetwork
+ 2061  docker network connect mynetwork myapp
+ 2062  docker network inspect mynetwork
+ 2063  history 
+
