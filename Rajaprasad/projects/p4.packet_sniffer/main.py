@@ -4,13 +4,19 @@ from datetime import datetime
 from scapy.all import *
 import sys
 from rich.console import Console
+from rich.text import Text
 
 console = Console()
+
+
+def cp(string):
+    console.print(Text(string, style='bold #00FF00'))
+
 
 # datetime object containing current date and time
 now = datetime.now()
 
-console.print("Using Sudo", style="bold red")
+cp("Using Sudo")
 # Packet sniffer script using scapy
 
 net_iface = str(sys.argv[1])
@@ -34,14 +40,14 @@ proto = str(sys.argv[4])
 
 def logs(packet):
 
-    console.print('-'*20, style="bold #00FF00")
+    cp('-'*20)
     print(f'Time : {now}')
     # packet.show()
     source_mac = f'SRC_MAC: {str(packet[0].src)}'
     destination_mac = f'DEST_MAC : {str(packet[0].dst)}'
     # type_of_ip = f'IP Type : IPv{str(packet[0].version)}'
-    console.print(source_mac, destination_mac, style="#FF00FF")
-    console.print('-'*20, style="#00FF00")
+    cp(f'{source_mac}, {destination_mac}')
+    cp('-'*20)
 
 
 if proto == "all":
@@ -54,4 +60,4 @@ elif proto == "icmp":
     sniff(iface=net_iface, count=num_of_pkt,
           timeout=time_sec, prn=logs)  # sniffing packet
 else:
-    print("Wrong protocol")
+    console.print("Wrong protocol", style='bold red')

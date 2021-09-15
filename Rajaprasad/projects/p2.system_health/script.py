@@ -1,42 +1,43 @@
 
 import os
 from rich.prompt import Prompt
-from rich import style
+from rich.text import Text
 from rich.console import Console
 from script import *
 
 console = Console()
 
 
+def cp(string):
+    console.print(Text(string, style='bold #00FF00'))
+
+
+def run_cmd(str):
+    return os.popen(str).read()
+
+
 def display_aval_RAM():
-    mem = os.popen(
-        'free -m | tr -s " " | cut -d " " -f4 | head -n 2 | tail -n 1').read()
-    console.print(
-        f'Available memory on device => {mem} mb', style='bold #F908E6 ')
+    cmd = 'free -m | tr -s " " | cut -d " " -f4 | head -n 2 | tail -n 1'
+    cp(f'Available memory on device => {run_cmd(cmd)} mb')
 
 
 def display_load_avg():
     cmds = 'cat /proc/loadavg'
     cmd = Prompt.ask('Enter the command', choices=[
                      f'{cmds}', 'uptime', 'w'], default='uptime')
-    res = os.popen(cmd).read()
-    console.print(res, style='italic #7C53E7 ')
+    cp(run_cmd(cmd))
 
 
 def hostname_details():
     cmd = 'hostnamectl status'
-    res = os.popen(cmd).read()
-    console.print(res, style='bold #01F9EB ')
+    cp(run_cmd(cmd))
 
 
 def process_count():
     cmd = 'ps -a | wc -l'
-    res = os.popen(cmd).read()
-    console.print(f' {res} processes running on system ',
-                  style='bold #01F9EB ')
+    cp(f' {run_cmd(cmd)} processes running on system ')
 
 
 def display_uptime():
     cmd = 'uptime | cut -d " " -f2,3'
-    res = os.popen(cmd).read()
-    console.print(f'Uptime ==>  {res}', style='italic blue')
+    cp(f'Uptime ==>  {run_cmd(cmd)}')
