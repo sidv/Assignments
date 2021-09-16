@@ -237,6 +237,8 @@ Sachin CS : https://github.com/sachinconquerguru/Network_Scanner_tool
 
 Abhinav Karthik R : https://github.com/karthikwgz/network_scanner
 
+Lakshmi T : https://github.com/Lakshmit1127/network_scaner
+
 Bijith Kaladharan : https://github.com/BijithKaladharan/network_scanner
 
 Ananthu PS : https://github.com/AnanthuPS/Network_Scanner
@@ -245,7 +247,13 @@ Neethu : https://github.com/NEETHUMOLTK99/Network_Scanner
 
 Pooja SR:https://github.com/HaiPooja/network_scanner
 
+
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Network_Scanner
+
+
+Aneena Sabu : https://github.com/Elizabethaneena/Network_scanner
+
+Sufail Ps : https://github.com/sufailps/network_scanner
 
 ______________________________________________________________________________________________________________________
 
@@ -256,6 +264,7 @@ Packet Sniffer tool:
 Lekshmi Pillai : https://github.com/lekshmir80/Packet-Sniffer
 
 Rajaprasad Paikaray : https://github.com/hyraja/packet-sniffer-python
+
 
 Shanu Susan Abraham : https://github.com/shanu-123/network_sniffer_tool
 
