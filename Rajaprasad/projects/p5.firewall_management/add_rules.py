@@ -91,15 +91,12 @@ def fw_add_rule():
     if ch == "1":
         # add port
         fw_add_port()
-        pass
     elif ch == "2":
         fw_add_services()
         # add services
-        pass
     elif ch == "3":
         # add sources
         fw_add_sources()
-        pass
     elif ch == "4":
         pass
     else:
