@@ -138,14 +138,14 @@ if __name__ == "__main__":
         elif ch == "2":
             # delete rules
             fw_delete_rules()
-            pass
         elif ch == "3":
+            # get active zones
             fw_get_active_zones()
-            pass
         elif ch == "4":
             # get active zone details
             fw_get_detail_active_zone()
         elif ch == "5":
+            # reload
             fw_reload()
         elif ch == "6":
             # exit
