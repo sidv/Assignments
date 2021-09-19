@@ -3,20 +3,21 @@ from script import *
 
 
 def main_menu():
-    cp('-'*20)
-    cp('1.Assign ip address')
-    cp('2.Delete ip address')
-    cp('3.Display ip address')
-    cp('4.Display all interfaces')
-    cp('5.Configure Routing')
-    cp('6.Turn On/Off interface')
-    cp('7.Add ARP entry')
-    cp('8.Delete ARP Entry')
-    cp('9.Restart Network')
-    cp('10.Change hostname')
-    cp('11.Add DNS server entry')
-    cp('12.Exit')
-    cp('-'*20)
+    cp('-'*40)
+    cp('[1].Assign ip address')
+    cp('[2].Delete ip address')
+    cp('[3].Display ip address')
+    cp('[4].Display all interfaces')
+    cp('[5].Configure Routing')
+    console.print(
+        '[bold #00FF00][6].Turn On/[red]Off[/red] interface[/bold #00FF00]')
+    cp('[7].Add ARP entry')
+    cp('[8].Delete ARP Entry')
+    cp('[9].Restart Network')
+    cp('[10].Change hostname')
+    cp('[11].Add DNS server entry')
+    rp('[12].Exit')
+    cp('-'*40)
 
 
 if __name__ == '__main__':
@@ -62,5 +63,5 @@ if __name__ == '__main__':
             break
 
         else:
-            console.print(
+            rp(
                 'oops ! Wrong option,  please choose correct option below ', style='bold red')

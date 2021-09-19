@@ -11,8 +11,32 @@ def cp(string):
     console.print(Text(string, style='bold #00FF00'))
 
 
+def rp(string):
+    return console.print(string, style='bold red')
+
+
+def pp(string):
+    return console.print(string, style='bold #FF00FF ')
+
+
 def run_cmd(str):
     return os.popen(str).read()
+
+# defining error handler decorator
+
+
+def Error_Handler(func):
+    def wrapper(*args, **kwargs):
+        try:
+            func(*args, **kwargs)
+        except:
+            rp(f'exception flew by! , {func.__name__} use sudo instead ')
+        else:
+            pp('commands executed ....')
+        finally:
+            pp('execution over !!!!')
+            pp('*'*40)
+    return wrapper
 
 
 def ip():
@@ -37,6 +61,7 @@ def interface_choice():
     return interface_choice
 
 
+@Error_Handler
 def ip_cmd():
     # Assign ip address
     cmd = f'ip address add {ip()} dev {interface_choice()}'
@@ -44,6 +69,7 @@ def ip_cmd():
     cp('Ip address assigned successfully')
 
 
+@Error_Handler
 def ip_cmd_del():
     # Delete Ip address
     cmd = f'sudo ip address del {ip()} dev {interface_choice()}'
@@ -51,17 +77,20 @@ def ip_cmd_del():
     cp('Ip address Deleted successfully')
 
 
+@Error_Handler
 def ip_display():
     # show ip address of all interfaces
     cmd = f'ip -c -br address'
     cp(run_cmd(cmd))
 
 
+@Error_Handler
 def display_all_interface():
     cmd = 'ip l'
     cp(f'All interfaces name  => {interfaces()}  Details => {run_cmd(cmd)}')
 
 
+@Error_Handler
 def configure_routing():
     network_addr = input('Enter network Address with /mask : ')
     getway_ip = input('Enter Gateway ip address : ')
@@ -71,8 +100,9 @@ def configure_routing():
         cp('Roting configuration completed !')
 
 
+@Error_Handler
 def On_Off_interface():
-    cp('1.Turned off interface ')
+    rp('1.Turned off interface ')
     cp('2.Turned on interface')
     choice = Prompt.ask('Enter choice : ', choices=['1', '2'], default='1')
 
@@ -89,6 +119,7 @@ def On_Off_interface():
         cp('Wrong option choosed')
 
 
+@Error_Handler
 def add_ARP_entry():
     arp_cache = os.popen('ip n show | cut -d " " -f5').read()
     cmd = f'ip n add {ip()} lladdr {arp_cache} dev {interface_choice()} nud permanent'
@@ -96,12 +127,14 @@ def add_ARP_entry():
     cp('ARP Entry added successfully ')
 
 
+@Error_Handler
 def del_arp_entry():
     cmd = f'ip n del {ip()} dev {interface_choice()}'
     run_cmd(cmd)
     cp('ARP Entry deleted successfully ')
 
 
+@Error_Handler
 def restart_network():
     cmd = 'sudo systemctl restart networking'
     cmd2 = 'sudo systemctl status networking'
@@ -110,6 +143,7 @@ def restart_network():
     cp(os.popen(cmd2).read())
 
 
+@Error_Handler
 def change_host_name():
     host_name = input("Enter new host name :")
     cmd = f'hostnamectl set-hostname {host_name}'
@@ -117,11 +151,11 @@ def change_host_name():
     cp(f'new host name {host_name} set successfully ')
 
 
+@Error_Handler
 def add_dns_server():
-
-    print('adding dns server')
-    print('first : nameserver 8.8.8.8 write in this format')
-    print('second : ctrl + d  to exit ')
+    pp('adding dns server')
+    cp('first : nameserver 8.8.8.8 write in this format')
+    pp('second : ctrl + d  to exit ')
     cmd = 'sudo cat  >> /etc/resolv.conf'
     cp(run_cmd(cmd))
     cp('Nameserver added successfully  ')

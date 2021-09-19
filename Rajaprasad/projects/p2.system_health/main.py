@@ -3,14 +3,14 @@ from script import *
 
 
 def main_menu():
-    cp('-'*20)
+    cp('-'*40)
     cp('[1].Display available RAM')
     cp('[2].Display load average')
     cp('[3].Display Hostname details')
     cp('[4].Display All process count')
     cp('[5].Display uptime')
-    cp('[6].Exit')
-    cp('-'*20)
+    rp('[6].Exit')
+    cp('-'*40)
 
 
 if __name__ == '__main__':
