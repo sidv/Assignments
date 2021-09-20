@@ -284,6 +284,7 @@ Sufail Ps : https://github.com/sufailps/network_scanner
 
 Athira V S : https://github.com/athira-vs/NetworkScanner
 
+Pavan Precious Thomas : https://github.com/PavPrecious/Network_Scanner
 
 ______________________________________________________________________________________________________________________
 
