@@ -350,17 +350,23 @@ Docker manager:
 
 Govind Gopal : https://github.com/govindsgopal/docker_manager
 
+Abhinav Karthik R : https://github.com/karthikwgz/docker_manager
+
 __________________________________________________________________________________________________________________
 
 System health manager:
 
 Govind Gopal : https://github.com/govindsgopal/system_health
 
+https://github.com/karthikwgz/system_health
+
 __________________________________________________________________________________________________________________
 
 Database manager 
 
 Govind Gopal : https://github.com/govindsgopal/database_manager
+
+Abhinav Karthik R : https://github.com/karthikwgz/database_status
 
 
 
