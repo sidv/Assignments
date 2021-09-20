@@ -20,48 +20,29 @@ def main_menu():
     cp('-'*40)
 
 
+def Exit():
+    exit()
+
+
+op = {
+    '1': ip_cmd,
+    '2': ip_cmd_del,
+    '3': ip_display,
+    '4': display_all_interface,
+    '5': configure_routing,
+    '6': On_Off_interface,
+    '7': add_ARP_entry,
+    '8': del_arp_entry,
+    '9': restart_network,
+    '10': change_host_name,
+    '11': add_dns_server,
+    '12': Exit
+}
+
 if __name__ == '__main__':
     while True:
         main_menu()
         ch = Prompt.ask('Enter choice :', choices=[
                         str(x) for x in range(1, 13)], default='1')
 
-        if ch == '1':
-            ip_cmd()
-
-        elif ch == '2':
-            ip_cmd_del()
-
-        elif ch == '3':
-            ip_display()
-
-        elif ch == '4':
-            display_all_interface()
-
-        elif ch == '5':
-            configure_routing()
-
-        elif ch == '6':
-            On_Off_interface()
-
-        elif ch == '7':
-            add_ARP_entry()
-
-        elif ch == '8':
-            del_arp_entry()
-
-        elif ch == '9':
-            restart_network()
-
-        elif ch == '10':
-            change_host_name()
-
-        elif ch == '11':
-            add_dns_server()
-
-        elif ch == '12':
-            break
-
-        else:
-            rp(
-                'oops ! Wrong option,  please choose correct option below ', style='bold red')
+        op[ch]()

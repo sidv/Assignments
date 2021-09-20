@@ -133,27 +133,27 @@ def ad_app_lyr_protocol():
     gprint(run_cmd(cmd))
 
 
+def back_to_menu():
+    pass
+
+
+op = {
+    '1': allow_deny_ip,
+    '2': allow_deny_subnet,
+    '3': allow_deny_interface,
+    '4': allow_deny_port,
+    '5': allow_deny_app,
+    '6': ad_app_lyr_protocol,
+    '7': back_to_menu
+}
+
+
 def allow_deny_rule():
     fw_enable()
     allow_deny_rule_menu()
     ch = Prompt.ask('Enter your option : ', choices=[
                     str(x) for x in range(1, 8)], default='1')
-    if ch == '1':
-        allow_deny_ip()
-    elif ch == '2':
-        allow_deny_subnet()
-    elif ch == '3':
-        allow_deny_interface()
-    elif ch == '4':
-        allow_deny_port()
-    elif ch == '5':
-        allow_deny_app()
-    elif ch == '6':
-        ad_app_lyr_protocol()
-    elif ch == '7':
-        pass
-    else:
-        pass
+    op[ch]()
 
     # allow/deny_rule ends --------------
 
@@ -217,34 +217,25 @@ def main_menu():
     rprint('[8] Exit')
 
 
+def Exit():
+    exit()
+
+
+operations = {
+    '1': fw_add_rule,
+    '2': fw_delete_rules,
+    '3': allow_deny_rule,
+    '4': fw_get_active_zones,
+    '5': fw_get_detail_active_zone,
+    '6': fw_reload,
+    '7': disable_firewall,
+    '8': Exit
+}
+
 if __name__ == '__main__':
     fw_get_status()
     while True:
         main_menu()
         ch = Prompt.ask('Enter your option : ', choices=[
                         str(x) for x in range(1, 9)])
-        if ch == '1':
-            # Add rule
-            fw_add_rule()
-        elif ch == '2':
-            # delete rules
-            fw_delete_rules()
-        elif ch == '3':
-            # Allow/Deny rules
-            allow_deny_rule()
-        elif ch == '4':
-            # get active Zones
-            fw_get_active_zones()
-        elif ch == '5':
-            # get active zone details
-            fw_get_detail_active_zone()
-        elif ch == '6':
-            # reload
-            fw_reload()
-        elif ch == '7':
-            disable_firewall()
-        elif ch == '8':
-            break
-        else:
-            console.print(
-                Text('Wrong option! Type option again ', style='bold red'))
+        operations[ch]()

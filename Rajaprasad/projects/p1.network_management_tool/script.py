@@ -102,21 +102,17 @@ def configure_routing():
 
 @Error_Handler
 def On_Off_interface():
-    rp('1.Turned off interface ')
-    cp('2.Turned on interface')
-    choice = Prompt.ask('Enter choice : ', choices=['1', '2'], default='1')
+    cp('[on].Turned on interface')
+    cp('[off].Turned off interface')
+    choice = Prompt.ask('Enter choice : ', choices=['on', 'off'], default='on')
 
-    if choice == 1:
+    if choice == 'on':
+        cmd = f'sudo ip link set dev {interface_choice()}  down'
+        cp(f' turned off  | Details => {pp(run_cmd(cmd))}')
 
-        cmd = f'ip link set dev {interface_choice()}  down'
-        cp(f'{interface_choice()} turned off  | Details => {run_cmd(cmd)}')
-
-    elif choice == 2:
-        cmd = f'ip link set dev {interface_choice()}  up'
-        cp(f'{interface_choice()} turned on | Details => {run_cmd(cmd)} ')
-
-    else:
-        cp('Wrong option choosed')
+    elif choice == 'off':
+        cmd = f'sudo ip link set dev {interface_choice()}  up'
+        cp(f' turned on | Details => {pp(run_cmd(cmd))} ')
 
 
 @Error_Handler

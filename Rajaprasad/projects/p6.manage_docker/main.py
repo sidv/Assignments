@@ -127,30 +127,22 @@ def docker_modify_network():
         f'{container_name} container connected to {ntwork} Network')
 
 
+def Exit():
+    exit()
+
+
+operations = {
+    '1': docker_cn_status,
+    '2': docker_dwn_image,
+    '3': run_container,
+    '4': delete_container,
+    '5': network_detail_container,
+    '6': docker_modify_network,
+    '7': Exit
+}
+
 while True:
     main_menu()
     ch = Prompt.ask('Enter choice ', choices=[
                     str(x) for x in range(1, 8)], default='1')
-    if ch == '1':
-        docker_cn_status()
-
-    elif ch == '2':
-        docker_dwn_image()
-
-    elif ch == '3':
-        run_container()
-
-    elif ch == '4':
-        delete_container()
-
-    elif ch == '5':
-        network_detail_container()
-
-    elif ch == '6':
-        docker_modify_network()
-
-    elif ch == '7':
-        break
-
-    else:
-        console.print('Wrong option ', style='bold red')
+    operations[ch]()

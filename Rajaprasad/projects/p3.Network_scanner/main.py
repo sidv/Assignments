@@ -53,19 +53,6 @@ def run_cmd(string):
     return os.popen(string).read()
 
 
-@decorate
-def main_menu():
-    gp('[1].Get device details')
-    gp('[2].Scan the network for open port')
-    gp('[3].Scan single host ')
-    gp('[4].Scan range')
-    gp('[5].Aggressive scan')
-    gp('[6].Scan ARP packet')
-    gp('[7].Scan all port only')
-    gp('[8].Scan in VERBOSE mode')
-    rp('[9].Exit')
-
-
 # default value start
 pp('Wait.......................')
 # Enter the IP :
@@ -114,6 +101,23 @@ def device_detail():
     result(scan)
 
 
+def scan_open_port_only():
+    try:
+        scan = nm.scan(ports=RANGEL, arguments=OS_COMMAND)
+        pp(f'Command : {nm.command_line()}')
+        # print("scan Info : ", nm.scaninfo())
+        hostname = f"Hostname : {scan['scan'][IP]['hostnames']}"
+        address = f" Address : {scan['scan'][IP]['addresses']}"
+        status = f"status : {scan['scan'][IP]['status']}"
+        gp('\n'.join(f'{hostname}, {address}, {status}'.split(',')))
+        for port in scan['scan'][IP]['tcp'].items():
+            if port[1]['state'] == 'open':
+                pp(
+                    f"{port[0]}, state : {port[1]['state']},name : {port[1]['name']},reason : {port[1]['reason']},Product : {port[1]['product']},version : {port[1]['version']},conf: {port[1]['conf']},cpe : {port[1]['cpe']}".split(','))
+    except:
+        rp('Use sudo instead')
+
+
 @Error_Handler
 def scan_single_host():
     scan = nm.scan(IP)
@@ -156,42 +160,38 @@ def scan_verbose_mode():
     gp(run_cmd(command))
 
 
+@decorate
+def main_menu():
+    gp('[1].Get device details')
+    gp('[2].Scan the network for open port')
+    gp('[3].Scan single host ')
+    gp('[4].Scan range')
+    gp('[5].Aggressive scan')
+    gp('[6].Scan ARP packet')
+    gp('[7].Scan all port only')
+    gp('[8].Scan in VERBOSE mode')
+    rp('[9].Exit')
+
+
+def Exit():
+    exit()
+
+
+op = {
+    '1': device_detail,
+    '2': scan_open_port_only,
+    '3': scan_single_host,
+    '4': scan_range,
+    '5': aggressive_scan,
+    '6': scan_arp_pkt,
+    '7': scan_all_port_only,
+    '8': scan_verbose_mode,
+    '9': Exit
+}
+
 while True:
     main_menu()
     ch = Prompt.ask('Enter choice: ', choices=[
                     str(x) for x in range(1, 10)], default='1')
     nm = nmap.PortScanner()  # Create object of nmap port scannet class
-
-    if ch == '1':
-        device_detail()
-    elif ch == '2':
-        try:
-            scan = nm.scan(ports=RANGEL, arguments=OS_COMMAND)
-            pp(f'Command : {nm.command_line()}')
-            # print("scan Info : ", nm.scaninfo())
-            hostname = f"Hostname : {scan['scan'][IP]['hostnames']}"
-            address = f" Address : {scan['scan'][IP]['addresses']}"
-            status = f"status : {scan['scan'][IP]['status']}"
-            gp('\n'.join(f'{hostname}, {address}, {status}'.split(',')))
-            for port in scan['scan'][IP]['tcp'].items():
-                if port[1]['state'] == 'open':
-                    pp(
-                        f"{port[0]}, state : {port[1]['state']},name : {port[1]['name']},reason : {port[1]['reason']},Product : {port[1]['product']},version : {port[1]['version']},conf: {port[1]['conf']},cpe : {port[1]['cpe']}".split(','))
-        except:
-            rp('Use sudo instead')
-    elif ch == '3':
-        scan_single_host()
-    elif ch == '4':
-        scan_range()
-    elif ch == '5':
-        aggressive_scan()
-    elif ch == '6':
-        scan_arp_pkt()
-    elif ch == '7':
-        scan_all_port_only()
-    elif ch == '8':
-        scan_verbose_mode()
-    elif ch == '9':
-        break
-    else:
-        print("Wrong Choice")
+    op[ch]()

@@ -13,22 +13,22 @@ def main_menu():
     cp('-'*40)
 
 
+def Exit():
+    exit()
+
+
+op = {
+    '1': display_aval_RAM,
+    '2': display_load_avg,
+    '3': hostname_details,
+    '4': process_count,
+    '5': display_uptime,
+    '6': Exit
+}
+
 if __name__ == '__main__':
     while True:
         main_menu()
         ch = Prompt.ask('Enter choice : ', choices=[
                         str(x) for x in range(1, 7)], default='1')
-        if ch == '1':
-            display_aval_RAM()
-        elif ch == '2':
-            display_load_avg()
-        elif ch == '3':
-            hostname_details()
-        elif ch == '4':
-            process_count()
-        elif ch == '5':
-            display_uptime()
-        elif ch == '6':
-            break
-        else:
-            console.print('oops ! wrong option  ', style='bold red')
+        op[ch]()

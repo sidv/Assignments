@@ -71,20 +71,21 @@ def menu():
     rp('[4]exit')
 
 
+def Exit():
+    exit()
+
+
+operations = {
+    '1': show_db_info,
+    '2': show_fields,
+    '3': show_process_lst,
+    '4': Exit
+}
+
 while True:
     menu()
     ch = Prompt.ask('Enter choice : ', choices=[
         str(x) for x in range(1, 5)], default='1')
-
-    if ch == '1':
-        show_db_info(cur)
-
-    elif ch == '2':
-        show_fields(cur)
-
-    elif ch == '3':
-        show_process_lst(cur)
-    elif ch == '4':
-        break
+    operations[ch](cur)
 
 cur.close()

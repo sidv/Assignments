@@ -131,22 +131,22 @@ def fw_add_rule_menu():
     rprint('\t[4]Back to Main menu')
 
 
+def back_to_menu():
+    pass
+
+
+ops = {
+    '1': fw_add_port,
+    '2': fw_add_services,
+    '3': fw_add_sources,
+    '4': back_to_menu,
+}
+
+
 def fw_add_rule():
     fw_add_rule_menu()
     ch = Prompt.ask('Enter choice : ', choices=[
                     str(x) for x in range(1, 5)], default='1')
-    if ch == '1':
-        # add port
-        fw_add_port()
-    elif ch == '2':
-        # add services
-        fw_add_services()
-    elif ch == '3':
-        # add sources
-        fw_add_sources()
-    elif ch == '4':
-        pass
-    else:
-        pass
+    ops[ch]()
 
 # --------------------add rule ends -------------
