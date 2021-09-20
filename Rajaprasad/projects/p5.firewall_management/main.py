@@ -76,8 +76,7 @@ def allow_deny_rule_menu():
     gprint('\t\t[4]Allow/Deny Port')
     gprint('\t\t[5]Allow/Deny App')
     gprint('\t\t[6]Allow/Deny app layer protocols')
-    gprint('\t\t[7]Disable firewall')
-    rprint('\t\t[8]Back to main menu')
+    rprint('\t\t[7]Back to main menu')
 
 
 @decorate
