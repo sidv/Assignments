@@ -5,7 +5,7 @@ s = """A computer is a machine that can be programmed to carry out sequences of
  that includes the hardware operating system main software  and peripheral
  equipment needed and used for full operation. This term may also refer 
 to a group of computers that are linked and function together"""
-#Write a python which converts first letter of each word to upper case in above string and print whole string on terminal
+# 5 Write a python which converts first letter of each word to upper case in above string and print whole string on terminal
 
 s= s.replace(" ","").replace(".","").replace(",","")
 
@@ -31,11 +31,4 @@ dic["f"] = f
 print(dic)
 
 
-
-
-
-
-
-
-print("____________________________question2_______________________________________________________________")
 

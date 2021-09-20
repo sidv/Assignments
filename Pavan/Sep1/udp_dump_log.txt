@@ -1,0 +1,50 @@
+09:44:32.804795 IP 10.0.2.15.56908 > lb-140-82-113-26-iad.github.com.https: Flags [P.], seq 3934563723:3934564060, ack 8195771, win 62780, length 337
+09:44:32.805347 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [.], ack 337, win 65535, length 0
+09:44:32.806426 IP 10.0.2.15.56908 > lb-140-82-113-26-iad.github.com.https: Flags [P.], seq 337:367, ack 1, win 62780, length 30
+09:44:32.806673 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [.], ack 367, win 65535, length 0
+09:44:33.065185 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [P.], seq 1:74, ack 367, win 65535, length 73
+09:44:33.067414 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [P.], seq 74:124, ack 367, win 65535, length 50
+09:44:33.067442 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [F.], seq 124, ack 367, win 65535, length 0
+09:44:33.067629 IP 10.0.2.15.56908 > lb-140-82-113-26-iad.github.com.https: Flags [P.], seq 367:391, ack 125, win 62780, length 24
+09:44:33.067665 IP 10.0.2.15.56908 > lb-140-82-113-26-iad.github.com.https: Flags [F.], seq 391, ack 125, win 62780, length 0
+09:44:33.068006 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [.], ack 391, win 65535, length 0
+09:44:33.068308 IP lb-140-82-113-26-iad.github.com.https > 10.0.2.15.56908: Flags [.], ack 392, win 65535, length 0
+09:44:33.306123 IP 10.0.2.15.37990 > RTK_GW.domain.name.domain: 39842+ PTR? 26.113.82.140.in-addr.arpa. (44)
+09:44:33.355535 IP RTK_GW.domain.name.domain > 10.0.2.15.37990: 39842 1/0/0 PTR lb-140-82-113-26-iad.github.com. (89)
+09:44:33.356460 IP 10.0.2.15.40212 > RTK_GW.domain.name.domain: 46397+ PTR? 15.2.0.10.in-addr.arpa. (40)
+09:44:33.379937 IP RTK_GW.domain.name.domain > 10.0.2.15.40212: 46397 NXDomain 0/0/0 (40)
+09:44:34.321794 IP 10.0.2.15.44457 > RTK_GW.domain.name.domain: 8663+ PTR? 1.1.168.192.in-addr.arpa. (42)
+09:44:34.325509 IP RTK_GW.domain.name.domain > 10.0.2.15.44457: 8663* 1/0/0 PTR RTK_GW.domain.name. (74)
+09:44:34.957722 IP 10.0.2.15.42035 > RTK_GW.domain.name.domain: 1736+ A? parrotsec.org. (31)
+09:44:34.957887 IP 10.0.2.15.42035 > RTK_GW.domain.name.domain: 27332+ AAAA? parrotsec.org. (31)
+09:44:35.008418 IP RTK_GW.domain.name.domain > 10.0.2.15.42035: 1736 2/0/0 A 139.99.69.216, A 51.79.178.45 (63)
+09:44:35.013005 IP RTK_GW.domain.name.domain > 10.0.2.15.42035: 27332 2/0/0 AAAA 2402:1f00:8001:8d8:eeee:feed:dead:beef, AAAA 2402:1f00:8001:d2d:ffff:feed:dead:beef (87)
+09:44:35.168287 IP 10.0.2.15.56259 > RTK_GW.domain.name.domain: 6589+ A? parrotsec.org. (31)
+09:44:35.173458 IP RTK_GW.domain.name.domain > 10.0.2.15.56259: 6589 2/0/0 A 51.79.178.45, A 139.99.69.216 (63)
+09:44:43.242189 IP 10.0.2.15.33390 > RTK_GW.domain.name.domain: 45681+ A? nest.parrot.sh. (32)
+09:44:43.242464 IP 10.0.2.15.33390 > RTK_GW.domain.name.domain: 19830+ AAAA? nest.parrot.sh. (32)
+09:44:43.369154 IP RTK_GW.domain.name.domain > 10.0.2.15.33390: 45681 4/0/0 CNAME director.cdn.parrot.sh., CNAME apac.infra.parrot.sh., A 139.99.69.216, A 51.79.178.45 (116)
+09:44:43.395488 IP RTK_GW.domain.name.domain > 10.0.2.15.33390: 19830 4/0/0 CNAME director.cdn.parrot.sh., CNAME apac.infra.parrot.sh., AAAA 2402:1f00:8001:8d8:eeee:feed:dead:beef, AAAA 2402:1f00:8001:d2d:ffff:feed:dead:beef (140)
+09:44:43.396723 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [S], seq 1225561548, win 64240, options [mss 1460,sackOK,TS val 3808577363 ecr 0,nop,wscale 10], length 0
+09:44:43.474841 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [S.], seq 92352001, ack 1225561549, win 65535, options [mss 1460], length 0
+09:44:43.474888 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [.], ack 1, win 64240, length 0
+09:44:43.477013 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+09:44:43.477404 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [.], ack 518, win 65535, length 0
+09:44:43.540023 IP 10.0.2.15.55094 > RTK_GW.domain.name.domain: 24216+ PTR? 216.69.99.139.in-addr.arpa. (44)
+09:44:43.571773 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+09:44:43.571828 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [.], ack 2921, win 62780, length 0
+09:44:43.571998 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [P.], seq 2921:5470, ack 518, win 65535, length 2549
+09:44:43.572011 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [.], ack 5470, win 61320, length 0
+09:44:43.574291 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [P.], seq 518:598, ack 5470, win 62780, length 80
+09:44:43.574789 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [.], ack 598, win 65535, length 0
+09:44:43.574975 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [P.], seq 598:768, ack 5470, win 62780, length 170
+09:44:43.575004 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [P.], seq 768:1020, ack 5470, win 62780, length 252
+09:44:43.575192 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [.], ack 768, win 65535, length 0
+09:44:43.576266 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [.], ack 1020, win 65535, length 0
+09:44:43.653788 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [P.], seq 5470:6106, ack 1020, win 65535, length 636
+09:44:43.653821 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [.], ack 6106, win 62780, length 0
+09:44:43.654179 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [P.], seq 1020:1051, ack 6106, win 62780, length 31
+09:44:43.654587 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [.], ack 1051, win 65535, length 0
+09:44:43.654863 IP ns573121.ip-139-99-69.net.https > 10.0.2.15.59092: Flags [P.], seq 6106:6137, ack 1051, win 65535, length 31
+09:44:43.654873 IP 10.0.2.15.59092 > ns573121.ip-139-99-69.net.https: Flags [.], ack 6137, win 62780, length 0
+09:44:43.939220 IP RTK_GW.domain.name.domain > 10.0.2.15.55094: 24216 1/0/0 PTR ns573121.ip-139-99-69.net. (83)
