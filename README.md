@@ -94,7 +94,7 @@ Anjitha M S : https://github.com/Anjitha-mundanmani/FruitProject
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Fruit-Shop
 
-Durgas siva prasad : https://github.com/sivaprasad0/AssignmentsDaily/blob/master/Aug12/FruitDictFun.py
+Durga siva prasad : https://github.com/sivaprasad0/AssignmentsDaily/blob/master/Aug12/FruitDictFun.py
 
 Sachin CS : https://github.com/sachinconquerguru/fruit_shop
 
@@ -155,6 +155,8 @@ B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Python_networking/t
 Athira V S: https://github.com/athira-vs/CommandManual
 
 Aneena Sabu : https://github.com/Elizabethaneena/Command_manual
+
+Durga siva prasad : https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/NetworkManagement.py.txt
 
 Pooja SR :https://github.com/HaiPooja/Command_manual
 
@@ -288,6 +290,9 @@ Athira V S : https://github.com/athira-vs/NetworkScanner
 
 Pavan Precious Thomas : https://github.com/PavPrecious/Network_Scanner
 
+Durga siva prasad : https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/NetworkManagement.py.txt
+                    https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/NetworkScanToolProject.py
+
 ______________________________________________________________________________________________________________________
 
 
@@ -344,6 +349,7 @@ Sufail PS : https://github.com/sufailps/packet_sniffer
 Anjitha M S : https://github.com/Anjitha-mundanmani/packet-sniffer
 
 
+
 __________________________________________________________________________________________________________________
 
 Docker manager:
@@ -352,7 +358,12 @@ Govind Gopal : https://github.com/govindsgopal/docker_manager
 
 Abhinav Karthik R : https://github.com/karthikwgz/docker_manager
 
-Shanu Susan Abraham : https://github.com/shanu-123/manage_docker
+Shanu Susan Abraham : https://github.com/shanu-123/manage_dock
+
+Durga Siva prasad: https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/DockerManageMain.py
+                   https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/DockerManage.py
+                   
+                   
 
 __________________________________________________________________________________________________________________
 
@@ -363,6 +374,9 @@ Govind Gopal : https://github.com/govindsgopal/system_health
 Abhinav Karthik R : https://github.com/karthikwgz/system_health
 
 Shanu Susan Abraham : https://github.com/shanu-123/system_health
+
+Durga siva prasad : https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/SystemHealthMain.py
+                    https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/SystemHealth.py
 ______________________________________________________________________________________________
 
 Database manager 
@@ -389,6 +403,9 @@ Abhinav Karthik R : https://github.com/karthikwgz/remote_system_network
 
 Shanu Susan Abraham : https://github.com/shanu-123/remote_system_network
 
+Durga siva prasad: https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/FirewallMain.py
+                   https://github.com/sivaprasad0/network_programming/blob/816cef33796fe51bf526738639a9f6341eac539d/NetManageToolMain.py
+
 __________________________________________________________________________________________________________________
 
 Remote system backup
@@ -396,6 +413,7 @@ Remote system backup
 Abhinav Karthik R : https://github.com/karthikwgz/backup_remote_sysconfig
 
 Shanu Susan Abraham : https://github.com/shanu-123/remote_system_backup
+
 
 
 __________________________________________________________________________________________________________________
