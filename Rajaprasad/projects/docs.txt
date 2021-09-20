@@ -1,0 +1,71 @@
+Project: Network Management and Monitoring tool:
+This tool is combination of following tools:
+network_scanner => scan networks 
+network_sniffer => Sniff packets
+network_management => configure network (ip command)
+firewall_management => configure firewall (ufw,firewall-cmd)
+manage_docker => Container management
+System health => Status of system
+databases_status
+
+Notes: You can find details of all above tools here:
+1.Create network management tool:
+	-Assign IP address
+		-Menu for interface
+	-Delete IP address
+		-Menu for interfaces
+	-Display IP address
+	-Display all interfaces
+	-Configure routing
+	-Turn On/Off interface
+	-Add ARP entry
+	-Delete ARP Entry
+	-Restart Network
+	-Change hostname
+	-Add DNS server entry
+
+2.System Health
+	-Display available RAM
+	-Display Load avearge
+	-Display Hostname details
+	-Display All process count
+	-Display uptime
+	(Generate Alert on Crossing threshold value)
+
+3.Write a network scanner tool:
+	-Scan single host
+	-scan range
+	-Scan network
+	-Agressive scan
+	-Scan ARP packet
+	-Scan All port only
+	-Scan in verbose mode
+
+Notes: Scan TCP SYN pack,OS,PORT in all scan
+Do'nt print the dictionary.Print all details line by line 
+
+
+4.Write network sniffer tool.(Take input number of packets, Interface, Time, Protocol)
+Protocol: TCP,UDP,HTTP,ARP,ICMP,IGMP,IP,DNS, and all other protocols
+
+(Later)5.Firewall management:
+	-Status of firewall
+	-Set Rules
+	-Delete Rules
+
+6.Manage Docker:
+	-Status of containers
+	-Download new Image
+	-Run container
+	-Delete Container
+	-Network details of container
+	-Modify Network details of contaniner
+
+(later)7.Configure Remote System Network:
+	-Use 1,2,3,4 on Remote system using SSH
+
+8. Database status:
+	-Show info of database
+Fields('Threads_connected,Threads_created,Threads_running,'Uptime',Queries,Max_used_connections)
+
+
