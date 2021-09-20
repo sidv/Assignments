@@ -76,7 +76,8 @@ def allow_deny_rule_menu():
     gprint('\t\t[4]Allow/Deny Port')
     gprint('\t\t[5]Allow/Deny App')
     gprint('\t\t[6]Allow/Deny app layer protocols')
-    rprint('\t\t[7]Back to main menu')
+    gprint('\t\t[7]Disable firewall')
+    rprint('\t\t[8]Back to main menu')
 
 
 @decorate
@@ -181,6 +182,12 @@ def fw_reload():
     gprint(run_cmd(cmd))
 
 
+@Error_Handler
+def disable_firewall():
+    cmd = 'sudo ufw disable'
+    gprint(run_cmd(cmd))
+
+
 def fw_activate():
     gprint('Activating the firewall')
     cmd = 'sudo systemctl start firewalld'
@@ -207,7 +214,8 @@ def main_menu():
     gprint('[4] Get Active Zones')
     gprint('[5] Get Details of Active Zones')
     gprint('[6] Reload firewall')
-    rprint('[7] Exit')
+    gprint('[7] disable firewall')
+    rprint('[8] Exit')
 
 
 if __name__ == '__main__':
@@ -215,7 +223,7 @@ if __name__ == '__main__':
     while True:
         main_menu()
         ch = Prompt.ask('Enter your option : ', choices=[
-                        str(x) for x in range(1, 8)])
+                        str(x) for x in range(1, 9)])
         if ch == '1':
             # Add rule
             fw_add_rule()
@@ -235,7 +243,8 @@ if __name__ == '__main__':
             # reload
             fw_reload()
         elif ch == '7':
-            # exit
+            disable_firewall()
+        elif ch == '8':
             break
         else:
             console.print(
