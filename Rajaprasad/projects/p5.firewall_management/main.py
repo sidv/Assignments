@@ -46,24 +46,21 @@ def fw_rmv_zone():
     rprint(run_cmd(cmd))
 
 
+oprs = {
+    '1': fw_remove_port,
+    '2': fw_remove_services,
+    '3': fw_rmv_src_port,
+    '4': fw_rmv_sources,
+    '5': fw_rmv_zone,
+    '6': back_to_menu
+}
+
+
 def fw_delete_rules():
     fw_delete_rules_menu()
     ch = Prompt.ask('Enter your option : ', choices=[
                     str(x) for x in range(1, 7)], default='1')
-    if ch == '1':
-        fw_remove_port()
-    elif ch == '2':
-        fw_remove_services()
-    elif ch == '3':
-        fw_rmv_src_port()
-    elif ch == '4':
-        fw_rmv_sources()
-    elif ch == '5':
-        fw_rmv_zone()
-    elif ch == '6':
-        pass
-    else:
-        pass
+    oprs[ch]()
 # ---- delete rules end-------------------------------------
 
 
