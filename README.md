@@ -2,8 +2,8 @@ Syntax:Name: repo_url
 
 Project Repos:
 
-Rajaprasad
-----------
+Rajaprasad Paikaray
+-------------------
 ERP--------------------- :  https://github.com/hyraja/ERP
 
 Fruit shop ------------- :  https://github.com/hyraja/FRUIT_SHOP
