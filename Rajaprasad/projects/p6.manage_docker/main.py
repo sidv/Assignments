@@ -104,27 +104,27 @@ def network_detail_container():
 
 @Error_Handler
 def docker_modify_network():
+    cp('Available netwok list :')
+    cmd = 'docker network ls | cut -d " " -f4 '
+    rp(run_cmd(cmd))
     container_name = input(
-        'Enter container name for disconnect from bridge network : ')
+        f'Enter container name for disconnect from bridge network : ')
     cmd = f'docker network disconnect bridge {container_name}'
     run_cmd(cmd)
     cp(
         f'{container_name} container disconnect from bridge network')
 
-    cp('creating network')
-    network = input(
-        'enter a new network name  for docker network creation : ')
-    cmd2 = f' sudo docker network create -d bridge --subnet=192.168.1.0/24  {network}'
+    cp('creating...... network')
+    network = input('enter a new network name : ')
+    ip = input('enter ip for network/cidr :')
+    cmd2 = f' sudo docker network create -d bridge --subnet={ip}  {network}'
     run_cmd(cmd2)
-    print(f'{network} Network created successfully')
+    cp(f'{network} Network created successfully')
 
-    cp(
-        'connect our container to newly created network')
-    ntwork = input('Enter newly created network name :')
-    cmd3 = f'docker network connect {ntwork} {container_name}'
+    cp(f'connecting..... the container to newly created  {network} network')
+    cmd3 = f'docker network connect {network} {container_name}'
     run_cmd(cmd3)
-    cp(
-        f'{container_name} container connected to {ntwork} Network')
+    cp(f'{container_name} container connected to {network} Network')
 
 
 def Exit():
