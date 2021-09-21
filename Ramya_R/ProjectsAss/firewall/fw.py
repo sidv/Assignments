@@ -71,6 +71,12 @@ def fw_add_services():
 	cmd = "sudo firewall-cmd --add-service="+service+" --zone="+zone+" --permanent" 
 	print(os.popen(cmd).read())
 
+def fw_add_sources():
+	ip = input("Enter ip address: ")
+	source = Prompt.ask("Enter source ip address : ")
+	cmd = "sudo firewall-cmd --add-source ={ip}" 
+	print(os.popen(cmd).read())
+	
 def fw_add_rule_menu():
 	gprint("\t[1]Add Port")
 	gprint("\t[2]Add services")
@@ -90,6 +96,7 @@ def fw_add_rule():
 		pass
 	elif ch == "3":
 		#add sources
+		fw_add_sources()
 		pass
 	elif ch == "4":
 		pass
@@ -113,6 +120,7 @@ def fw_del_services():
 
 
 def fw_del_sources():
+	ip = input("Enter ip address: ")
 	source = Prompt.ask("Enter source ip address : ")
 	cmd = "sudo firewall-cmd --remove-source ={ip}" 
 	print(os.popen(cmd).read())

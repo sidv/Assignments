@@ -65,7 +65,7 @@ while True:
 		for i in l["Containers"].values():
 			print(f'{i["Name"]} | {i["MacAddress"]} | {i["IPv4Address"]}' )
 		
-	elif ch == 6: #pend
+	elif ch == 6: 
 		#Modify Network details of container
 		container_name = input("Enter container name: ")
 		#disconnect present one

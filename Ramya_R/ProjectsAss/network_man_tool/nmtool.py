@@ -126,8 +126,10 @@ def change_hostname():
 	#hostname for checking changed name
 	
 	
-def add_DNS_server_entry():#pend
+def add_DNS_server_entry():
 	#Add DNS server entry
+	#nameserver 8.8.8.8 format
+	#ctrl+d or exit() for exit
 	cmd = f"sudo cat >> /etc/resolv.conf"
 	res = os.popen(cmd).read()
 	console.print(res)
