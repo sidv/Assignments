@@ -406,6 +406,9 @@ Sufail Ps :https://github.com/sufailps/manage_database
 Aneena Sabu : https://github.com/Elizabethaneena/database_status
 
 Lakshmi T :https://github.com/Lakshmit1127/project/tree/master/database_proj
+
+Athira V S: https://github.com/athira-vs/DatabaseManagement
+
  __________________________________________________________________________________________________________________
 Firewall Manager
 
@@ -456,6 +459,8 @@ Pavan Precious Thomas:https://github.com/PavPrecious/UST_Projects/tree/master/Re
 Sufail Ps :https://github.com/sufailps/remote_system
 
 Aneena Sabu : https://github.com/Elizabethaneena/remote_system_network
+
+Athira V S: https://github.com/athira-vs/RemoteSystemNetwork
 
 Lakshmi T :https://github.com/Lakshmit1127/project/tree/master/ssh__________________________________________________________________________________________________________________
 
