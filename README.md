@@ -377,6 +377,7 @@ Abhinav Karthik R : https://github.com/karthikwgz/database_status
 
 Shanu Susan Abraham : https://github.com/shanu-123/database_status
 
+Bijith : https://github.com/BijithKaladharan/database_status
 
 
 
@@ -386,6 +387,8 @@ Firewall Manager
 Abhinav Karthik R : https://github.com/karthikwgz/firewall_management
 
 Shanu Susan Abraham : https://github.com/shanu-123/firewall_management
+
+Bijith : https://github.com/BijithKaladharan/firewall_management
 
 
 __________________________________________________________________________________________________________________
