@@ -75,9 +75,10 @@ def docker_dwn_image():
 @Error_Handler
 def run_container():
     # run container
-    image_nm_tag = input("Enter image_name:tag ")
-    container_name = input('Enter container name ')
-    cmd = f'docker run --name {container_name} {image_nm_tag}'
+    image_nm_tag = Prompt.ask("Enter image_name:tag ")
+    container_name = Prompt.ask('Enter container name ')
+    option = Prompt.ask('enter option : ', choices=['-i', '-it', '-d'])
+    cmd = f'docker run {option} --name {container_name} {image_nm_tag}'
     cp(run_cmd(cmd))
     cmd2 = 'docker ps -a |head -n 2'
     cp(run_cmd(cmd2))
@@ -102,6 +103,30 @@ def network_detail_container():
             f'Name => {i["Name"]} | Mac address => {i["MacAddress"]} | ipv4 address =>{i["IPv4Address"]}')
 
 
+def disconnect_nw(container_name):
+    cmd = f'docker network disconnect bridge {container_name}'
+    run_cmd(cmd)
+    cp(
+        f'{container_name} container disconnect from bridge network')
+
+
+def create_nw():
+    cp('creating...... network')
+    network = input('enter a new network name : ')
+    ip = input('enter ip for network/cidr :')
+    cmd = f' sudo docker network create -d bridge --subnet={ip}  {network}'
+    run_cmd(cmd)
+    cp(f'{network} Network created successfully')
+
+
+def connect_new_nw(container_name):
+    network = input('enter a new network name : ')
+    cp(f'connecting..... the container to newly created  {network} network')
+    cmd = f'docker network connect {network} {container_name}'
+    run_cmd(cmd)
+    cp(f'{container_name} container connected to {network} Network')
+
+
 @Error_Handler
 def docker_modify_network():
     cp('Available netwok list :')
@@ -109,22 +134,14 @@ def docker_modify_network():
     rp(run_cmd(cmd))
     container_name = input(
         f'Enter container name for disconnect from bridge network : ')
-    cmd = f'docker network disconnect bridge {container_name}'
-    run_cmd(cmd)
-    cp(
-        f'{container_name} container disconnect from bridge network')
+    # disconnect from network
+    disconnect_nw(container_name)
 
-    cp('creating...... network')
-    network = input('enter a new network name : ')
-    ip = input('enter ip for network/cidr :')
-    cmd2 = f' sudo docker network create -d bridge --subnet={ip}  {network}'
-    run_cmd(cmd2)
-    cp(f'{network} Network created successfully')
+    # creating new network
+    create_nw()
 
-    cp(f'connecting..... the container to newly created  {network} network')
-    cmd3 = f'docker network connect {network} {container_name}'
-    run_cmd(cmd3)
-    cp(f'{container_name} container connected to {network} Network')
+    # connecting to newly created network
+    connect_new_nw(container_name)
 
 
 def Exit():

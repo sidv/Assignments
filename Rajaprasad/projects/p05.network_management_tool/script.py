@@ -117,8 +117,8 @@ def On_Off_interface():
 
 @Error_Handler
 def add_ARP_entry():
-    arp_cache = os.popen('ip n show | cut -d " " -f5').read()
-    cmd = f'ip n add {ip()} lladdr {arp_cache} dev {interface_choice()} nud permanent'
+    mac = Prompt.ask('Enter mac address : ')
+    cmd = f'ip n add {ip()} lladdr {mac} dev {interface_choice()} nud permanent'
     run_cmd(cmd)
     cp('ARP Entry added successfully ')
 
