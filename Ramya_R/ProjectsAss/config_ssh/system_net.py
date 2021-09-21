@@ -47,7 +47,7 @@ def close(ssh_client):
 
 
 if _name_ == "_main_":
-    client = connect("192.168.1.11", 22, "sid", "sidver")
+    client = connect("127.0.0.1", 22, "superuser", "root")
     shell = get_shell(client)
 
     send_cmd(shell, "ls")
