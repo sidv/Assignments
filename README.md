@@ -253,6 +253,7 @@ Govind Gopal : https://github.com/govindsgopal/network_tool
 
 Greeshma Prakasan : https://github.com/Greeshma-Prakasan/Network_Scanner
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Network-Scanner
 
 Aneena Sabu : https://github.com/Elizabethaneena/Network_scanner
 
@@ -378,6 +379,8 @@ Lakshmi T : https://github.com/Lakshmit1127/project/tree/master/system_health
 
 Athira V S: https://github.com/athira-vs/SystemHealth
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/System-health
+
 __________________________________________________________________________
 ____________________
 
@@ -409,6 +412,8 @@ Lakshmi T :https://github.com/Lakshmit1127/project/tree/master/database_proj
 
 Athira V S: https://github.com/athira-vs/DatabaseManagement
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/database-manager
+
  __________________________________________________________________________________________________________________
 Firewall Manager
 
@@ -431,6 +436,8 @@ Pavan Precious Thomas:https://github.com/PavPrecious/firewall_management
 Sufail Ps: https://github.com/sufailps/firewall
 
 Aneena Sabu : https://github.com/Elizabethaneena/firewall_management
+
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/Firewall-Manager
 
 Lakshmi T :https://github.com/Lakshmit1127/project/tree/master/firewall_proj
 
