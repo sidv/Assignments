@@ -336,6 +336,8 @@ Ananthu P S : https://github.com/AnanthuPS/UST_Projects/tree/master/6.Manage_Doc
 
 Neethu : https://github.com/NEETHUMOLTK99/ust_Project/tree/master/Manage_Docker
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/docker-manager
+
 Pooja_SR:https://github.com/HaiPooja/Project/tree/master/manage_docker
 
 Pavan Precious Thomas:https://github.com/PavPrecious/UST_Projects/tree/master/manage_docker
@@ -472,6 +474,8 @@ Shanu Susan Abraham : https://github.com/shanu-123/remote_system_backup
 
 Sachin cs : https://github.com/sachinconquerguru/ssh_backup
 
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/remote-SSH
+
 Ananthu PS : https://github.com/AnanthuPS/UST_Projects/tree/master/9.Remote_Backup
 
 
@@ -502,4 +506,6 @@ Aneena Sabu : https://github.com/Elizabethaneena/network_management_tool
 Lakshmi T :https://github.com/Lakshmit1127/project/tree/master/management_tool
 
 Athira V S: https://github.com/athira-vs/NetworkManagementTool
+
+B V Bhargava Krishna : https://github.com/Bhargava-Krishna18/network-manager-tool
 
